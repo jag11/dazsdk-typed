@@ -23,10 +23,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <TypeScriptCompile Include="debug.ts" />
-    <TypeScriptCompile Include="typings\dazsdk-core.d.ts" />
-    <TypeScriptCompile Include="typings\dazsdk-globals.d.ts" />
-    <TypeScriptCompile Include="typings\dazsdk-wip.d.ts" />
+    <TypeScriptCompile Include="typings\dazsdk-core.ts" />
+    <TypeScriptCompile Include="typings\dazsdk-globals.ts" />
+    <TypeScriptCompile Include="typings\dazsdk-wip.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
@@ -57,6 +56,17 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
     <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
     <TypeScriptSourceMap>true</TypeScriptSourceMap>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptJSXEmit>None</TypeScriptJSXEmit>
+    <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
+    <TypeScriptModuleKind>UMD</TypeScriptModuleKind>
+    <TypeScriptOutFile>$(SolutionDir)DazSDK\dazsdk.js</TypeScriptOutFile>
+    <TypeScriptOutDir />
+    <TypeScriptGeneratesDeclarations>True</TypeScriptGeneratesDeclarations>
+    <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
+    <TypeScriptMapRoot />
+    <TypeScriptSourceRoot />
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Release'">
     <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
@@ -68,7 +78,6 @@
 echo @(TypeScriptCompile)
 echo $(TargetDir)
 
-xcopy /Y ..\*.js ..\*.dsa
 </PostBuildEvent>
   </PropertyGroup>
 </Project>
