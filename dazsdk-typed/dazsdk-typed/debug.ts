@@ -130,6 +130,7 @@ class Reflector {
     name: QString = "";
     properties: PropertyInfo[] = new Array();
     methods: MethodInfo[] = new Array();
+    ancestorName: QString = "";
 
     constructor() {
     }
@@ -138,6 +139,7 @@ class Reflector {
         this.name = "";
         this.properties = new Array();
         this.methods = new Array();
+        this.ancestorName = "";
     }
 
     /**
@@ -149,6 +151,9 @@ class Reflector {
         this.name = "anonymous";
         if (o["className"]) {
             this.name = o.className();
+        }
+        if (o.inherits("QObject") == true) {
+            this.ancestorName = "QObject";
         }
         for (var name in o) {
             if (typeof o[name] == "function") {
@@ -185,9 +190,14 @@ class Reflector {
         var fmt1 = "%1: %2;\t// %3\n";
         var fmt2 = "static %1: %2;\t// %3\n";
         var sb = "";
+        var extendsString = "";
 
-        sb += String("declare class %1 {\n").arg(this.name);
+        if (this.ancestorName.length > 0) {
+            extendsString = String(" extends %1").arg(this.ancestorName);
+        }
 
+        sb += String("declare class %1%2 {\n").arg(this.name).arg(extendsString);
+        
         this.properties.forEach((pi) => {
             var ch = pi.name.substr(0, 1);
             sb += spacing + String(ch == ch.toUpperCase() ? fmt2 : fmt1).arg(pi.name).arg(pi.type).arg(pi.value);
