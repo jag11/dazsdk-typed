@@ -22,22 +22,9 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="debug.ts" />
-    <TypeScriptCompile Include="file1.ts" />
-    <TypeScriptCompile Include="typings\dazsdk-core.d.ts" />
-    <TypeScriptCompile Include="typings\dazsdk-globals.d.ts" />
-    <TypeScriptCompile Include="typings\dazsdk-wip.d.ts" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="JS\debug.js" />
-    <Content Include="JS\file1.js" />
-    <Content Include="JS\output.js" />
-    <Content Include="JS\output.min.js">
-      <DependentUpon>output.js</DependentUpon>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="bundleconfig.json" />
+    <TypeScriptCompile Include="typings\dazsdk-core.ts" />
+    <TypeScriptCompile Include="typings\dazsdk-globals.ts" />
+    <TypeScriptCompile Include="typings\dazsdk-wip.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
@@ -72,10 +59,10 @@
     <TypeScriptJSXEmit>None</TypeScriptJSXEmit>
     <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
     <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
-    <TypeScriptModuleKind>None</TypeScriptModuleKind>
-    <TypeScriptOutFile />
-    <TypeScriptOutDir>C:\Users\jhavard\Source\Repos\dazsdk-typed\dazsdk-typed\dazsdk-typed\JS</TypeScriptOutDir>
-    <TypeScriptGeneratesDeclarations>False</TypeScriptGeneratesDeclarations>
+    <TypeScriptModuleKind>UMD</TypeScriptModuleKind>
+    <TypeScriptOutFile>$(SolutionDir)DazSDK\dazsdk.js</TypeScriptOutFile>
+    <TypeScriptOutDir />
+    <TypeScriptGeneratesDeclarations>True</TypeScriptGeneratesDeclarations>
     <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
     <TypeScriptMapRoot />
     <TypeScriptSourceRoot />
@@ -90,7 +77,6 @@
 echo @(TypeScriptCompile)
 echo $(TargetDir)
 
-xcopy /Y ..\*.js ..\*.dsa
 </PostBuildEvent>
   </PropertyGroup>
 </Project>

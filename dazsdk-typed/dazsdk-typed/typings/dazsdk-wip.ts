@@ -1494,3 +1494,42 @@ declare class QFont extends QObject {
 
 declare class Font extends QFont {
 }
+
+declare class DzProcess extends QObject {
+    static DupStderr: number;	// 8
+    static Stderr: number;	// 4
+    static Stdin: number;	// 1
+    static Stdout: number;	// 2
+    arguments: QObject;	// 
+    communication: number;	// 7
+    exitStatus: number;	// 0
+    name: string;	// 
+    normalExit: boolean;	// false
+    objectName: string;	// 
+    running: boolean;	// false
+    workingDirectory: string;	// C:/daz3d
+    canReadLineStderr(): any;
+    canReadLineStdout(): any;
+    className(): any;
+    closeStdin(): any;
+    deleteLater(): any;
+    destroyed(): void;
+    destroyed(p0: QObject): void;
+    inherits(): any;
+    kill(): any;
+    launch(p0: QString): any;
+    launch(p0: QString, p1: QString[]): any;
+    launchFinished(): void;
+    processExited(): void;
+    readLineStderr(): any;
+    readLineStdout(): any;
+    readStderr(): any;
+    readStdout(): any;
+    readyReadStderr(): any;
+    readyReadStdout(): any;
+    start(): any;
+    start(p0: QString[]): any;
+    tryTerminate(): any;
+    writeToStdin(p0: QString): any;
+    wroteToStdin(): any;
+}
