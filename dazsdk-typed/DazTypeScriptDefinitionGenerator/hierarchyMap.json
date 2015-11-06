@@ -1,0 +1,9219 @@
+{
+  "Children": [
+    {
+      "Name": "DzImageRenderHandler",
+      "Children": [
+        {
+          "Name": "DzViewRenderHandler",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Dz3DViewRenderHandler",
+      "Children": [ ]
+    },
+    {
+      "Name": "QGLWidget",
+      "Children": [ ]
+    },
+    {
+      "Name": "Dz3DViewport",
+      "Children": [ ]
+    },
+    {
+      "Name": "QObject",
+      "Children": [
+        {
+          "Name": "DzAbstractContentSupplier",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzAbstractShapeInstance",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzActionMenu",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzActionMenuItem",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzRefCountedItem",
+          "Children": [
+            {
+              "Name": "DzAsset",
+              "Children": [ ]
+            },
+            {
+              "Name": "DzAssetExtraObjectIO",
+              "Children": [ ]
+            },
+            {
+              "Name": "DzBrickSet",
+              "Children": [ ]
+            },
+            {
+              "Name": "DzContentFile",
+              "Children": [ ]
+            },
+            {
+              "Name": "DzContentSearchOptions",
+              "Children": [ ]
+            },
+            {
+              "Name": "DzSearchFolder",
+              "Children": [ ]
+            },
+            {
+              "Name": "DzShaderString",
+              "Children": [ ]
+            },
+            {
+              "Name": "DzSkin",
+              "Children": [ ]
+            },
+            {
+              "Name": "DzTexture",
+              "Children": [ ]
+            }
+          ]
+        },
+        {
+          "Name": "DzActivityLayout",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzAppSettingsMgr",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzAssetIOMgr",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzAssetMetadata",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzAuthenticationMgr",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzBase",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzBrickSetCompilerMgr",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzCallBack",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzCallBackMgr",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzContentReplaceMgr",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzControllerHelper",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzDevice",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzDeviceMgr",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzElementClipboard",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzExportMgr",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzFacetMeshBC",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzFileFilter",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzFileIOPresetMgr",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzHelpMgr",
+          "Children": [ ]
+        },
+        {
+          "Name": "IDzHttpHandler",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzHttpHelper",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzImageMgr",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzImportMgr",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzInFile",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzMenu",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzMouseModifier",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzMultiMediaMgr",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzOpenGL",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzOpenGLRenderProgress",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzOutFile",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPBuffer",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPBufferView",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzParamConnection",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPersistentMenu",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPickToolMarshaller",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPlugin",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPluginMgr",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPropertyClipboard",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPropertyListEditorHelper",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzRenderHandler",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzRenderOptions",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzSaveFilterMgr",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzScriptContext",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzSearchThreadHelper",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzSettings",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzShaderCompilerProcess",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzShaderDescription",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzShaderParameter",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzShutDownCheck",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzSkinFileLoader",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzTSharedPointerScriptWrapper",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzTextureComponent",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzTexturePicker",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzThreadMgr",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzToolBarItem",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzUndoStack",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzVideoClip",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzWeightColorTable",
+          "Children": [ ]
+        },
+        {
+          "Name": "\\/\\/",
+          "Children": [ ]
+        },
+        {
+          "Name": "accelerator",
+          "Children": [ ]
+        },
+        {
+          "Name": "class",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3Accel",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3Action",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3Canvas",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3Dns",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3DnsSocket",
+          "Children": [ ]
+        },
+        {
+          "Name": "QMimeSource",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3DragObject",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3EditorFactory",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3FileIconProvider",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3NetworkOperation",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3NetworkProtocol",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3Process",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3ServerSocket",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3Signal",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3SqlForm",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3StyleSheet",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3Url",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3UrlOperator",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3WhatsThis",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractAnimation",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractAudioDeviceInfo",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractAudioInput",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractAudioOutput",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractEventDispatcher",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractFontEngine",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractItemDelegate",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractItemModel",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractMessageHandler",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractNetworkCache",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractState",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractTextDocumentLayout",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractTransition",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractUriResolver",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractVideoSurface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAccessibleBridgeFactoryInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAccessibleBridgePlugin",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAccessibleFactoryInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAccessiblePlugin",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAction",
+          "Children": [ ]
+        },
+        {
+          "Name": "QActionGroup",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAnimationDriver",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAudioEngineFactoryInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAudioEnginePlugin",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAudioInput",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAudioOutput",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAxFactory",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAxBase",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAxObject",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAxScript",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAxScriptManager",
+          "Children": [ ]
+        },
+        {
+          "Name": "QButtonGroup",
+          "Children": [ ]
+        },
+        {
+          "Name": "QClipboard",
+          "Children": [ ]
+        },
+        {
+          "Name": "QCompleter",
+          "Children": [ ]
+        },
+        {
+          "Name": "QCopChannel",
+          "Children": [ ]
+        },
+        {
+          "Name": "QCoreApplication",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDBusAbstractAdaptor",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDBusAbstractInterfaceBase",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDBusPendingCall",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDBusPendingCallWatcher",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDBusServer",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDBusServiceWatcher",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDBusVirtualObject",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDataWidgetMapper",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDeclarativeComponent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDeclarativeContext",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDeclarativeEngine",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDeclarativeExpression",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDeclarativeExtensionInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDeclarativeExtensionPlugin",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDeclarativePropertyMap",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDecorationFactoryInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDecorationPlugin",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDesignerBrushManagerInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDesignerFormEditorInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDesignerFormWindowManagerInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDesignerFormWindowToolInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDesignerIconCacheInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDesignerIntegrationInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDesignerMetaDataBaseInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDesignerWidgetDataBaseInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDesignerWidgetFactoryInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDirectPainter",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDrag",
+          "Children": [ ]
+        },
+        {
+          "Name": "QEventLoop",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractExtensionFactory",
+          "Children": [ ]
+        },
+        {
+          "Name": "QExtensionFactory",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractExtensionManager",
+          "Children": [ ]
+        },
+        {
+          "Name": "QExtensionManager",
+          "Children": [ ]
+        },
+        {
+          "Name": "QFileSystemWatcher",
+          "Children": [ ]
+        },
+        {
+          "Name": "QFontEngineFactoryInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QFontEnginePlugin",
+          "Children": [ ]
+        },
+        {
+          "Name": "QFtp",
+          "Children": [ ]
+        },
+        {
+          "Name": "QFutureWatcherBase",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGLShader",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGLShaderProgram",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGenericPluginFactoryInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGenericPlugin",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGesture",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGraphicsAnchor",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGraphicsEffect",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGraphicsItemAnimation",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGraphicsItem",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGraphicsObject",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGraphicsScene",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGraphicsTransform",
+          "Children": [ ]
+        },
+        {
+          "Name": "QHelpEngineCore",
+          "Children": [ ]
+        },
+        {
+          "Name": "QHelpSearchEngine",
+          "Children": [ ]
+        },
+        {
+          "Name": "QHttp",
+          "Children": [ ]
+        },
+        {
+          "Name": "QHttpMultiPart",
+          "Children": [ ]
+        },
+        {
+          "Name": "QIconEngineFactoryInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QIconEnginePlugin",
+          "Children": [ ]
+        },
+        {
+          "Name": "QIconEngineFactoryInterfaceV2",
+          "Children": [ ]
+        },
+        {
+          "Name": "QIconEnginePluginV2",
+          "Children": [ ]
+        },
+        {
+          "Name": "QImageIOHandlerFactoryInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QImageIOPlugin",
+          "Children": [ ]
+        },
+        {
+          "Name": "QInputContext",
+          "Children": [ ]
+        },
+        {
+          "Name": "QInputContextFactoryInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QInputContextPlugin",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWSCalibratedMouseHandler",
+          "Children": [ ]
+        },
+        {
+          "Name": "QIntMouseHandler",
+          "Children": [ ]
+        },
+        {
+          "Name": "QItemSelectionModel",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWSKeyboardHandlerFactoryInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QKbdDriverPlugin",
+          "Children": [ ]
+        },
+        {
+          "Name": "QLayoutItem",
+          "Children": [ ]
+        },
+        {
+          "Name": "QLayout",
+          "Children": [ ]
+        },
+        {
+          "Name": "QLibrary",
+          "Children": [ ]
+        },
+        {
+          "Name": "QLocalServer",
+          "Children": [ ]
+        },
+        {
+          "Name": "QMimeData",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWSMouseHandlerFactoryInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QMouseDriverPlugin",
+          "Children": [ ]
+        },
+        {
+          "Name": "QMovie",
+          "Children": [ ]
+        },
+        {
+          "Name": "QNetworkAccessManager",
+          "Children": [ ]
+        },
+        {
+          "Name": "QNetworkConfigurationManager",
+          "Children": [ ]
+        },
+        {
+          "Name": "QNetworkCookieJar",
+          "Children": [ ]
+        },
+        {
+          "Name": "QNetworkSession",
+          "Children": [ ]
+        },
+        {
+          "Name": "QObjectCleanupHandler",
+          "Children": [ ]
+        },
+        {
+          "Name": "QPictureFormatInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QPictureFormatPlugin",
+          "Children": [ ]
+        },
+        {
+          "Name": "QPlatformCursor",
+          "Children": [ ]
+        },
+        {
+          "Name": "QPlatformIntegrationFactoryInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QPlatformIntegrationPlugin",
+          "Children": [ ]
+        },
+        {
+          "Name": "QPlatformScreen",
+          "Children": [ ]
+        },
+        {
+          "Name": "QPluginLoader",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWSMouseHandler",
+          "Children": [
+            {
+              "Name": "QVFbMouseHandler",
+              "Children": [ ]
+            }
+          ]
+        },
+        {
+          "Name": "QQnxMouseHandler",
+          "Children": [ ]
+        },
+        {
+          "Name": "QScreenDriverFactoryInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QScreenDriverPlugin",
+          "Children": [ ]
+        },
+        {
+          "Name": "QScriptEngineDebugger",
+          "Children": [ ]
+        },
+        {
+          "Name": "QScriptExtensionPlugin",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSessionManager",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSettings",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSharedMemory",
+          "Children": [ ]
+        },
+        {
+          "Name": "QShortcut",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSignalMapper",
+          "Children": [ ]
+        },
+        {
+          "Name": "QList<QList<QVariant>",
+          "Children": [ ]
+        },
+        {
+          "Name": ">",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSignalSpy",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSocketNotifier",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSound",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSqlDriver",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSqlDriverFactoryInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSqlDriverPlugin",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStyle",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStyleFactoryInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStylePlugin",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSvgRenderer",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSyntaxHighlighter",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSystemTrayIcon",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTcpServer",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTestEventLoop",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTextCodecFactoryInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTextCodecPlugin",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTextDocument",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTextObject",
+          "Children": [ ]
+        },
+        {
+          "Name": "QThread",
+          "Children": [ ]
+        },
+        {
+          "Name": "QThreadPool",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTimeLine",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTimer",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTranslator",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTransportAuth",
+          "Children": [ ]
+        },
+        {
+          "Name": "QUiLoader",
+          "Children": [ ]
+        },
+        {
+          "Name": "QUndoGroup",
+          "Children": [ ]
+        },
+        {
+          "Name": "QUndoStack",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWSKeyboardHandler",
+          "Children": [
+            {
+              "Name": "QWSQnxKeyboardHandler",
+              "Children": [ ]
+            }
+          ]
+        },
+        {
+          "Name": "QVFbKeyboardHandler",
+          "Children": [ ]
+        },
+        {
+          "Name": "QValidator",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWSClient",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWSInputMethod",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWSManager",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWSServer",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWSSoundServer",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWebFrame",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWebFullScreenVideoHandler",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWebHapticFeedbackPlayer",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWebHistoryInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWebNotificationPresenter",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWebPage",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWebPluginFactory",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWebSelectMethod",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWebTouchModifier",
+          "Children": [ ]
+        },
+        {
+          "Name": "QPaintDevice",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWidget",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzRefCountedItem",
+      "Children": [
+        {
+          "Name": "DzActivationPolicy",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzBufferObject",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzFaceGroup",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzHierarchyPath",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPropertyListNode",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzAbstractAssetContainer",
+      "Children": [
+        {
+          "Name": "DzCategoryAssetContainer",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzCompatibilityBaseAssetContainer",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzFolderAssetContainer",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzParentProductContainer",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzProductAssetContainer",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzTopLevelAssetContainer",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzTypeAssetContainer",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzAbstractBuildGeometryFilter",
+      "Children": [
+        {
+          "Name": "DzBuildMorphOnlyGeometryFilter",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzNoFilterBuildGeometryFilter",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzMimeData",
+      "Children": [
+        {
+          "Name": "DzAssetListMime",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzBrickParamMime",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzContentCategoryDrag",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzContentFileDrag",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzContentListDrag",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzNodeListDrag",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPaneDrag",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPropertyGroupListDrag",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPropertyListDrag",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzAbstractContainerListMime",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAction",
+      "Children": [
+        {
+          "Name": "DzBrickAction",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDecorationAction",
+          "Children": [ ]
+        },
+        {
+          "Name": "QMenuItem",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWidgetAction",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzAction",
+      "Children": [
+        {
+          "Name": "DzAssetIOFilterAction",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzCreateItemAction",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzEditAction",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPaneAction",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzSaveAsSupportAction",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzSaveFilterAction",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzStyledPropertyAction",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzViewToolAction",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QMenuBar",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzActionMgr",
+      "Children": [ ]
+    },
+    {
+      "Name": "QApplication",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzApp",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzBase",
+      "Children": [
+        {
+          "Name": "DzAssetMgr",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzRefCountedItem",
+          "Children": [
+            {
+              "Name": "DzContentFolder",
+              "Children": [ ]
+            },
+            {
+              "Name": "DzDrawStyle",
+              "Children": [ ]
+            },
+            {
+              "Name": "DzPresentation",
+              "Children": [ ]
+            },
+            {
+              "Name": "DzStorable",
+              "Children": [ ]
+            }
+          ]
+        },
+        {
+          "Name": "DzAudioClip",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzBrickParam",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzColorGradient",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzContentMgr",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzController",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzCustomData",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzElement",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzExpressionInput",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzFileIO",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzFormula",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzIndexList",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzInstanceGroupItem",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzLegacyIKChain",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzNaturalSpline",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzOpenGLShader",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzSceneAsset",
+          "Children": [
+            {
+              "Name": "DzScene",
+              "Children": [ ]
+            }
+          ]
+        },
+        {
+          "Name": "DzProperty",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPropertyGroup",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPropertyGroupTree",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzRenderMgr",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzRenderer",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzScript",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzSelectionMap",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzViewTool",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzWeld",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzAppSettings",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzAssetAllowModifiyAssetHold",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAbstractItemModel",
+      "Children": [
+        {
+          "Name": "DzNavigationCompleterModel",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPathItemModel",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPropertyListItemModel",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractListModel",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractProxyModel",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractTableModel",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDirModel",
+          "Children": [ ]
+        },
+        {
+          "Name": "QFileSystemModel",
+          "Children": [ ]
+        },
+        {
+          "Name": "QHelpContentModel",
+          "Children": [ ]
+        },
+        {
+          "Name": "QProxyModel",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStandardItemModel",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzAssetContainerItemModel",
+      "Children": [
+        {
+          "Name": "DzMarkableAssetContainerItemModel",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzAssetJsonObject",
+      "Children": [
+        {
+          "Name": "DzAssetElementPropertyValuesIO",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzAssetGeometryShellNodeIO",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzAssetJsonNullObject",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzAssetSettingsIO",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzAssetElementPropertyValueIO",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzAssetExtraObjectIO",
+      "Children": [
+        {
+          "Name": "DzExtraElementDataIO",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzExtraGeometryIO",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzExtraMaterialIO",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzExtraModifierIO",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzExtraNodeIO",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzExtraSceneDataIO",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzAssetExtraApplyToObjectIO",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzAssetIOFilter",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzAssetFileOutFilter",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzFileIO",
+      "Children": [
+        {
+          "Name": "DzAudioImporter",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzExporter",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzImageExporter",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzImageImporter",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzImporter",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzSaveFilter",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzVideoExporter",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QAbstractListModel",
+      "Children": [
+        {
+          "Name": "DzPagedAssetContainerItemModel",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStringListModel",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzAssetItemModel",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzAssetJsonItem",
+      "Children": [
+        {
+          "Name": "DzAssetJsonObject",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzAssetJsonArray",
+      "Children": [
+        {
+          "Name": "DzAssetJsonNullArray",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzAssetSettingsValueArrayIO",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzAssetOutFile",
+      "Children": [
+        {
+          "Name": "DzElementDataOutFile",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzGeometryOutFile",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzMaterialAssetOutFile",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzMaterialOutFile",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzModifierOutFile",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzNodeOutFile",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPoseOutFile",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPropertiesOutFile",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzRenderSettingsOutFile",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzSceneOutFile",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzShapingOutFile",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzUVSetOutFile",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzAuthor",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzAxisConverter",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzElement",
+      "Children": [
+        {
+          "Name": "DzBoneBinding",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzBulgeBinding",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzGeometryRegion",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzLegacyAlternateGeometry",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzLegacyJoint",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzLegacyJointParam",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzLegacyJointSphere",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzSceneAsset",
+          "Children": [
+            {
+              "Name": "DzNode",
+              "Children": [ ]
+            }
+          ]
+        },
+        {
+          "Name": "DzRefCountedItem",
+          "Children": [
+            {
+              "Name": "DzShaderBrick",
+              "Children": [ ]
+            },
+            {
+              "Name": "DzSparseWeightMap",
+              "Children": [ ]
+            }
+          ]
+        },
+        {
+          "Name": "DzMaterial",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzModifier",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzObject",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzShape",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzWSModifier",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzBackdrop",
+      "Children": [ ]
+    },
+    {
+      "Name": "IDzProgress",
+      "Children": [
+        {
+          "Name": "DzProgress",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzBackgroundProgress",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzRenderOptions",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzBakerOptions",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAbstractButton",
+      "Children": [
+        {
+          "Name": "Q3Button",
+          "Children": [ ]
+        },
+        {
+          "Name": "QCheckBox",
+          "Children": [ ]
+        },
+        {
+          "Name": "QPushButton",
+          "Children": [ ]
+        },
+        {
+          "Name": "QRadioButton",
+          "Children": [ ]
+        },
+        {
+          "Name": "QToolButton",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzBarButton",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzCamera",
+      "Children": [
+        {
+          "Name": "DzLight",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzBasicCamera",
+      "Children": [
+        {
+          "Name": "DzBrickCamera",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QDialog",
+      "Children": [
+        {
+          "Name": "Q3FileDialog",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3ProgressDialog",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3TabDialog",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3Wizard",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractPageSetupDialog",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractPrintDialog",
+          "Children": [ ]
+        },
+        {
+          "Name": "QColorDialog",
+          "Children": [ ]
+        },
+        {
+          "Name": "QErrorMessage",
+          "Children": [ ]
+        },
+        {
+          "Name": "QFileDialog",
+          "Children": [ ]
+        },
+        {
+          "Name": "QFontDialog",
+          "Children": [ ]
+        },
+        {
+          "Name": "QInputDialog",
+          "Children": [ ]
+        },
+        {
+          "Name": "QMessageBox",
+          "Children": [ ]
+        },
+        {
+          "Name": "QPrintPreviewDialog",
+          "Children": [ ]
+        },
+        {
+          "Name": "QProgressDialog",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWizard",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzBasicDialog",
+      "Children": [
+        {
+          "Name": "DzFileIODlg",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzNodeDlg",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzOptionsDialog",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzRenderDlg",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzSyncProductDlg",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QScrollArea",
+      "Children": [
+        {
+          "Name": "DzPropertyListView",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzBasicMaterialArea",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzPropertyWgt",
+      "Children": [
+        {
+          "Name": "DzNumericPropertyWgt",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzStyledPropertyBaseWgt",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzBasicPropertyWgt",
+      "Children": [
+        {
+          "Name": "DzBoolPropertyWgt",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzFilePropertyWgt",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzImagePropertyWgt",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzNodePropertyWgt",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzNumericNodePropertyWgt",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzSkeletonPropertyWgt",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzStringPropertyWgt",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzNode",
+      "Children": [
+        {
+          "Name": "DzCamera",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzDForm",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzDFormBase",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzDFormZone",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzGeometryShellNode",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzGroupNode",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzInstanceNode",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzSkeleton",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzBone",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPushButton",
+      "Children": [
+        {
+          "Name": "DzIconPushBtn",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzImageMenu",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPopIconButton",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzStyledButton",
+          "Children": [ ]
+        },
+        {
+          "Name": "QCommandLinkButton",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzBoolButton",
+      "Children": [
+        {
+          "Name": "DzStyledBoolPropertySlider",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzIntProperty",
+      "Children": [
+        {
+          "Name": "DzColorProperty",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzEnumProperty",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzBoolProperty",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWidget",
+      "Children": [
+        {
+          "Name": "DzButtonBar",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzColorWgt",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzControllerWgt",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzDividerBar",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzDockArea",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzDockAreaColumn",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzDrawStyleOptionsWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzDynamicDividerWgt",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzFileIOPresetWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzFileMetaTab",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzFilterNavigationBar",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzInfoDivider",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzInfoTabs",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzMaterialPickToolOptionsWgt",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzNavigationResult",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzNavigationSideBase",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzNodePickModeOptionsWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPane",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPaneMgr",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPresetWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPropertyWgt",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzSimpleColorWgt",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzSlider",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzStyledColorWellWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzStyledPropertyBodyWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzStyledPropertyHeaderWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzStyledPropertyRGBLabel",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzView",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzViewToolBar",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzViewportMgr",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzWireframeOptionsWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3ComboBox",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3DataBrowser",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3DataView",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3DateTimeEdit",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3DateTimeEditBase",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3DockArea",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3Header",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3MainWindow",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3SpinWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractButton",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractSlider",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractSpinBox",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAxBase",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAxWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "QCalendarWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "QComboBox",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDesignerActionEditorInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDesignerFormWindowInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDesignerObjectInspectorInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDesignerPropertyEditorInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDesignerResourceBrowserInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDesignerWidgetBoxInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDesktopWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDialog",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDialogButtonBox",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDockWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "QFocusFrame",
+          "Children": [ ]
+        },
+        {
+          "Name": "QFrame",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGLWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGroupBox",
+          "Children": [ ]
+        },
+        {
+          "Name": "QHelpSearchQueryWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "QHelpSearchResultWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "QLineEdit",
+          "Children": [ ]
+        },
+        {
+          "Name": "QMacCocoaViewContainer",
+          "Children": [ ]
+        },
+        {
+          "Name": "QMacNativeWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "QMainWindow",
+          "Children": [ ]
+        },
+        {
+          "Name": "QMdiSubWindow",
+          "Children": [ ]
+        },
+        {
+          "Name": "QMenu",
+          "Children": [ ]
+        },
+        {
+          "Name": "QMenuBar",
+          "Children": [ ]
+        },
+        {
+          "Name": "QPrintPreviewWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "QProgressBar",
+          "Children": [ ]
+        },
+        {
+          "Name": "QRubberBand",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSizeGrip",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSplashScreen",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSplitterHandle",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStatusBar",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSvgWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTabBar",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTabWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "QToolBar",
+          "Children": [ ]
+        },
+        {
+          "Name": "QUnixPrintWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWSEmbedWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWebInspector",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWebView",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWizardPage",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWorkspace",
+          "Children": [ ]
+        },
+        {
+          "Name": "QX11EmbedContainer",
+          "Children": [ ]
+        },
+        {
+          "Name": "QX11EmbedWidget",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzBoundingBoxOptionsWidget",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzBox3",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzBrickFactory",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzLight",
+      "Children": [
+        {
+          "Name": "DzDistantLight",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzBrickLight",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzMaterial",
+      "Children": [
+        {
+          "Name": "DzDefaultMaterial",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzBrickMaterial",
+      "Children": [ ]
+    },
+    {
+      "Name": "QFrame",
+      "Children": [
+        {
+          "Name": "DzDockWindow",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzMaterialPickToolFrame",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzOptionsFrame",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPaneGroupDlg",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPickToolFrame",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPopUpWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzTipPage",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzViewport",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3Frame",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3ProgressBar",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractScrollArea",
+          "Children": [ ]
+        },
+        {
+          "Name": "\\/\\/",
+          "Children": [ ]
+        },
+        {
+          "Name": "LCD",
+          "Children": [ ]
+        },
+        {
+          "Name": "number",
+          "Children": [ ]
+        },
+        {
+          "Name": "widget",
+          "Children": [ ]
+        },
+        {
+          "Name": "QLCDNumber",
+          "Children": [ ]
+        },
+        {
+          "Name": "QLabel",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSplitter",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStackedWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "QToolBox",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzBrickOptionsFrame",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzScript",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzCallBackScript",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzSceneOutFile",
+      "Children": [
+        {
+          "Name": "DzDFormOutFile",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzHierarchicalMaterialOutFile",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzWearableOutFile",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzCharacterOutFile",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzCircle3",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzClassFactory",
+      "Children": [
+        {
+          "Name": "DzTCustomClassFactory",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzTCustomRefCountedClassFactory",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzCoShaderInfo",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzNumericPropertyWgt",
+      "Children": [
+        {
+          "Name": "DzEnumPropertyWgt",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzFloatPropertyWgt",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzIntPropertyWgt",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzColorPropertyWgt",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzContentDropOptions",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzContentLocation",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzSaveFilter",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzContentTypedSaveFilter",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzOptionsDialog",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzCreateNewItemDlg",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzModifier",
+      "Children": [
+        {
+          "Name": "DzSceneAsset",
+          "Children": [
+            {
+              "Name": "DzMorph",
+              "Children": [ ]
+            },
+            {
+              "Name": "DzPushModifier",
+              "Children": [ ]
+            },
+            {
+              "Name": "DzSkinBinding",
+              "Children": [ ]
+            }
+          ]
+        },
+        {
+          "Name": "DzLegacyBinding",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzSceneAsset",
+      "Children": [
+        {
+          "Name": "DzFacetMesh",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzLayeredTexture",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzUVSet",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzDFormModifier",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzDFormWeightDelta",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzDctVertex",
+      "Children": [ ]
+    },
+    {
+      "Name": "virtual",
+      "Children": [
+        {
+          "Name": "ThreadEngineBase",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::ThreadEngine",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "IDzBrickUser",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzDefaultBrickUser",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzBrickParam",
+      "Children": [
+        {
+          "Name": "DzEnumParam",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzMatrixParam",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzOutParam",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPropertyParam",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzVec3Param",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzDefaultInParam",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzDrawStyle",
+      "Children": [
+        {
+          "Name": "DzPickStyle",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzUnshadedStyle",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzUserDrawStyle",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzDefaultStyle",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzOptionsFrame",
+      "Children": [
+        {
+          "Name": "DzFileIOFrame",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzDeviceFrame",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzDigest",
+      "Children": [ ]
+    },
+    {
+      "Name": "QToolBar",
+      "Children": [
+        {
+          "Name": "DzToolBar",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzDockBar",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzStyledButton",
+      "Children": [
+        {
+          "Name": "DzMenuButton",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzMouseButton",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzNodeBtn",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzNodeSelectionInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzNodeMenu",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzOptionsBtn",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzStyledBoolButton",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzDropButton",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzNumericController",
+      "Children": [
+        {
+          "Name": "DzExpression",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzFormulaController",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzERCLink",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzEdge",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzScriptContext",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzElemLoadScriptContext",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzCustomData",
+      "Children": [
+        {
+          "Name": "DzSceneData",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzElementData",
+      "Children": [
+        {
+          "Name": "DzLegacyIKChains",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPoserIKTargetFlag",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPoserNonPropagatingScaleFlag",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPoserPropagatingScaleFlag",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzSimpleElementData",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzSourceFileData",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzElementPropertyIOFilter",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzElementPropertyValueIO",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzElementPropertyValuesIO",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzIntSlider",
+      "Children": [
+        {
+          "Name": "DzIntPropertySlider",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzEnumSlider",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzActivationPolicy",
+      "Children": [
+        {
+          "Name": "DzNoEvaluationActivationPolicy",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzTrialDaysActivationPolicy",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzExpirationDateActivationPolicy",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzExtendedStateBundle",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTabWidget",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzExtendedTabWidget",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzExtraNodeIO",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzExtraGeometryShellNodeIO",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzExtraGeometryIO",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzExtraGeometryShellShapeIO",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzExtraModifierIO",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzExtraPushModifierIO",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzIndexList",
+      "Children": [
+        {
+          "Name": "DzVertexGroup",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzFacet",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzVertexMesh",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzShape",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzFacetShape",
+      "Children": [
+        {
+          "Name": "DzGeometryShellShape",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzGraftingFigureShape",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzSkeleton",
+      "Children": [
+        {
+          "Name": "DzLegacyFigure",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzFigure",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzNodeOutFile",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzFigureOutFile",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzSettings",
+      "Children": [
+        {
+          "Name": "DzPaneSettings",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzPropertySettings",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzFileIOSettings",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzStringProperty",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzFileProperty",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzPropertyClipboard",
+      "Children": [
+        {
+          "Name": "DzFloatPropertyClipboard",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzImagePropertyClipboard",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzIntPropertyClipboard",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzNodePropertyClipboard",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzStringPropertyClipboard",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzFilePropertyClipboard",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzFloatColor",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzNumericProperty",
+      "Children": [
+        {
+          "Name": "DzIntProperty",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzFloatProperty",
+      "Children": [
+        {
+          "Name": "DzNumericNodeProperty",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzFloatSlider",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzFloatPropertySlider",
+      "Children": [
+        {
+          "Name": "DzStyledFloatPropertySlider",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzSlider",
+      "Children": [
+        {
+          "Name": "DzIntSlider",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QLayout",
+      "Children": [
+        {
+          "Name": "Q3DockAreaLayout",
+          "Children": [ ]
+        },
+        {
+          "Name": "QBoxLayout",
+          "Children": [ ]
+        },
+        {
+          "Name": "QFormLayout",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGridLayout",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStackedLayout",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzFlowLayout",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzSourceFileData",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzGeomSourceFileData",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzStorable",
+      "Children": [
+        {
+          "Name": "DzMap",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzMorphDeltas",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzSparseWeightMapValues",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzWeightMapValues",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzGeometry",
+      "Children": [
+        {
+          "Name": "DzVertexMesh",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzImporter",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzGeometryImporter",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzNodeShapeInstance",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzGroupNodeShapeInstance",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzGuid",
+      "Children": [ ]
+    },
+    {
+      "Name": "QIODevice",
+      "Children": [
+        {
+          "Name": "Q3Socket",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3SocketDevice",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAbstractSocket",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAuthDevice",
+          "Children": [ ]
+        },
+        {
+          "Name": "QBuffer",
+          "Children": [ ]
+        },
+        {
+          "Name": "QFile",
+          "Children": [ ]
+        },
+        {
+          "Name": "QLocalSocket",
+          "Children": [ ]
+        },
+        {
+          "Name": "QNetworkReply",
+          "Children": [ ]
+        },
+        {
+          "Name": "QProcess",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzGzIO",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzHelpContentsItem",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzUserDrawStyle",
+      "Children": [
+        {
+          "Name": "DzLitWireFrameStyle",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzSmoothShadedStyle",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzSolidBoxStyle",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzTexturedStyle",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzWireBoxStyle",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzWireFrameStyle",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzWireShadedStyle",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzWireTexturedStyle",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzHiddenLineStyle",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzPane",
+      "Children": [
+        {
+          "Name": "DzSurfacesPane",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzHierarchyPane",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzProperty",
+      "Children": [
+        {
+          "Name": "DzNodeProperty",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzNumericProperty",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzStringProperty",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzImageProperty",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzRenderHandler",
+      "Children": [ ]
+    },
+    {
+      "Name": "QThread",
+      "Children": [
+        {
+          "Name": "DzProductSearchDBThread",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzProductSearchStoreThread",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzProductSyncThread",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzSearchDBThread",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzSearchFileThread",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzSerialAssetSearchDBThread",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzImageRequestThread",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzIndexedVertexPair",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzInstanceNode",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzInstanceGroupNode",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzIntKey",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzTSimpleArray<DzIntKey>",
+      "Children": [ ]
+    },
+    {
+      "Name": "};",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzIntKeyArray",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzJsonElement",
+      "Children": [
+        {
+          "Name": "DzJsonObject",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzJsonArray",
+      "Children": [ ]
+    },
+    {
+      "Name": "IDzJsonIO",
+      "Children": [
+        {
+          "Name": "DzJsonWriter",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzJsonDomParser",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzJsonReader",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzTexture",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzLegacyJointParam",
+      "Children": [
+        {
+          "Name": "DzLegacyCurve",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzLegacySmoothScale",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzLegacyTwistParam",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzLegacyBendParam",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzMorph",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzLegacyPostJointMorph",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzLegacySourceInfo",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzLine3",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzPointLight",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzLinearPointLight",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzLocalAccumulator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QEvent",
+      "Children": [
+        {
+          "Name": "DzRenderDataEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAccessibleEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QActionEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QChildEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QClipboardEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QCloseEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QCustomEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDragLeaveEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDragResponseEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDropEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDynamicPropertyChangeEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QFileOpenEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QFocusEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGestureEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGraphicsSceneEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QHelpEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QHideEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QHoverEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QIconDragEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QInputEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QInputMethodEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QMenubarUpdatedEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QMoveEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QPaintEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QResizeEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QShortcutEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QShowEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStateMachine::SignalEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStateMachine::WrappedEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStatusTipEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTimerEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QToolBarChangeEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QUpdateLaterEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWhatsThisClickedEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWindowStateChangeEvent",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzLogEvent",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzPolyMeshBC",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzMRMMeshBC",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzAudioClip",
+      "Children": [
+        {
+          "Name": "DzWinAudioClip",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzMacAudioClip",
+      "Children": [ ]
+    },
+    {
+      "Name": "QMacStyle",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzMacBaseStyle",
+      "Children": [ ]
+    },
+    {
+      "Name": "QMainWindow",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzMainWindow",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzFaceGroup",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzMaterialFaceGroup",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzPickTool",
+      "Children": [
+        {
+          "Name": "DzTransformTool",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzMaterialPickTool",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzMatrix3",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzMatrix4",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzMatrix4Utilities",
+      "Children": [ ]
+    },
+    {
+      "Name": "QMimeData",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzMorphDelta",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzFloatPropertyClipboard",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzNNPropertyClipboard",
+      "Children": [ ]
+    },
+    {
+      "Name": "QCompleter",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzNavigationCompleter",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzElementClipboard",
+      "Children": [
+        {
+          "Name": "DzObjectClipboard",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzNodeClipboard",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzNodeListFilter",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTreeView",
+      "Children": [
+        {
+          "Name": "QHelpContentWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTreeWidget",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzNodeListView",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzNodeSelectionInterface",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzAbstractShapeInstance",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzController",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzOGLAccumulator",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzSceneShader",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzOGLDefaultShader",
+      "Children": [
+        {
+          "Name": "DzOGLDistantLightShader",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzOGLPointLightShader",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzOGLSpotLightShader",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzOpenGLRenderSettings",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzOrientedBox3",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzDockWindow",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzPaneGroup",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzActionMenu",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzPersistentActionMenu",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzViewTool",
+      "Children": [
+        {
+          "Name": "DzPolygonSelectionTool",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzPluginHelper",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzDistantLight",
+      "Children": [
+        {
+          "Name": "DzSpotLight",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzFacetMeshBC",
+      "Children": [
+        {
+          "Name": "DzSubDMeshBC",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzPolySorter",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzPrimIndexBuffer",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzTopLevelAssetContainer",
+      "Children": [
+        {
+          "Name": "DzSearchContainer",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzProductHolderContainer",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzPropertyHelper",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStyledItemDelegate",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzPropertyListItemDelegate",
+      "Children": [ ]
+    },
+    {
+      "Name": "QLabel",
+      "Children": [
+        {
+          "Name": "DzTextStyledLabel",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzPropertyValueLabel",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzQuat",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzRegistration",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzRenderData",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzRenderMotionBlurSample",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzRenderSettings",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzView",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzRenderView",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzTransformTool",
+      "Children": [
+        {
+          "Name": "DzScaleTool",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzTranslateTool",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzRotateTool",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzRotationOrder",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzRsrThumb",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzSearchFolder",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzScanFolder",
+      "Children": [ ]
+    },
+    {
+      "Name": "IDzSceneAsset",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzSceneAssetFileInfo",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzOpenGLShader",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzShaderMixerUtility",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzFacetMesh",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzShellDummyFacetGeometry",
+      "Children": [ ]
+    },
+    {
+      "Name": "QListView",
+      "Children": [
+        {
+          "Name": "QHelpIndexWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "QListWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "QUndoView",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzSideNavPropertyListView",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzSceneData",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzSimpleSceneData",
+      "Children": [ ]
+    },
+    {
+      "Name": "QGridLayout",
+      "Children": [
+        {
+          "Name": "Q3GridLayout",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzSimpleWidgetGroup",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzNodeProperty",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzSkeletonProperty",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextBrowser",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzStaticBrowser",
+      "Children": [ ]
+    },
+    {
+      "Name": "DZ_SYSTEM_STYLE",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzStyleInterface",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzStyle",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzStyledNumericPropertyWgt",
+      "Children": [
+        {
+          "Name": "DzStyledColorPropertyWgt",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzStyledEnumPropertyWgt",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzStyledFloatPropertyWgt",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzStyledIntPropertyWgt",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzStyledNumericNodePropertyWgt",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzStyledBoolPropertyWgt",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzStyledPropertyWgt",
+      "Children": [
+        {
+          "Name": "DzStyledImagePropertyWgt",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzStyledNodePropertyWgt",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzStyledNumericPropertyWgt",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzStyledSkeletonPropertyWgt",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzStyledStringPropertyWgt",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzStyledFilePropertyWgt",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzStyledPropertyBaseWgt",
+      "Children": [
+        {
+          "Name": "DzStyledPropertyWgt",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzStyledFloatCardPropertyWgt",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzIntPropertySlider",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzStyledIntPropertySlider",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzStyledPropertyAction",
+      "Children": [
+        {
+          "Name": "DzStyledPropertyLockAction",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzStyledPropertyResetAction",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzStyledPropertyShowSettingsAction",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzStyledPropertyUnhideAction",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzStyledPropertyUnlockAction",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzStyledPropertyHideAction",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzPersistentMenu",
+      "Children": [
+        {
+          "Name": "DzSurfacesPaneContextMenu",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzStyledPropertyMenu",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzTabBar",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzStyledTabBar",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzSubDMap",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzTArray",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzTBlockArray",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzTCustomClassFactory<ClassType>",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzTClassFactory",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzTHashPointer",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzTCustomRefCountedClassFactory<ClassType",
+      "Children": [
+        {
+          "Name": "PtrType>",
+          "Children": [ ]
+        },
+        {
+          "Name": "DzTRefCountedClassFactory",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "PtrType>",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzTRefCountedAbstractFactory",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzTSharedPointer",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzTSimpleArray",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzTSortedArray",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzTStack",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTabBar",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzTextInputFile",
+      "Children": [ ]
+    },
+    {
+      "Name": "IDzTextInputFile",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzTextInputFileAdapter",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzTextStyle",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzTextureComponent",
+      "Children": [
+        {
+          "Name": "DzTextureMask",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "DzTextureLayer",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzThreadOp",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzTimeRange",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzTokenBuffer",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzVertexMap",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzUndoItem",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzUndoStackHold",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzUndoStackLock",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzUri",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzVBOPack",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzVec3",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzVersion",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzVertexBufferInPack",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzMap",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzViewAction",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzWeightMap",
+      "Children": [ ]
+    },
+    {
+      "Name": "Dz3DBrushTool",
+      "Children": [ ]
+    },
+    {
+      "Name": "DzWeightMapBrushTool",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3Action",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3ActionGroup",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3BaseBucket",
+      "Children": [
+        {
+          "Name": "Q3IntBucket",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3PtrBucket",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3StringBucket",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Q3AsciiBucket",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3AsciiCache",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3GCacheIterator",
+      "Children": [
+        {
+          "Name": "Q3CacheIterator",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3IntCacheIterator",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Q3AsciiCacheIterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3AsciiDict",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3GDictIterator",
+      "Children": [
+        {
+          "Name": "Q3DictIterator",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3IntDictIterator",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3PtrDictIterator",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Q3AsciiDictIterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QBoxLayout",
+      "Children": [
+        {
+          "Name": "QHBoxLayout",
+          "Children": [ ]
+        },
+        {
+          "Name": "QVBoxLayout",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Q3BoxLayout",
+      "Children": [
+        {
+          "Name": "Q3HBoxLayout",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3VBoxLayout",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Q3GroupBox",
+      "Children": [
+        {
+          "Name": "Q3HGroupBox",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3VGroupBox",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Q3ButtonGroup",
+      "Children": [
+        {
+          "Name": "Q3HButtonGroup",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3VButtonGroup",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QByteArray",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3CString",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3Cache",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3CanvasPolygonalItem",
+      "Children": [
+        {
+          "Name": "Q3CanvasLine",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3CanvasPolygon",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3CanvasRectangle",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Q3CanvasEllipse",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3CanvasItem",
+      "Children": [
+        {
+          "Name": "Q3CanvasPolygonalItem",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3CanvasSprite",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3CanvasText",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Q3ValueList<Q3CanvasItem*>",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3CanvasItemList",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPixmap",
+      "Children": [
+        {
+          "Name": "QBitmap",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Q3CanvasPixmap",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3CanvasPixmapArray",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3CanvasPolygon",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3CanvasSpline",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3ScrollView",
+      "Children": [
+        {
+          "Name": "Q3GridView",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3IconView",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3ListBox",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3ListView",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3Table",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3TextEdit",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Q3CanvasView",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3ListViewItem",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3CheckListItem",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3TableItem",
+      "Children": [
+        {
+          "Name": "Q3ComboTableItem",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Q3CheckTableItem",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3CleanupHandler",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3StoredDrag",
+      "Children": [
+        {
+          "Name": "Q3UriDrag",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Q3ColorDrag",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3Table",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3DataTable",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3DateTimeEditBase",
+      "Children": [
+        {
+          "Name": "Q3TimeEdit",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Q3DateEdit",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3DeepCopy",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3Dict",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3Dns::MailServer",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3Dns::Server",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3Frame",
+      "Children": [
+        {
+          "Name": "Q3Grid",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3HBox",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3ScrollView",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3WidgetStack",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Q3DockWindow",
+      "Children": [
+        {
+          "Name": "Q3ToolBar",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Q3DropSite",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3FilePreview",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3NetworkProtocol",
+      "Children": [
+        {
+          "Name": "Q3Http",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3LocalFs",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Q3Ftp",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3GArray",
+      "Children": [
+        {
+          "Name": "Q3MemArray",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Q3PtrCollection",
+      "Children": [
+        {
+          "Name": "\\/\\/",
+          "Children": [
+            {
+              "Name": "doubly",
+              "Children": [ ]
+            },
+            {
+              "Name": "linked",
+              "Children": [ ]
+            },
+            {
+              "Name": "generic",
+              "Children": [
+                {
+                  "Name": "vector",
+                  "Children": [ ]
+                },
+                {
+                  "Name": "Q3GVector",
+                  "Children": [ ]
+                }
+              ]
+            },
+            {
+              "Name": "list",
+              "Children": [ ]
+            },
+            {
+              "Name": "Q3GList",
+              "Children": [ ]
+            }
+          ]
+        },
+        {
+          "Name": "generic",
+          "Children": [ ]
+        },
+        {
+          "Name": "dictionary",
+          "Children": [ ]
+        },
+        {
+          "Name": "class",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3GDict",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "\\/\\/",
+      "Children": [
+        {
+          "Name": "case",
+          "Children": [
+            {
+              "Name": "insensitive",
+              "Children": [ ]
+            },
+            {
+              "Name": "string",
+              "Children": [ ]
+            },
+            {
+              "Name": "vec",
+              "Children": [ ]
+            },
+            {
+              "Name": "Q3StrIVec",
+              "Children": [ ]
+            }
+          ]
+        },
+        {
+          "Name": "insensitive",
+          "Children": [ ]
+        },
+        {
+          "Name": "string",
+          "Children": [ ]
+        },
+        {
+          "Name": "list",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3StrIList",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "generic",
+      "Children": [ ]
+    },
+    {
+      "Name": "LRU",
+      "Children": [ ]
+    },
+    {
+      "Name": "cache",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3GCache",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3GListIterator",
+      "Children": [
+        {
+          "Name": "Q3PtrListIterator",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Q3GListStdIterator",
+      "Children": [
+        {
+          "Name": "Q3PtrListStdIterator",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QGroupBox",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3HttpHeader",
+      "Children": [
+        {
+          "Name": "Q3HttpRequestHeader",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3HttpResponseHeader",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Q3DragObject",
+      "Children": [
+        {
+          "Name": "Q3ImageDrag",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3StoredDrag",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3TextDrag",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Q3IconDrag",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3IconDragItem",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3IconViewItem",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3IntCache",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3IntDict",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3LNode",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3ListBoxItem",
+      "Children": [
+        {
+          "Name": "Q3ListBoxPixmap",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3ListBoxText",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Q3ListViewItemIterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3MimeSourceFactory",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3TextEdit",
+      "Children": [
+        {
+          "Name": "Q3TextBrowser",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3TextView",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Q3MultiLineEdit",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3NetworkProtocolFactoryBase",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3NetworkProtocolFactory",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3AsciiDict<QMetaObject>",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3ObjectDictionary",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3PaintDeviceMetrics",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPainter",
+      "Children": [
+        {
+          "Name": "QStylePainter",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Q3Painter",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPicture",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3Picture",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPolygon",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3PointArray",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3PolygonScanner",
+      "Children": [ ]
+    },
+    {
+      "Name": "QMenu",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3PopupMenu",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3PtrDict",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3PtrList",
+      "Children": [ ]
+    },
+    {
+      "Name": "protected",
+      "Children": [
+        {
+          "Name": "Q3GList",
+          "Children": [ ]
+        },
+        {
+          "Name": "Q3PtrStack",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Q3GList",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3PtrQueue",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3PtrVector",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3RangeControl",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3Semaphore",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3SimpleRichText",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3SingleCleanupHandler",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3PtrList<type>",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3SortedList",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSqlRecord",
+      "Children": [
+        {
+          "Name": "QSqlIndex",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QSqlQuery",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3SqlCursor",
+      "Children": [
+        {
+          "Name": "Q3SqlSelectCursor",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Q3EditorFactory",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3SqlEditorFactory",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3SqlFieldInfo",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3SqlPropertyMap",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3SqlFieldInfoList",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3SqlRecordInfo",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3StrList",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3StrVec",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3PtrList<char>",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3PtrListIterator<char>",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3StrListIterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3PtrVector<char>",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3StyleSheetItem",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3SyntaxHighlighter",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3TSManip",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3TableSelection",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3TextEditOptimPrivate",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3TextStream",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3Url",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3HBox",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3VBox",
+      "Children": [ ]
+    },
+    {
+      "Name": "QLinkedList<T>",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3ValueList",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3ValueListConstIterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3ValueListIterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3ValueList<T>",
+      "Children": [ ]
+    },
+    {
+      "Name": "Q3ValueStack",
+      "Children": [ ]
+    },
+    {
+      "Name": "QVector<T>",
+      "Children": [
+        {
+          "Name": "QStack",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "Q3ValueVector",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAbstractExtensionFactory",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAbstractExtensionManager",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAbstractFileEngine",
+      "Children": [
+        {
+          "Name": "QFSFileEngine",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QAbstractFileEngine::ExtensionOption",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAbstractFileEngine::ExtensionReturn",
+      "Children": [ ]
+    },
+    {
+      "Name": "ExtensionOption",
+      "Children": [
+        {
+          "Name": "QAbstractFileEngine::UnMapExtensionOption",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWebPage::ChooseMultipleFilesExtensionOption",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWebPage::ErrorPageExtensionOption",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QAbstractFileEngine::MapExtensionOption",
+      "Children": [ ]
+    },
+    {
+      "Name": "ExtensionReturn",
+      "Children": [
+        {
+          "Name": "QWebPage::ChooseMultipleFilesExtensionReturn",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWebPage::ErrorPageExtensionReturn",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QAbstractFileEngine::MapExtensionReturn",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAbstractFileEngineHandler",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAbstractFileEngineIterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAbstractFormBuilder",
+      "Children": [
+        {
+          "Name": "QFormBuilder",
+          "Children": [ ]
+        },
+        {
+          "Name": "QFormInternal::QFormBuilder",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QGraphicsItem",
+      "Children": [
+        {
+          "Name": "QGraphicsItemGroup",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGraphicsLineItem",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGraphicsPixmapItem",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QAbstractGraphicsShapeItem",
+      "Children": [
+        {
+          "Name": "QGraphicsEllipseItem",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGraphicsPathItem",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGraphicsPolygonItem",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGraphicsRectItem",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGraphicsSimpleTextItem",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QAbstractScrollArea",
+      "Children": [
+        {
+          "Name": "QGraphicsView",
+          "Children": [ ]
+        },
+        {
+          "Name": "QMdiArea",
+          "Children": [ ]
+        },
+        {
+          "Name": "QPlainTextEdit",
+          "Children": [ ]
+        },
+        {
+          "Name": "QScrollArea",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTextEdit",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QAbstractItemView",
+      "Children": [
+        {
+          "Name": "QColumnView",
+          "Children": [ ]
+        },
+        {
+          "Name": "QHeaderView",
+          "Children": [ ]
+        },
+        {
+          "Name": "QListView",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTableView",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTreeView",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QAbstractUndoItem",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAbstractVideoBuffer",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSharedData",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAbstractXmlNodeModel",
+      "Children": [
+        {
+          "Name": "QSimpleXmlNodeModel",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QAbstractXmlReceiver",
+      "Children": [
+        {
+          "Name": "QXmlSerializer",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QAccessible",
+      "Children": [
+        {
+          "Name": "QAccessibleInterface",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QAccessible2Interface",
+      "Children": [
+        {
+          "Name": "QAccessibleActionInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAccessibleEditableTextInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAccessibleImageInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAccessibleTable2Interface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAccessibleTableInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAccessibleTextInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAccessibleValueInterface",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QAccessibleObject",
+      "Children": [
+        {
+          "Name": "QAccessibleWidget",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QAccessibleApplication",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAccessibleBridge",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAccessibleInterface",
+      "Children": [
+        {
+          "Name": "QAccessibleObject",
+          "Children": [ ]
+        },
+        {
+          "Name": "QAccessibleTable2CellInterface",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QAccessibleInterfaceEx",
+      "Children": [
+        {
+          "Name": "QAccessibleObjectEx",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QAccessibleEditableTextInterface",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAccessibleSimpleEditableTextInterface",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAccessibleObjectEx",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAccessibleWidgetEx",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAbstractAnimation",
+      "Children": [
+        {
+          "Name": "QPauseAnimation",
+          "Children": [ ]
+        },
+        {
+          "Name": "QVariantAnimation",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QAnimationGroup",
+      "Children": [
+        {
+          "Name": "QParallelAnimationGroup",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSequentialAnimationGroup",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QCoreApplication",
+      "Children": [ ]
+    },
+    {
+      "Name": "QGenericArgument",
+      "Children": [
+        {
+          "Name": "QArgument",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGenericReturnArgument",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QArgument",
+      "Children": [ ]
+    },
+    {
+      "Name": "QBasicAtomicInt",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAtomicInt",
+      "Children": [ ]
+    },
+    {
+      "Name": "QBasicAtomicPointer<T>",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAtomicPointer",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAudioDeviceInfo",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAudioFormat",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAuthenticator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAxAggregated",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAxBase",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAxBindable",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAxFactory",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAxClass",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAxObject",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAxScriptEngine",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAxSelect",
+      "Children": [ ]
+    },
+    {
+      "Name": "QBasicAtomicPointer",
+      "Children": [ ]
+    },
+    {
+      "Name": "QBasicTimer",
+      "Children": [ ]
+    },
+    {
+      "Name": "QBenchmarkIterationController",
+      "Children": [ ]
+    },
+    {
+      "Name": "QBitArray",
+      "Children": [ ]
+    },
+    {
+      "Name": "QBitRef",
+      "Children": [ ]
+    },
+    {
+      "Name": "QBool",
+      "Children": [ ]
+    },
+    {
+      "Name": "QBrush",
+      "Children": [ ]
+    },
+    {
+      "Name": "QByteArrayMatcher",
+      "Children": [ ]
+    },
+    {
+      "Name": "QByteRef",
+      "Children": [ ]
+    },
+    {
+      "Name": "QMotifStyle",
+      "Children": [ ]
+    },
+    {
+      "Name": "QCDEStyle",
+      "Children": [ ]
+    },
+    {
+      "Name": "QCache",
+      "Children": [ ]
+    },
+    {
+      "Name": "QChar",
+      "Children": [ ]
+    },
+    {
+      "Name": "QCharRef",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWindowsStyle",
+      "Children": [
+        {
+          "Name": "QMacStyle",
+          "Children": [ ]
+        },
+        {
+          "Name": "QPlastiqueStyle",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWindowsCEStyle",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWindowsMobileStyle",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWindowsXPStyle",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QCleanlooksStyle",
+      "Children": [
+        {
+          "Name": "QGtkStyle",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QColor",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPalette",
+      "Children": [ ]
+    },
+    {
+      "Name": "QColorGroup",
+      "Children": [ ]
+    },
+    {
+      "Name": "QColormap",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStyle",
+      "Children": [ ]
+    },
+    {
+      "Name": "QCommonStyle",
+      "Children": [
+        {
+          "Name": "QMotifStyle",
+          "Children": [ ]
+        },
+        {
+          "Name": "QProxyStyle",
+          "Children": [ ]
+        },
+        {
+          "Name": "QS60Style",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWindowsStyle",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QGradient",
+      "Children": [
+        {
+          "Name": "QLinearGradient",
+          "Children": [ ]
+        },
+        {
+          "Name": "QRadialGradient",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QConicalGradient",
+      "Children": [ ]
+    },
+    {
+      "Name": "QString",
+      "Children": [
+        {
+          "Name": "QDBusObjectPath",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QConstString",
+      "Children": [ ]
+    },
+    {
+      "Name": "QInputEvent",
+      "Children": [
+        {
+          "Name": "QKeyEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QMouseEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTabletEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTouchEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWheelEvent",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QContextMenuEvent",
+      "Children": [ ]
+    },
+    {
+      "Name": "QContiguousCache",
+      "Children": [ ]
+    },
+    {
+      "Name": "QCryptographicHash",
+      "Children": [ ]
+    },
+    {
+      "Name": "QCursor",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSqlDriver",
+      "Children": [
+        {
+          "Name": "QIBaseDriver",
+          "Children": [ ]
+        },
+        {
+          "Name": "QMYSQLDriver",
+          "Children": [ ]
+        },
+        {
+          "Name": "QOCIDriver",
+          "Children": [ ]
+        },
+        {
+          "Name": "QODBCDriver",
+          "Children": [ ]
+        },
+        {
+          "Name": "QPSQLDriver",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSQLite2Driver",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSQLiteDriver",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSymSQLDriver",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTDSDriver",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QDB2Driver",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSqlResult",
+      "Children": [
+        {
+          "Name": "QMYSQLResult",
+          "Children": [ ]
+        },
+        {
+          "Name": "QODBCResult",
+          "Children": [ ]
+        },
+        {
+          "Name": "QPSQLResult",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSymSQLResult",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QDB2Result",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDBusAbstractInterface",
+      "Children": [
+        {
+          "Name": "QDBusConnectionInterface",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDBusInterface",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QDBusArgument",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDBusConnection",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDBusContext",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDBusError",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDBusMessage",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDBusMetaType",
+      "Children": [ ]
+    },
+    {
+      "Name": "private",
+      "Children": [
+        {
+          "Name": "QString",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDBusSignature",
+          "Children": [ ]
+        },
+        {
+          "Name": "QVariant",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDBusVariant",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QDBusPendingCall",
+      "Children": [
+        {
+          "Name": "QDBusPendingReplyData",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QDBusPendingReply",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDBusReply",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDBusUnixFileDescriptor",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDataStream",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDate",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDateTimeEdit",
+      "Children": [
+        {
+          "Name": "QTimeEdit",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QDateEdit",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDateTime",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAbstractSpinBox",
+      "Children": [
+        {
+          "Name": "QDoubleSpinBox",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSpinBox",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QDebug",
+      "Children": [
+        {
+          "Name": "QDeclarativeInfo",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "T",
+      "Children": [
+        {
+          "Name": "QDeclarativePrivate::QDeclarativeElement",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QDeclarativeElement",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDeclarativeError",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDeclarativeImageProvider",
+      "Children": [ ]
+    },
+    {
+      "Name": "QGraphicsObject",
+      "Children": [
+        {
+          "Name": "QGraphicsSvgItem",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGraphicsTextItem",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGraphicsLayoutItem",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGraphicsWidget",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QDeclarativeParserStatus",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDeclarativeItem",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDeclarativeListProperty",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDeclarativeListReference",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDeclarativeNetworkAccessManagerFactory",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDeclarativePrivate::AttachedPropertySelector",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDeclarativePrivate::has_attachedPropertiesMethod",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDeclarativeProperty",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDeclarativePropertyValueInterceptor",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDeclarativePropertyValueSource",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDeclarativeScriptString",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDeclarativeTypeInfo",
+      "Children": [ ]
+    },
+    {
+      "Name": "QGraphicsView",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDeclarativeView",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDecoration",
+      "Children": [
+        {
+          "Name": "QDecorationDefault",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QDecorationFactory",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDecorationDefault",
+      "Children": [
+        {
+          "Name": "QDecorationWindows",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QDecorationStyled",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDesignerComponents",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDesignerContainerExtension",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDesignerCustomWidgetCollectionInterface",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDesignerCustomWidgetInterface",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDesignerDnDItemInterface",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDesignerDynamicPropertySheetExtension",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDesignerExtraInfoExtension",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDesignerFormEditorPluginInterface",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDesignerFormWindowCursorInterface",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDesignerLanguageExtension",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDesignerLayoutDecorationExtension",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDesignerMemberSheetExtension",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDesignerMetaDataBaseItemInterface",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDesignerPromotionInterface",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDesignerPropertySheetExtension",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDesignerTaskMenuExtension",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDesignerWidgetBoxInterface::Category",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDesignerWidgetBoxInterface::Widget",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDesignerWidgetDataBaseItemInterface",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDesktopServices",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAbstractSlider",
+      "Children": [
+        {
+          "Name": "QScrollBar",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSlider",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QDial",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDir",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDirIterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDomNode",
+      "Children": [
+        {
+          "Name": "QDomCharacterData",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDomDocument",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDomDocumentFragment",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDomDocumentType",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDomElement",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDomEntity",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDomEntityReference",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDomNotation",
+          "Children": [ ]
+        },
+        {
+          "Name": "QDomProcessingInstruction",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QDomAttr",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDomText",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDomCDATASection",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDomCharacterData",
+      "Children": [
+        {
+          "Name": "QDomText",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QDomComment",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDomImplementation",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDomNamedNodeMap",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDomNodeList",
+      "Children": [ ]
+    },
+    {
+      "Name": "QValidator",
+      "Children": [
+        {
+          "Name": "QIntValidator",
+          "Children": [ ]
+        },
+        {
+          "Name": "QRegExpValidator",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QDoubleValidator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDragMoveEvent",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDragEnterEvent",
+      "Children": [ ]
+    },
+    {
+      "Name": "QDropEvent",
+      "Children": [ ]
+    },
+    {
+      "Name": "QEasingCurve",
+      "Children": [ ]
+    },
+    {
+      "Name": "QElapsedTimer",
+      "Children": [ ]
+    },
+    {
+      "Name": "QEventSizeOfChecker",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAbstractTransition",
+      "Children": [
+        {
+          "Name": "QSignalTransition",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QEventTransition",
+      "Children": [
+        {
+          "Name": "QKeyEventTransition",
+          "Children": [ ]
+        },
+        {
+          "Name": "QMouseEventTransition",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QExplicitlySharedDataPointer",
+      "Children": [ ]
+    },
+    {
+      "Name": "QFileIconProvider",
+      "Children": [ ]
+    },
+    {
+      "Name": "QFileInfo",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAbstractState",
+      "Children": [
+        {
+          "Name": "QHistoryState",
+          "Children": [ ]
+        },
+        {
+          "Name": "QState",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QFinalState",
+      "Children": [ ]
+    },
+    {
+      "Name": "QFlag",
+      "Children": [ ]
+    },
+    {
+      "Name": "QFlags",
+      "Children": [ ]
+    },
+    {
+      "Name": "QFont",
+      "Children": [ ]
+    },
+    {
+      "Name": "QComboBox",
+      "Children": [ ]
+    },
+    {
+      "Name": "QFontComboBox",
+      "Children": [ ]
+    },
+    {
+      "Name": "QFontDatabase",
+      "Children": [ ]
+    },
+    {
+      "Name": "QFontEngineInfo",
+      "Children": [ ]
+    },
+    {
+      "Name": "QFontInfo",
+      "Children": [ ]
+    },
+    {
+      "Name": "QFontMetrics",
+      "Children": [ ]
+    },
+    {
+      "Name": "QFontMetricsF",
+      "Children": [ ]
+    },
+    {
+      "Name": "QForeachContainerBase",
+      "Children": [ ]
+    },
+    {
+      "Name": "QForeachContainer",
+      "Children": [ ]
+    },
+    {
+      "Name": "QFormInternal::QAbstractFormBuilder",
+      "Children": [ ]
+    },
+    {
+      "Name": "QFuture",
+      "Children": [ ]
+    },
+    {
+      "Name": "QFuture::const_iterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QFutureInterfaceBase",
+      "Children": [
+        {
+          "Name": "QFutureInterface",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QFutureInterface",
+      "Children": [ ]
+    },
+    {
+      "Name": "QFutureSynchronizer",
+      "Children": [ ]
+    },
+    {
+      "Name": "QFutureWatcherBase",
+      "Children": [
+        {
+          "Name": "QFutureWatcher",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QFutureWatcher",
+      "Children": [ ]
+    },
+    {
+      "Name": "QGLBuffer",
+      "Children": [ ]
+    },
+    {
+      "Name": "QGLColormap",
+      "Children": [ ]
+    },
+    {
+      "Name": "QGLContext",
+      "Children": [ ]
+    },
+    {
+      "Name": "QGLFormat",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPaintDevice",
+      "Children": [
+        {
+          "Name": "QGLPixelBuffer",
+          "Children": [ ]
+        },
+        {
+          "Name": "QImage",
+          "Children": [ ]
+        },
+        {
+          "Name": "QPicture",
+          "Children": [ ]
+        },
+        {
+          "Name": "QPixmap",
+          "Children": [ ]
+        },
+        {
+          "Name": "QPrinter",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSvgGenerator",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QGLFramebufferObject",
+      "Children": [ ]
+    },
+    {
+      "Name": "QGLFramebufferObjectFormat",
+      "Children": [ ]
+    },
+    {
+      "Name": "QGLFunctions",
+      "Children": [ ]
+    },
+    {
+      "Name": "QScreen",
+      "Children": [
+        {
+          "Name": "QIntfbScreen",
+          "Children": [ ]
+        },
+        {
+          "Name": "QLinuxFbScreen",
+          "Children": [ ]
+        },
+        {
+          "Name": "QProxyScreen",
+          "Children": [ ]
+        },
+        {
+          "Name": "QQnxScreen",
+          "Children": [ ]
+        },
+        {
+          "Name": "QVFbScreen",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QGLScreen",
+      "Children": [ ]
+    },
+    {
+      "Name": "QGLScreenSurfaceFunctions",
+      "Children": [ ]
+    },
+    {
+      "Name": "QGenericMatrix",
+      "Children": [ ]
+    },
+    {
+      "Name": "QGenericPluginFactory",
+      "Children": [ ]
+    },
+    {
+      "Name": "QGestureRecognizer",
+      "Children": [ ]
+    },
+    {
+      "Name": "QGlobalStatic",
+      "Children": [ ]
+    },
+    {
+      "Name": "QGlobalStaticDeleter",
+      "Children": [ ]
+    },
+    {
+      "Name": "QGlyphRun",
+      "Children": [ ]
+    },
+    {
+      "Name": "QGraphicsLayout",
+      "Children": [
+        {
+          "Name": "QGraphicsGridLayout",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGraphicsLinearLayout",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QGraphicsAnchorLayout",
+      "Children": [ ]
+    },
+    {
+      "Name": "QGraphicsEffect",
+      "Children": [
+        {
+          "Name": "QGraphicsColorizeEffect",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGraphicsDropShadowEffect",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGraphicsOpacityEffect",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QGraphicsBlurEffect",
+      "Children": [ ]
+    },
+    {
+      "Name": "QGraphicsLayoutItem",
+      "Children": [ ]
+    },
+    {
+      "Name": "QGraphicsWidget",
+      "Children": [
+        {
+          "Name": "QGraphicsWebView",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QGraphicsProxyWidget",
+      "Children": [ ]
+    },
+    {
+      "Name": "QGraphicsTransform",
+      "Children": [
+        {
+          "Name": "QGraphicsScale",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QGraphicsRotation",
+      "Children": [ ]
+    },
+    {
+      "Name": "QGraphicsSceneEvent",
+      "Children": [
+        {
+          "Name": "QGraphicsSceneDragDropEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGraphicsSceneHelpEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGraphicsSceneHoverEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGraphicsSceneMouseEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGraphicsSceneMoveEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGraphicsSceneResizeEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QGraphicsSceneWheelEvent",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QGraphicsSceneContextMenuEvent",
+      "Children": [ ]
+    },
+    {
+      "Name": "QHash",
+      "Children": [ ]
+    },
+    {
+      "Name": "QHash::const_iterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QHash::iterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QHelpContentItem",
+      "Children": [ ]
+    },
+    {
+      "Name": "QHelpEngineCore",
+      "Children": [ ]
+    },
+    {
+      "Name": "QHelpEngine",
+      "Children": [ ]
+    },
+    {
+      "Name": "QHelpGlobal",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStringListModel",
+      "Children": [ ]
+    },
+    {
+      "Name": "QHelpIndexModel",
+      "Children": [ ]
+    },
+    {
+      "Name": "QHelpSearchQuery",
+      "Children": [ ]
+    },
+    {
+      "Name": "QHostAddress",
+      "Children": [ ]
+    },
+    {
+      "Name": "QHostInfo",
+      "Children": [ ]
+    },
+    {
+      "Name": "QHttpHeader",
+      "Children": [
+        {
+          "Name": "QHttpRequestHeader",
+          "Children": [ ]
+        },
+        {
+          "Name": "QHttpResponseHeader",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QHttpPart",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSqlCachedResult",
+      "Children": [
+        {
+          "Name": "QOCIResult",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSQLite2Result",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSQLiteResult",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTDSResult",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QIBaseResult",
+      "Children": [ ]
+    },
+    {
+      "Name": "QIPv6Address",
+      "Children": [ ]
+    },
+    {
+      "Name": "QIcon",
+      "Children": [ ]
+    },
+    {
+      "Name": "QIconEngine",
+      "Children": [
+        {
+          "Name": "QIconEngineV2",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QAbstractProxyModel",
+      "Children": [
+        {
+          "Name": "QSortFilterProxyModel",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QIdentityProxyModel",
+      "Children": [ ]
+    },
+    {
+      "Name": "QImageIOHandler",
+      "Children": [ ]
+    },
+    {
+      "Name": "QImageReader",
+      "Children": [ ]
+    },
+    {
+      "Name": "QImageTextKeyLang",
+      "Children": [ ]
+    },
+    {
+      "Name": "QImageWriter",
+      "Children": [ ]
+    },
+    {
+      "Name": "QIncompatibleFlag",
+      "Children": [ ]
+    },
+    {
+      "Name": "QInputContextFactory",
+      "Children": [ ]
+    },
+    {
+      "Name": "QInputMethodEvent::Attribute",
+      "Children": [ ]
+    },
+    {
+      "Name": "QInternal",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAbstractItemDelegate",
+      "Children": [
+        {
+          "Name": "QStyledItemDelegate",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QItemDelegate",
+      "Children": [
+        {
+          "Name": "QSqlRelationalDelegate",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QItemEditorCreatorBase",
+      "Children": [
+        {
+          "Name": "QStandardItemEditorCreator",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QItemEditorCreator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QItemEditorFactory",
+      "Children": [ ]
+    },
+    {
+      "Name": "QList<QItemSelectionRange>",
+      "Children": [ ]
+    },
+    {
+      "Name": "QItemSelection",
+      "Children": [ ]
+    },
+    {
+      "Name": "QItemSelectionRange",
+      "Children": [ ]
+    },
+    {
+      "Name": "QKbdDriverFactory",
+      "Children": [ ]
+    },
+    {
+      "Name": "QKeySequence",
+      "Children": [ ]
+    },
+    {
+      "Name": "QLatin1Literal",
+      "Children": [ ]
+    },
+    {
+      "Name": "QLatin1String",
+      "Children": [ ]
+    },
+    {
+      "Name": "QLayoutItem",
+      "Children": [
+        {
+          "Name": "QSpacerItem",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWidgetItem",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QLayoutIterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QLibraryInfo",
+      "Children": [ ]
+    },
+    {
+      "Name": "QLine",
+      "Children": [ ]
+    },
+    {
+      "Name": "QLineF",
+      "Children": [ ]
+    },
+    {
+      "Name": "QLinkedList",
+      "Children": [ ]
+    },
+    {
+      "Name": "QLinkedList::const_iterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QLinkedList::iterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QLinuxFb_Shared",
+      "Children": [ ]
+    },
+    {
+      "Name": "QList",
+      "Children": [ ]
+    },
+    {
+      "Name": "QList::const_iterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QList::iterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QListWidgetItem",
+      "Children": [ ]
+    },
+    {
+      "Name": "QLocale",
+      "Children": [ ]
+    },
+    {
+      "Name": "QMacMime",
+      "Children": [ ]
+    },
+    {
+      "Name": "QMacPasteboardMime",
+      "Children": [ ]
+    },
+    {
+      "Name": "QMap",
+      "Children": [ ]
+    },
+    {
+      "Name": "QMap::const_iterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QMap::iterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QMargins",
+      "Children": [ ]
+    },
+    {
+      "Name": "QMatrix",
+      "Children": [ ]
+    },
+    {
+      "Name": "QMatrix4x4",
+      "Children": [ ]
+    },
+    {
+      "Name": "QMetaClassInfo",
+      "Children": [ ]
+    },
+    {
+      "Name": "QMetaEnum",
+      "Children": [ ]
+    },
+    {
+      "Name": "QMetaMethod",
+      "Children": [ ]
+    },
+    {
+      "Name": "QMetaProperty",
+      "Children": [ ]
+    },
+    {
+      "Name": "QMetaType",
+      "Children": [ ]
+    },
+    {
+      "Name": "QMimeSource",
+      "Children": [ ]
+    },
+    {
+      "Name": "QModelIndex",
+      "Children": [ ]
+    },
+    {
+      "Name": "QMouseDriverFactory",
+      "Children": [ ]
+    },
+    {
+      "Name": "QHash<Key",
+      "Children": [ ]
+    },
+    {
+      "Name": "T>",
+      "Children": [
+        {
+          "Name": "QMultiMap",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QMultiHash",
+      "Children": [ ]
+    },
+    {
+      "Name": "QMap<Key",
+      "Children": [ ]
+    },
+    {
+      "Name": "QMutableSetIterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QMutex",
+      "Children": [ ]
+    },
+    {
+      "Name": "QMutexData",
+      "Children": [ ]
+    },
+    {
+      "Name": "QMutexLocker",
+      "Children": [ ]
+    },
+    {
+      "Name": "QNetworkAddressEntry",
+      "Children": [ ]
+    },
+    {
+      "Name": "QNetworkCacheMetaData",
+      "Children": [ ]
+    },
+    {
+      "Name": "QNetworkConfiguration",
+      "Children": [ ]
+    },
+    {
+      "Name": "QNetworkCookie",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAbstractNetworkCache",
+      "Children": [ ]
+    },
+    {
+      "Name": "QNetworkDiskCache",
+      "Children": [ ]
+    },
+    {
+      "Name": "QNetworkInterface",
+      "Children": [ ]
+    },
+    {
+      "Name": "QNetworkProxy",
+      "Children": [ ]
+    },
+    {
+      "Name": "QNetworkProxyFactory",
+      "Children": [ ]
+    },
+    {
+      "Name": "QNetworkProxyQuery",
+      "Children": [ ]
+    },
+    {
+      "Name": "QNetworkRequest",
+      "Children": [ ]
+    },
+    {
+      "Name": "QNoDebug",
+      "Children": [ ]
+    },
+    {
+      "Name": "QObjectData",
+      "Children": [ ]
+    },
+    {
+      "Name": "QObjectUserData",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAbstractPageSetupDialog",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPageSetupDialog",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPaintEngine",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPaintEngineState",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPainter::PixmapFragment",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPainterPath",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPainterPath::Element",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPainterPathPrivate",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPainterPathStroker",
+      "Children": [ ]
+    },
+    {
+      "Name": "QGesture",
+      "Children": [
+        {
+          "Name": "QPinchGesture",
+          "Children": [ ]
+        },
+        {
+          "Name": "QSwipeGesture",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTapAndHoldGesture",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTapGesture",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QPanGesture",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPatternist::NodeIndexStorage",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPen",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPersistentModelIndex",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPictureIO",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPixmapCache",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPixmapCache::Key",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAbstractTextDocumentLayout",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPlainTextDocumentLayout",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPlatformClipboard",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPlatformCursorImage",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPlatformCursorPrivate",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPlatformEventLoopIntegration",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPlatformFontDatabase",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPlatformGLContext",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPlatformIntegration",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPlatformNativeInterface",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPlatformWindow",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPlatformWindowFormat",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPoint",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPointF",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPointer",
+      "Children": [ ]
+    },
+    {
+      "Name": "QVector<QPoint>",
+      "Children": [ ]
+    },
+    {
+      "Name": "QVector<QPointF>",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPolygonF",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPoolEntry",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAbstractPrintDialog",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPrintDialog",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPrintEngine",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPrinterInfo",
+      "Children": [ ]
+    },
+    {
+      "Name": "QProcessEnvironment",
+      "Children": [ ]
+    },
+    {
+      "Name": "QVariantAnimation",
+      "Children": [ ]
+    },
+    {
+      "Name": "QPropertyAnimation",
+      "Children": [ ]
+    },
+    {
+      "Name": "QScreenCursor",
+      "Children": [ ]
+    },
+    {
+      "Name": "QProxyScreenCursor",
+      "Children": [ ]
+    },
+    {
+      "Name": "QQuaternion",
+      "Children": [ ]
+    },
+    {
+      "Name": "QList<T>",
+      "Children": [ ]
+    },
+    {
+      "Name": "QQueue",
+      "Children": [ ]
+    },
+    {
+      "Name": "QRawFont",
+      "Children": [ ]
+    },
+    {
+      "Name": "QReadLocker",
+      "Children": [ ]
+    },
+    {
+      "Name": "QReadWriteLock",
+      "Children": [ ]
+    },
+    {
+      "Name": "QRect",
+      "Children": [ ]
+    },
+    {
+      "Name": "QRectF",
+      "Children": [ ]
+    },
+    {
+      "Name": "QRegExp",
+      "Children": [ ]
+    },
+    {
+      "Name": "QRegion",
+      "Children": [ ]
+    },
+    {
+      "Name": "QResource",
+      "Children": [ ]
+    },
+    {
+      "Name": "QGenericReturnArgument",
+      "Children": [ ]
+    },
+    {
+      "Name": "QReturnArgument",
+      "Children": [ ]
+    },
+    {
+      "Name": "QRunnable",
+      "Children": [
+        {
+          "Name": "QtConcurrent::RunFunctionTaskBase",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::ThreadEngineBase",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QS60MainAppUiBase",
+      "Children": [ ]
+    },
+    {
+      "Name": "QS60MainAppUi",
+      "Children": [ ]
+    },
+    {
+      "Name": "QS60MainApplicationBase",
+      "Children": [ ]
+    },
+    {
+      "Name": "QS60MainApplication",
+      "Children": [ ]
+    },
+    {
+      "Name": "QS60MainDocumentBase",
+      "Children": [ ]
+    },
+    {
+      "Name": "QS60MainDocument",
+      "Children": [ ]
+    },
+    {
+      "Name": "QS60StubAknAppUiBase",
+      "Children": [ ]
+    },
+    {
+      "Name": "QS60StubMEikStatusPaneObserver",
+      "Children": [ ]
+    },
+    {
+      "Name": "QS60StubAknAppUi",
+      "Children": [ ]
+    },
+    {
+      "Name": "CEikAppUi",
+      "Children": [ ]
+    },
+    {
+      "Name": "QS60StubMAknTouchPaneObserver",
+      "Children": [ ]
+    },
+    {
+      "Name": "QScopedPointer<T",
+      "Children": [ ]
+    },
+    {
+      "Name": "Cleanup>",
+      "Children": [ ]
+    },
+    {
+      "Name": "QScopedArrayPointer",
+      "Children": [ ]
+    },
+    {
+      "Name": "QScopedPointer",
+      "Children": [ ]
+    },
+    {
+      "Name": "QScopedValueRollback",
+      "Children": [ ]
+    },
+    {
+      "Name": "QScreenDriverFactory",
+      "Children": [ ]
+    },
+    {
+      "Name": "QScriptClass",
+      "Children": [ ]
+    },
+    {
+      "Name": "QScriptClassPropertyIterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QScriptContext",
+      "Children": [ ]
+    },
+    {
+      "Name": "QScriptContextInfo",
+      "Children": [ ]
+    },
+    {
+      "Name": "QScriptEngine",
+      "Children": [ ]
+    },
+    {
+      "Name": "QScriptEngineAgent",
+      "Children": [ ]
+    },
+    {
+      "Name": "QScriptProgram",
+      "Children": [ ]
+    },
+    {
+      "Name": "QScriptString",
+      "Children": [ ]
+    },
+    {
+      "Name": "QScriptSyntaxCheckResult",
+      "Children": [ ]
+    },
+    {
+      "Name": "QScriptValue",
+      "Children": [ ]
+    },
+    {
+      "Name": "QScriptValueIterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QScriptable",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSemaphore",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSet",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSet::const_iterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSet::iterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSharedDataPointer",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSharedPointer",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSize",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSizeF",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSizePolicy",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSourceLocation",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSpontaneKeyEvent",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSqlDatabase",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSqlDriverCreatorBase",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSqlDriverCreator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSqlError",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSqlField",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAbstractTableModel",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSqlQueryModel",
+      "Children": [
+        {
+          "Name": "QSqlTableModel",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QSqlRelation",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSqlTableModel",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSqlRelationalTableModel",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSslCertificate",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSslCipher",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSslConfiguration",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSslError",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSslKey",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTcpSocket",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSslSocket",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStandardItem",
+      "Children": [ ]
+    },
+    {
+      "Name": "QState",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStateMachine",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStaticText",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStringBuilder",
+      "Children": [ ]
+    },
+    {
+      "Name": "QList<QString>",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStringList",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStringMatcher",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStringRef",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStyleFactory",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStyleHintReturn",
+      "Children": [
+        {
+          "Name": "QStyleHintReturnMask",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStyleHintReturnVariant",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QStyleOption",
+      "Children": [
+        {
+          "Name": "QStyleOptionButton",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStyleOptionComplex",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStyleOptionDockWidget",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStyleOptionFocusRect",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStyleOptionFrame",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStyleOptionGraphicsItem",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStyleOptionHeader",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStyleOptionMenuItem",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStyleOptionProgressBar",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStyleOptionQ3DockWindow",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStyleOptionQ3ListViewItem",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStyleOptionRubberBand",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStyleOptionTab",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStyleOptionTabBarBase",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStyleOptionTabWidgetFrame",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStyleOptionToolBar",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStyleOptionToolBox",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStyleOptionViewItem",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QStyleOptionComplex",
+      "Children": [
+        {
+          "Name": "QStyleOptionGroupBox",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStyleOptionQ3ListView",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStyleOptionSizeGrip",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStyleOptionSlider",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStyleOptionSpinBox",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStyleOptionTitleBar",
+          "Children": [ ]
+        },
+        {
+          "Name": "QStyleOptionToolButton",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QStyleOptionComboBox",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStyleOptionDockWidget",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStyleOptionDockWidgetV2",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStyleOptionFrame",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStyleOptionFrameV2",
+      "Children": [
+        {
+          "Name": "QStyleOptionFrameV3",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QStyleOptionProgressBar",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStyleOptionProgressBarV2",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStyleOptionTabBarBase",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStyleOptionTabBarBaseV2",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStyleOptionTab",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStyleOptionTabV2",
+      "Children": [
+        {
+          "Name": "QStyleOptionTabV3",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QStyleOptionTabWidgetFrame",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStyleOptionTabWidgetFrameV2",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStyleOptionToolBox",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStyleOptionToolBoxV2",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStyleOptionViewItem",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStyleOptionViewItemV2",
+      "Children": [
+        {
+          "Name": "QStyleOptionViewItemV3",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QStyleOptionViewItemV3",
+      "Children": [ ]
+    },
+    {
+      "Name": "QStyleOptionViewItemV4",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSupportedWritingSystems",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSymbianEvent",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSymbianGraphicsSystemHelper",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSysInfo",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSystemLocale",
+      "Children": [ ]
+    },
+    {
+      "Name": "QSystemSemaphore",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTableView",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTableWidget",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTableWidgetItem",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTableWidgetSelectionRange",
+      "Children": [ ]
+    },
+    {
+      "Name": "QAbstractSocket",
+      "Children": [
+        {
+          "Name": "QUdpSocket",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QFile",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTemporaryFile",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTest::QBenchmarkIterationController",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTest::QTouchEventSequence",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTestAccessibility",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTestBasicStreamer",
+      "Children": [
+        {
+          "Name": "QTestLightXmlStreamer",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTestXmlStreamer",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTestXunitStreamer",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QTestCoreList<ElementType>",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTestCoreElement",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTestCoreList",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTestData",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTestEvent",
+      "Children": [
+        {
+          "Name": "QTestKeyClicksEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTestKeyEvent",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTestMouseEvent",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QTestDelayEvent",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTestCoreElement<QTestElement>",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTestElement",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTestCoreList<QTestElementAttribute>",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTestElementAttribute",
+      "Children": [ ]
+    },
+    {
+      "Name": "QList<QTestEvent",
+      "Children": [ ]
+    },
+    {
+      "Name": "*>",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTestEventList",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTestFileLogger",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextBlock",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextBlock::iterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextFormat",
+      "Children": [
+        {
+          "Name": "QTextCharFormat",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTextFrameFormat",
+          "Children": [ ]
+        },
+        {
+          "Name": "QTextListFormat",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QTextBlockFormat",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextObject",
+      "Children": [
+        {
+          "Name": "QTextFrame",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QTextBlockGroup",
+      "Children": [
+        {
+          "Name": "QTextList",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QTextBlockUserData",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextBoundaryFinder",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextEdit",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextCodec",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextCursor",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextDecoder",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextDocumentFragment",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextDocumentWriter",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextEncoder",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextFragment",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextFrame::iterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextFrameLayoutData",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextStream",
+      "Children": [
+        {
+          "Name": "QTextOStream",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QTextIStream",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextCharFormat",
+      "Children": [
+        {
+          "Name": "QTextTableCellFormat",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QTextImageFormat",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextInlineObject",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextItem",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextLayout",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextLength",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextLine",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextObjectInterface",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextOption",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextStreamManipulator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextFrame",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextTable",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextTableCell",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextFrameFormat",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTextTableFormat",
+      "Children": [ ]
+    },
+    {
+      "Name": "QThreadStorage",
+      "Children": [ ]
+    },
+    {
+      "Name": "QThreadStorageData",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTime",
+      "Children": [ ]
+    },
+    {
+      "Name": "QToolTip",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTouchEvent::TouchPoint",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTouchEventSequence",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTransform",
+      "Children": [ ]
+    },
+    {
+      "Name": "QProxyScreen",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTransformedScreen",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTreeWidgetItem",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTreeWidgetItemIterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QTypeInfo",
+      "Children": [ ]
+    },
+    {
+      "Name": "QUndoCommand",
+      "Children": [ ]
+    },
+    {
+      "Name": "QUrl",
+      "Children": [ ]
+    },
+    {
+      "Name": "QUrlInfo",
+      "Children": [ ]
+    },
+    {
+      "Name": "QVarLengthArray",
+      "Children": [ ]
+    },
+    {
+      "Name": "QVariant",
+      "Children": [ ]
+    },
+    {
+      "Name": "QVariantComparisonHelper",
+      "Children": [ ]
+    },
+    {
+      "Name": "QVector",
+      "Children": [ ]
+    },
+    {
+      "Name": "QVector2D",
+      "Children": [ ]
+    },
+    {
+      "Name": "QVector3D",
+      "Children": [ ]
+    },
+    {
+      "Name": "QVector4D",
+      "Children": [ ]
+    },
+    {
+      "Name": "QVector::const_iterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QVector::iterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QVideoFrame",
+      "Children": [ ]
+    },
+    {
+      "Name": "QVideoSurfaceFormat",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWSMouseHandler",
+      "Children": [
+        {
+          "Name": "QWSPcMouseHandler",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QWSCalibratedMouseHandler",
+      "Children": [
+        {
+          "Name": "QWSLinuxInputMouseHandler",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWSLinuxTPMouseHandler",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWSTslibMouseHandler",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QWSCursor",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWSDisplay",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWSKeyboardHandler",
+      "Children": [
+        {
+          "Name": "QWSLinuxInputKeyboardHandler",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWSTtyKeyboardHandler",
+          "Children": [ ]
+        },
+        {
+          "Name": "QWSUmKeyboardHandler",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QWSIntKeyboardHandler",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWSInternalWindowInfo",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWSPointerCalibrationData",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWSPropertyManager",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWSScreenSaver",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWSServer::KeyboardFilter",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWS_SOCK_SERVER_BASE",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWSServerSocket",
+      "Children": [
+        {
+          "Name": "QWSSoundServerSocket",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QWS_SOCK_BASE",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWSSocket",
+      "Children": [
+        {
+          "Name": "QWSSoundClient",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QWSWindow",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWSWindowInfo",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWaitCondition",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWeakPointer",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWebDatabase",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWebElement",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWebElementCollection",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWebElementCollection::const_iterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWebElementCollection::iterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWebHistory",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWebHistoryItem",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWebHitTestResult",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWebKitPlatformPlugin",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWebNotificationData",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWebPage::ExtensionOption",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWebPage::ExtensionReturn",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWebPage::ViewportAttributes",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWebPluginFactory::ExtensionOption",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWebPluginFactory::ExtensionReturn",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWebScriptWorld",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWebSecurityOrigin",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWebSelectData",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWebSettings",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWhatsThis",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWidgetData",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWidgetItem",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWidgetItemV2",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWindowSystemInterface",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWindowsMime",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWindowsXPStyle",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWindowsVistaStyle",
+      "Children": [ ]
+    },
+    {
+      "Name": "QWriteLocker",
+      "Children": [ ]
+    },
+    {
+      "Name": "QX11Info",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlAttributes",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlContentHandler",
+      "Children": [
+        {
+          "Name": "QXmlErrorHandler",
+          "Children": [ ]
+        },
+        {
+          "Name": "QXmlDTDHandler",
+          "Children": [ ]
+        },
+        {
+          "Name": "QXmlEntityResolver",
+          "Children": [ ]
+        },
+        {
+          "Name": "QXmlLexicalHandler",
+          "Children": [ ]
+        },
+        {
+          "Name": "QXmlDeclHandler",
+          "Children": [ ]
+        },
+        {
+          "Name": "QXmlDefaultHandler",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QXmlDTDHandler",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlDeclHandler",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlEntityResolver",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlErrorHandler",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlSerializer",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlFormatter",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlInputSource",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlItem",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlLexicalHandler",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlLocator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlName",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlNamePool",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlNamespaceSupport",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlNodeModelIndex",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlParseException",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlQuery",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlReader",
+      "Children": [
+        {
+          "Name": "QXmlSimpleReader",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QXmlResultItems",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlSchema",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlSchemaValidator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlStreamAttribute",
+      "Children": [ ]
+    },
+    {
+      "Name": "QVector<QXmlStreamAttribute>",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlStreamAttributes",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlStreamEntityDeclaration",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlStreamEntityResolver",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlStreamNamespaceDeclaration",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlStreamNotationDeclaration",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlStreamReader",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlStreamStringRef",
+      "Children": [ ]
+    },
+    {
+      "Name": "QXmlStreamWriter",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::BlockSizeManager",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::ConstMemberFunctionWrapper",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::Exception",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::FilterKernel",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::FilteredEachKernel",
+      "Children": [ ]
+    },
+    {
+      "Name": "IterateKernel<Iterator",
+      "Children": [
+        {
+          "Name": "void>",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::MapKernel",
+          "Children": [ ]
+        },
+        {
+          "Name": "ReducedResultType>",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::MappedReducedKernel",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "ReducedResultType>",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::FilteredReducedKernel",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::FunctionWrapper0",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::FunctionWrapper1",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::FunctionWrapper2",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::IntermediateResults",
+      "Children": [ ]
+    },
+    {
+      "Name": "ThreadEngine<T>",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::IterateKernel",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::MappedEachKernel",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::Median",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::MemberFunctionWrapper",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::MemberFunctionWrapper1",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::ReduceKernel",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::ResultItem",
+      "Children": [ ]
+    },
+    {
+      "Name": "ResultIteratorBase",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::ResultIterator",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::ResultIteratorBase",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::ResultReporter",
+      "Children": [ ]
+    },
+    {
+      "Name": "ResultStoreBase",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::ResultStore",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::ResultStoreBase",
+      "Children": [ ]
+    },
+    {
+      "Name": "RunFunctionTaskBase<T>",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::RunFunctionTask",
+      "Children": [ ]
+    },
+    {
+      "Name": "RunFunctionTaskBase<void>",
+      "Children": [ ]
+    },
+    {
+      "Name": "QFutureInterface<T>",
+      "Children": [ ]
+    },
+    {
+      "Name": "RunFunctionTask<T>",
+      "Children": [
+        {
+          "Name": "QtConcurrent::StoredConstMemberFunctionCall1",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::StoredConstMemberFunctionCall2",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::StoredConstMemberFunctionCall3",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::StoredConstMemberFunctionCall4",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::StoredConstMemberFunctionCall5",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::StoredConstMemberFunctionPointerCall0",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::StoredConstMemberFunctionPointerCall1",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::StoredConstMemberFunctionPointerCall2",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::StoredConstMemberFunctionPointerCall3",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::StoredConstMemberFunctionPointerCall4",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::StoredConstMemberFunctionPointerCall5",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::StoredFunctorCall",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::StoredMemberFunctionCall0",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::StoredMemberFunctionCall1",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::StoredMemberFunctionCall2",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::StoredMemberFunctionCall3",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::StoredMemberFunctionCall4",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::StoredMemberFunctionCall5",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::StoredMemberFunctionPointerCall0",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::StoredMemberFunctionPointerCall1",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::StoredMemberFunctionPointerCall2",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::StoredMemberFunctionPointerCall3",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::StoredMemberFunctionPointerCall4",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::StoredMemberFunctionPointerCall5",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::VoidStoredConstMemberFunctionCall0",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::VoidStoredConstMemberFunctionCall1",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::VoidStoredConstMemberFunctionCall2",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::VoidStoredConstMemberFunctionCall3",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::VoidStoredConstMemberFunctionCall4",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::VoidStoredConstMemberFunctionCall5",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::VoidStoredConstMemberFunctionPointerCall0",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::VoidStoredConstMemberFunctionPointerCall1",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::VoidStoredConstMemberFunctionPointerCall2",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::VoidStoredConstMemberFunctionPointerCall3",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::VoidStoredConstMemberFunctionPointerCall4",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::VoidStoredConstMemberFunctionPointerCall5",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::VoidStoredMemberFunctionCall0",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::VoidStoredMemberFunctionCall1",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::VoidStoredMemberFunctionCall2",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::VoidStoredMemberFunctionCall3",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::VoidStoredMemberFunctionCall4",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::VoidStoredMemberFunctionCall5",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::VoidStoredMemberFunctionPointerCall0",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::VoidStoredMemberFunctionPointerCall1",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::VoidStoredMemberFunctionPointerCall2",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::VoidStoredMemberFunctionPointerCall3",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::VoidStoredMemberFunctionPointerCall4",
+          "Children": [ ]
+        },
+        {
+          "Name": "QtConcurrent::VoidStoredMemberFunctionPointerCall5",
+          "Children": [ ]
+        }
+      ]
+    },
+    {
+      "Name": "QtConcurrent::StoredConstMemberFunctionCall0",
+      "Children": [ ]
+    },
+    {
+      "Name": "RunFunctionTask<void>",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::StoredFunctorCall",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::ThreadEngineBarrier",
+      "Children": [ ]
+    },
+    {
+      "Name": "ThreadEngineStarterBase<T>",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::ThreadEngineStarter",
+      "Children": [ ]
+    },
+    {
+      "Name": "ThreadEngineStarterBase<void>",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::ThreadEngineStarterBase",
+      "Children": [ ]
+    },
+    {
+      "Name": "Exception",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::UnhandledException",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::internal::ExceptionHolder",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtConcurrent::internal::ExceptionStore",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtPrivate::HasResultType",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtSharedPointer::Basic",
+      "Children": [ ]
+    },
+    {
+      "Name": "Basic<T>",
+      "Children": [ ]
+    },
+    {
+      "Name": "QtSharedPointer::ExternalRefCount",
+      "Children": [ ]
+    }
+  ],
+  "Name": ""
+}

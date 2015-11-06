@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ctags.json" />
+    <None Include="hierarchyMap.json" />
     <None Include="mtags.json" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

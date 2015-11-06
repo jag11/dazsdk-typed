@@ -36,7 +36,9 @@ class CtagNode {
 
 /// New node structure
 class ClassMapNode {
-    constructor(public Name: string) { }
+    constructor(public Name: string) {
+        this.Children = new Array<ClassMapNode>();
+    }
     
     Children: Array<ClassMapNode>
 }
@@ -90,4 +92,6 @@ var sOutputFile = "hierarchyMap.json";
 var oHierarchyClassMap = createHierarchyMap(sInputFile);
 var sJsonString = JSON.stringify(oHierarchyClassMap);
 var oFile = new DzFile(sOutputFile);
+oFile.open(2);
 oFile.write(sJsonString);
+oFile.close();
