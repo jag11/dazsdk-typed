@@ -34,14 +34,6 @@ class CtagNode {
     Inherits: Array<string>
 }
 
-/// New node structure
-class ClassMapNode {
-    constructor(public Name: string) {
-        this.Children = new Array<ClassMapNode>();
-    }
-    
-    Children: Array<ClassMapNode>
-}
 
 function createHierarchyMap(sCtagsFilename: string): any {
     /// the output object

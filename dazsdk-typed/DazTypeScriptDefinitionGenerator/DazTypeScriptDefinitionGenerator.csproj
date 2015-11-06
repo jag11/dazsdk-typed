@@ -39,6 +39,7 @@
     <TypeScriptCompile Include="CtagMapTransform.ts" />
     <TypeScriptCompile Include="DazSDK\dazsdk.d.ts" />
     <TypeScriptCompile Include="dazScriptReflector.ts" />
+    <TypeScriptCompile Include="dzClassHierarchyMap.ts" />
     <TypeScriptCompile Include="path.ts" />
     <TypeScriptCompile Include="settingsBase.ts" />
   </ItemGroup>
