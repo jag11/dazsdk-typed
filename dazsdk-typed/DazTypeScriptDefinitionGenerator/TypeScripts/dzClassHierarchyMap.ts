@@ -15,7 +15,7 @@ class ClassHierarchyMap {
     */
     findClosestParentClassName(oObject: QObject) : string {
         var currentNode = this.RootNode;
-        if (oObject == undefined || (typeof oObject.inherits != "function") {
+        if (oObject == undefined || ((typeof oObject.inherits) !== "function")) {
             throw String("QObject expected as a parameter");
         }
         var bAnyParentFound: boolean = false;
