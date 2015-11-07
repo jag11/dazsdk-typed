@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
     <TypeScriptCompile Include="DazSDK\dazsdk.d.ts" />
+    <TypeScriptCompile Include="TypeScripts\dazClassFactory.ts" />
     <TypeScriptCompile Include="TypeScripts\dzClassHierarchyMap.ts" />
     <TypeScriptCompile Include="TypeScripts\CtagMapTransform.ts" />
     <TypeScriptCompile Include="TypeScripts\dazScriptReflector.ts" />
