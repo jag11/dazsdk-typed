@@ -5,7 +5,7 @@
     } catch (err) {
         return null;
     }
-    if (oFunction === undefined)
+    if (oFunction === undefined || (typeof oFunction) !== "function")
         return null;
     var oPrototype = oFunction.prototype;
     var oConstructor = oPrototype.constructor;
