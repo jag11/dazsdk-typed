@@ -36,12 +36,12 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="CtagMapTransform.ts" />
     <TypeScriptCompile Include="DazSDK\dazsdk.d.ts" />
-    <TypeScriptCompile Include="dazScriptReflector.ts" />
-    <TypeScriptCompile Include="dzClassHierarchyMap.ts" />
-    <TypeScriptCompile Include="path.ts" />
-    <TypeScriptCompile Include="settingsBase.ts" />
+    <TypeScriptCompile Include="TypeScripts\dzClassHierarchyMap.ts" />
+    <TypeScriptCompile Include="TypeScripts\CtagMapTransform.ts" />
+    <TypeScriptCompile Include="TypeScripts\dazScriptReflector.ts" />
+    <TypeScriptCompile Include="TypeScripts\path.ts" />
+    <TypeScriptCompile Include="TypeScripts\settingsBase.ts" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\dazsdk-typed\dazsdk-typed.csproj">
@@ -74,7 +74,7 @@
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy /Y ..\..\*.js ..\..\DazScript\*.dsa</PostBuildEvent>
+    <PostBuildEvent>xcopy /Y ..\..\TypeScripts\*.js ..\..\DazScript\*.dsa</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

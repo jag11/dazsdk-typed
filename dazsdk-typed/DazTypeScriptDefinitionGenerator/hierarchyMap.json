@@ -103,7 +103,54 @@
         },
         {
           "Name": "DzBase",
-          "Children": [ ]
+          "Children": [
+            {
+              "Name": "DzElement",
+              "Children": [                
+                {
+                  "Name": "DzNode",
+                  "Children": [
+                    {
+                      "Name": "DzCamera",
+                      "Children": [ ]
+                    },
+                    {
+                      "Name": "DzDForm",
+                      "Children": [ ]
+                    },
+                    {
+                      "Name": "DzDFormBase",
+                      "Children": [ ]
+                    },
+                    {
+                      "Name": "DzDFormZone",
+                      "Children": [ ]
+                    },
+                    {
+                      "Name": "DzGeometryShellNode",
+                      "Children": [ ]
+                    },
+                    {
+                      "Name": "DzGroupNode",
+                      "Children": [ ]
+                    },
+                    {
+                      "Name": "DzInstanceNode",
+                      "Children": [ ]
+                    },
+                    {
+                      "Name": "DzSkeleton",
+                      "Children": [ ]
+                    },
+                    {
+                      "Name": "DzBone",
+                      "Children": [ ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "Name": "DzBrickSetCompilerMgr",
@@ -1388,10 +1435,6 @@
           "Children": [ ]
         },
         {
-          "Name": "DzElement",
-          "Children": [ ]
-        },
-        {
           "Name": "DzExpressionInput",
           "Children": [ ]
         },
@@ -2031,47 +2074,8 @@
         }
       ]
     },
-    {
-      "Name": "DzNode",
-      "Children": [
-        {
-          "Name": "DzCamera",
-          "Children": [ ]
-        },
-        {
-          "Name": "DzDForm",
-          "Children": [ ]
-        },
-        {
-          "Name": "DzDFormBase",
-          "Children": [ ]
-        },
-        {
-          "Name": "DzDFormZone",
-          "Children": [ ]
-        },
-        {
-          "Name": "DzGeometryShellNode",
-          "Children": [ ]
-        },
-        {
-          "Name": "DzGroupNode",
-          "Children": [ ]
-        },
-        {
-          "Name": "DzInstanceNode",
-          "Children": [ ]
-        },
-        {
-          "Name": "DzSkeleton",
-          "Children": [ ]
-        }
-      ]
-    },
-    {
-      "Name": "DzBone",
-      "Children": [ ]
-    },
+
+
     {
       "Name": "QPushButton",
       "Children": [
