@@ -34,12 +34,6 @@ class CtagNode {
     Inherits: Array<string>
 }
 
-/// New node structure
-class ClassMapNode {
-    constructor(public Name: string) { }
-    
-    Children: Array<ClassMapNode>
-}
 
 function createHierarchyMap(sCtagsFilename: string): any {
     /// the output object
@@ -90,4 +84,6 @@ var sOutputFile = "hierarchyMap.json";
 var oHierarchyClassMap = createHierarchyMap(sInputFile);
 var sJsonString = JSON.stringify(oHierarchyClassMap);
 var oFile = new DzFile(sOutputFile);
+oFile.open(2);
 oFile.write(sJsonString);
+oFile.close();
