@@ -1,0 +1,9 @@
+[
+  {
+    "outputFileName": "JS/output.js",
+    "inputFiles": [
+      "JS/debug.js",
+      "JS/file1.js"
+    ]
+  }
+]
