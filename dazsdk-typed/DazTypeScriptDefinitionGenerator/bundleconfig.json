@@ -1,0 +1,12 @@
+[
+  {
+    "outputFileName": "TypeScripts/DazReflector.js",
+    "inputFiles": [
+      "TypeScripts/logger.js",
+      "TypeScripts/path.js",
+      "TypeScripts/settingsBase.js",
+      "TypeScripts/dazScriptReflector.js",
+        "TypeScripts/applicationBase.js"
+    ]
+  }
+]

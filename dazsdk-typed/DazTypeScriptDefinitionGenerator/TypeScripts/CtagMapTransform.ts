@@ -16,6 +16,9 @@ So then this transformed JSON file can be used to search for the most precise "i
 by searching one level of inheritance at a time, giving up when no children have QObject.inherits() return TRUE.
 */
 
+/** Scope it to avoid duplicate funtion error message
+ */
+(() => { 
 function deserializeJson(sFilename: string): any {
     var file = new DzFile(sFilename);
     if (file.open(DzFile.ReadOnly)) {
@@ -87,3 +90,4 @@ var oFile = new DzFile(sOutputFile);
 oFile.open(2);
 oFile.write(sJsonString);
 oFile.close();
+})();

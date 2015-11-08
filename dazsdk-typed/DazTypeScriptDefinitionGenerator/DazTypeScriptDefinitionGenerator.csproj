@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
     <TypeScriptCompile Include="DazSDK\dazsdk.d.ts" />
+    <TypeScriptCompile Include="TypeScripts\applicationBase.ts" />
     <TypeScriptCompile Include="TypeScripts\dazClassFactory.ts" />
     <TypeScriptCompile Include="TypeScripts\dzClassHierarchyMap.ts" />
     <TypeScriptCompile Include="TypeScripts\CtagMapTransform.ts" />
@@ -52,11 +53,17 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="bundleconfig.json" />
     <None Include="ctags.json" />
     <None Include="hierarchyMap.json" />
     <None Include="mtags.json" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="TypeScripts\DazReflector.js" />
+    <Content Include="TypeScripts\DazReflector.min.js">
+      <DependentUpon>DazReflector.js</DependentUpon>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <TypeScriptTarget>ES5</TypeScriptTarget>
