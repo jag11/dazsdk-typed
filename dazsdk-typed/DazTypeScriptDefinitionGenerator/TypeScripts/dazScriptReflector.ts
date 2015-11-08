@@ -128,7 +128,7 @@ class Reflector {
         if (o["className"]) {
             this.name = o.className();
         }
-        if (o.inherits("QObject") == true) {
+        if (o["inherits"] != undefined || o.inherits("QObject") == true) {
             this.ancestorName = "QObject";
         }
         for (var name in o) {

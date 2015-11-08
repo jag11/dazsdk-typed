@@ -61,9 +61,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="TypeScripts\DazReflector.js" />
-    <Content Include="TypeScripts\DazReflector.min.js">
-      <DependentUpon>DazReflector.js</DependentUpon>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">

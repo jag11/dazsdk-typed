@@ -8,6 +8,9 @@
       "TypeScripts/dazScriptReflector.js",
       "TypeScripts/applicationBase.js",
       "TypeScripts/main.js"
-    ]
+    ],
+    "sourceMaps": true,
+    "minify": { "enabled": false },
+    "includeInProject": true
   }
 ]

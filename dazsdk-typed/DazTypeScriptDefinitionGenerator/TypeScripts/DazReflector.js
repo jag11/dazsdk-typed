@@ -305,7 +305,7 @@ var Reflector = (function () {
         if (o["className"]) {
             this.name = o.className();
         }
-        if (o.inherits("QObject") == true) {
+        if (o["inherits"] != undefined && o.inherits("QObject") == true) {
             this.ancestorName = "QObject";
         }
         for (var name in o) {
@@ -432,4 +432,5 @@ var app = new DazReflectorApplication("Any app name");
 logger.info("An info message");
 logger.error("An error message");
 logger.warn("An %1 error message", "darn");
+logger.info(reflector.setObject(app).toString());
 app.run();
