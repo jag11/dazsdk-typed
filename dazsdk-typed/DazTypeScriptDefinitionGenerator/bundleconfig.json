@@ -6,7 +6,8 @@
       "TypeScripts/path.js",
       "TypeScripts/settingsBase.js",
       "TypeScripts/dazScriptReflector.js",
-        "TypeScripts/applicationBase.js"
+      "TypeScripts/applicationBase.js",
+      "TypeScripts/main.js"
     ]
   }
 ]

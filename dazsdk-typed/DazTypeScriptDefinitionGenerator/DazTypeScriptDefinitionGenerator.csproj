@@ -43,6 +43,7 @@
     <TypeScriptCompile Include="TypeScripts\CtagMapTransform.ts" />
     <TypeScriptCompile Include="TypeScripts\dazScriptReflector.ts" />
     <TypeScriptCompile Include="TypeScripts\logger.ts" />
+    <TypeScriptCompile Include="TypeScripts\main.ts" />
     <TypeScriptCompile Include="TypeScripts\path.ts" />
     <TypeScriptCompile Include="TypeScripts\settingsBase.ts" />
   </ItemGroup>
@@ -71,13 +72,13 @@
     <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
     <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
     <TypeScriptModuleKind>None</TypeScriptModuleKind>
-    <TypeScriptRemoveComments>False</TypeScriptRemoveComments>
+    <TypeScriptRemoveComments>True</TypeScriptRemoveComments>
     <TypeScriptOutFile>
     </TypeScriptOutFile>
     <TypeScriptOutDir />
     <TypeScriptGeneratesDeclarations>False</TypeScriptGeneratesDeclarations>
     <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
-    <TypeScriptSourceMap>True</TypeScriptSourceMap>
+    <TypeScriptSourceMap>False</TypeScriptSourceMap>
     <TypeScriptMapRoot />
     <TypeScriptSourceRoot />
   </PropertyGroup>

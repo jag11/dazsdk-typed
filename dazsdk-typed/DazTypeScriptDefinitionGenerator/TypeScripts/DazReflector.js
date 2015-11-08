@@ -1,13 +1,7 @@
-/**
-    Implements a basic logger
-*/
 var Logger = (function () {
     function Logger() {
         this.lines = [];
     }
-    /**
-        Clears all logger lines.
-    */
     Logger.prototype.clear = function () {
         this.lines = [];
     };
@@ -51,34 +45,10 @@ var Logger = (function () {
     return Logger;
 })();
 var logger = new Logger();
-//# sourceMappingURL=logger.js.map
-/*
 
-Copyright (c) 2015 Paco Acevedo aka jag11
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-
-*/
 var Path = (function () {
     function Path() {
     }
-    // Properties
     Path.changeExtension = function (path, extension) {
         if (extension[0] != ".") {
             extension = "." + extension;
@@ -91,9 +61,6 @@ var Path = (function () {
         }
         return path.valueOf() + extension.valueOf();
     };
-    /** Returns the directory information for the specified path string.
-     * @param path The path of a file or directory.
-     */
     Path.getDirectoryName = function (path) {
         if (path) {
             var length = path.length;
@@ -108,9 +75,6 @@ var Path = (function () {
         }
         return path;
     };
-    /** Returns the extension of the specified path string.
-     * @param path The path string from which to get the extension.
-     */
     Path.getExtension = function (path) {
         var extension = null;
         if (path) {
@@ -129,9 +93,6 @@ var Path = (function () {
         }
         return extension;
     };
-    /** Determines whether a path includes a file name extension.
-     * @param path The path to search for an extension..
-     */
     Path.hasExtension = function (path) {
         if (path) {
             var length = path.length;
@@ -148,9 +109,6 @@ var Path = (function () {
         }
         return false;
     };
-    /** Returns the file name and extension of the specified path string.
-     * @param path The path string from which to obtain the file name and extension.
-     */
     Path.getFileName = function (path) {
         if (path) {
             var length = path.length;
@@ -165,9 +123,6 @@ var Path = (function () {
         }
         return path;
     };
-    /** Returns the file name of the specified path string without the extension.
-     * @param path The path of the file.
-     */
     Path.getFileNameWithoutExtension = function (path) {
         path = Path.getFileName(path);
         if (!path)
@@ -178,9 +133,6 @@ var Path = (function () {
         }
         return path.substring(0, index);
     };
-    /** Combines strings into a path.
-     * @param args A variable number of parts of the path.
-     */
     Path.combine = function () {
         var args = [];
         for (var _i = 0; _i < arguments.length; _i++) {
@@ -190,8 +142,8 @@ var Path = (function () {
     };
     return Path;
 })();
-//# sourceMappingURL=path.js.map
-/*
+
+/**
 
 Copyright (c) 2015 Paco Acevedo aka jag11
 
@@ -260,30 +212,7 @@ var ApplicationSettingsBase = (function () {
     ApplicationSettingsBase.configFileName = Path.changeExtension(getScriptFileName(), "json");
     return ApplicationSettingsBase;
 })();
-//# sourceMappingURL=settingsBase.js.map
-/*
 
-Copyright (c) 2015 Paco Acevedo aka jag11
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-
-*/
 var blacklist = {
     'destroyed(QObject*)': true,
     'destroyed()': true,
@@ -303,20 +232,11 @@ var __types = {
     'QStringList': 'QString[]',
     'QVariantList': 'QVariant[]'
 };
-/**
- * Pad a string with leading zeroes
- * @param s is the string to format to pad
- * @param width with of the resulting string
- * @param z padding character
- */
 function pad(s, width, z) {
     z = z || '0';
     s = s + '';
     return s.length >= width ? s : new Array(width - s.length + 1).join(z) + s;
 }
-/**
-    Contains parameter info
-*/
 var ParameterInfo = (function () {
     function ParameterInfo(name, type) {
         this.name = name;
@@ -325,9 +245,6 @@ var ParameterInfo = (function () {
     }
     return ParameterInfo;
 })();
-/**
-    Contains method info
-*/
 var MethodInfo = (function () {
     function MethodInfo(o, fullName) {
         this.parameters = new Array();
@@ -358,9 +275,6 @@ var MethodInfo = (function () {
     }
     return MethodInfo;
 })();
-/**
-    Contains property info
-*/
 var PropertyInfo = (function () {
     function PropertyInfo(o, name) {
         this.name = name;
@@ -372,9 +286,6 @@ var PropertyInfo = (function () {
     }
     return PropertyInfo;
 })();
-/**
-    Utility class to obtain TypeScript definition out of an object.
-*/
 var Reflector = (function () {
     function Reflector() {
         this.name = "";
@@ -388,9 +299,6 @@ var Reflector = (function () {
         this.methods = new Array();
         this.ancestorName = "";
     };
-    /**
-      * Sets the object to reflect. Get definitions by using toString.
-      */
     Reflector.prototype.setObject = function (o) {
         this.initialize();
         this.name = "anonymous";
@@ -455,7 +363,7 @@ var Reflector = (function () {
     return Reflector;
 })();
 var reflector = new Reflector();
-//# sourceMappingURL=dazScriptReflector.js.map
+
 var ApplicationBase = (function () {
     function ApplicationBase(appName) {
         this.START_TIME = Scene.getTime();
@@ -473,9 +381,6 @@ var ApplicationBase = (function () {
     }
     ApplicationBase.prototype.run = function () {
         this.initialize();
-        if (this.s) {
-            this.messages.text = this.s;
-        }
         if (this.mainDialog.exec()) {
         }
         App.flushLogBuffer();
@@ -497,20 +402,34 @@ var ApplicationBase = (function () {
             t.insideMargin = _this.MARGIN;
             t.insideSpacing = _this.SPACING;
             _this.messages = new DzTextEdit(t);
+            _this.messages.append(logger.toString());
+            logger.clear();
             return t;
         })(), "CONSOLE");
-        //tabContainer.addTab((() => {
-        //    var tab1 = new DzVGroupBox(tabContainer);
-        //    tab1.flat = true;
-        //    tab1.insideMargin = this.MARGIN;
-        //    tab1.insideSpacing = this.SPACING;
-        //    //var label = new DzLabel(tab1);
-        //    //label.text = "HOLA";
-        //    return tab1;
-        //})(), "Tab1");
-        //var tab2 = new DzVGroupBox(tabContainer);
-        //tabContainer.addTab(tab2, "Tab2");
     };
     return ApplicationBase;
 })();
-//# sourceMappingURL=applicationBase.js.map
+
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+var DazReflectorApplication = (function (_super) {
+    __extends(DazReflectorApplication, _super);
+    function DazReflectorApplication(appName) {
+        _super.call(this, appName);
+        this.pixmapLabel = null;
+    }
+    DazReflectorApplication.prototype.initialize = function () {
+        _super.prototype.initialize.call(this);
+        this.pixmapLabel = new DzLabel(this.tabContainer);
+        this.tabContainer.addTab(this.pixmapLabel, "Pixmap");
+    };
+    return DazReflectorApplication;
+})(ApplicationBase);
+var app = new DazReflectorApplication("Any app name");
+logger.info("An info message");
+logger.error("An error message");
+logger.warn("An %1 error message", "darn");
+app.run();

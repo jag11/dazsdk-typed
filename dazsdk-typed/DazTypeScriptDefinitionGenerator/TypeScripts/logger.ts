@@ -35,7 +35,7 @@ class Logger {
         print(msg);
     }
 
-    toString() {
+    toString(): string {
         var s = "";
         this.lines.forEach((l) => { s += l + "\n"; });
         return s;

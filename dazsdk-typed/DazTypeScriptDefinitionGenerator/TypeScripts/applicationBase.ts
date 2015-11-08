@@ -20,9 +20,6 @@
 
     run() {
         this.initialize();
-        if (this.s) {
-            this.messages.text = this.s;
-        }
 
         if (this.mainDialog.exec()) {
 
@@ -52,6 +49,12 @@
             t.insideSpacing = this.SPACING;
 
             this.messages = new DzTextEdit(t);
+
+            // Append existing log messages.
+            this.messages.append(logger.toString());
+
+            // clear log messages 
+            logger.clear();
 
             return t;
         })(), "CONSOLE");
