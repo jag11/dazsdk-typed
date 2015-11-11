@@ -1500,6 +1500,7 @@ declare class DzProcess extends QObject {
     static Stderr: number;	// 4
     static Stdin: number;	// 1
     static Stdout: number;	// 2
+
     arguments: QObject;	// 
     communication: number;	// 7
     exitStatus: number;	// 0
@@ -1508,6 +1509,7 @@ declare class DzProcess extends QObject {
     objectName: string;	// 
     running: boolean;	// false
     workingDirectory: string;	// C:/daz3d
+
     canReadLineStderr(): any;
     canReadLineStdout(): any;
     className(): any;
@@ -1534,7 +1536,7 @@ declare class DzProcess extends QObject {
     wroteToStdin(): any;
 }
 
-declare class DzProductAssetContainer { // aka  DzTSharedPointerScriptWrapper 
+declare class DzProductAssetContainer { // aka  DzTSharedPointerScriptWrapper
     static User: number;	// 0
     static UserAndVendor: number;	// 2
     static Vendor: number;	// 1
@@ -1577,6 +1579,7 @@ declare class DzProductAssetContainer { // aka  DzTSharedPointerScriptWrapper
     token: string;	// 
     tooltip: string;	// 
     useCount: number;	// 0
+
     assetIconChanged(p0: DzAsset): void;
     assetRenamed(p0: DzAsset, p1: number): void;
     beginAssetAdd(p0: number, p1: number): any;
@@ -1597,21 +1600,19 @@ declare class DzProductAssetContainer { // aka  DzTSharedPointerScriptWrapper
     endChildContainerAdd(): any;
     endChildContainerRemove(): any;
     getAsset(p0: number): any;
-    getAssets(): any;
-    getAssets(p0: DzAsset[]): any;
+    getAssets(p0?: DzAsset[]): any;
     getChildContainer(p0: number): any;
     getChildContainers(): any;
-    getChildContainers(p0: DzAbstractAssetContainerList): any;
+    getChildContainers(p0: DzAbstractAssetContainer[]): any;
     getChildIconSize(): any;
     getContainerName(): any;
     getDefualtStoreIconSize(): any;
     getIDPath(): any;
     getIconForStandardCategory(p0: DzProductAssetContainer): any;
     getIconSize(): any;
-    getMetadataXML(): any;
-    getMetadataXML(p0: ProductMetadataType): any;
-    getMetadataXMLPath(): any;
-    getMetadataXMLPath(p0: boolean): any;
+    /** TODO: search ProductMetadataType values */
+    getMetadataXML(productMetadataType?: number): any;
+    getMetadataXMLPath(p0?: boolean): any;
     getNumAssets(): any;
     getNumChildContainers(): any;
     getOwner(): any;
