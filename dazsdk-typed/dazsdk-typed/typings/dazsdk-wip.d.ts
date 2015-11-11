@@ -1533,3 +1533,125 @@ declare class DzProcess extends QObject {
     writeToStdin(p0: QString): any;
     wroteToStdin(): any;
 }
+
+declare class DzProductAssetContainer { // aka  DzTSharedPointerScriptWrapper 
+    static User: number;	// 0
+    static UserAndVendor: number;	// 2
+    static Vendor: number;	// 1
+    artistNames: QObject;	// 
+    artists: string;	// 
+    canCopyContainers: boolean;	// false
+    canDeleteContainer: boolean;	// false
+    canInsertSubContainer: boolean;	// false
+    canModifyAssets: boolean;	// false
+    canRenameContainer: boolean;	// false
+    dateInstalled: QObject;	// Invalid Date
+    dateLastUpdated: QObject;	// Invalid Date
+    datePurchased: QObject;	// Invalid Date
+    dateReleased: QObject;	// Invalid Date
+    description: string;	// 
+    groupId: number;	// 0
+    guid: string;	// 
+    hasCloudMetadata: boolean;	// false
+    hidden: boolean;	// false
+    icon: QObject;	// QVariant(QIcon)
+    id: any;	// undefined
+    isCloudInstallable: boolean;	// false
+    isCloudInstalled: boolean;	// false
+    isCloudOperationInProgress: boolean;	// false
+    isCloudOwned: boolean;	// false
+    isDownloadingFromCloud: boolean;	// false
+    isInstalled: boolean;	// false
+    isLocalUser: boolean;	// false
+    isMetadataValid: boolean;	// false
+    isVendor: boolean;	// false
+    name: string;	// 
+    needsCloudInstall: boolean;	// false
+    needsCloudUpdate: boolean;	// false
+    objectName: string;	// 
+    platinumPrice: number;	// 0
+    price: number;	// 0
+    salePrice: number;	// 0
+    store: string;	// 
+    title: string;	// 
+    token: string;	// 
+    tooltip: string;	// 
+    useCount: number;	// 0
+    assetIconChanged(p0: DzAsset): void;
+    assetRenamed(p0: DzAsset, p1: number): void;
+    beginAssetAdd(p0: number, p1: number): any;
+    beginAssetRemove(p0: number, p1: number): any;
+    beginChildContainerAdd(p0: DzAbstractAssetContainer, p1: number, p2: number): any;
+    beginChildContainerRemove(p0: DzAbstractAssetContainer, p1: number, p2: number): any;
+    childContainerAboutToBeRemoved(p0: DzAbstractAssetContainerPtr): void;
+    childContainerRemoved(p0: DzAbstractAssetContainerPtr): void;
+    className(): any;
+    clearGroup(): any;
+    clearRebuildableAssets(): any;
+    createNewChildContainer(p0: QString): any;
+    deleteLater(): any;
+    destroyed(): void;
+    destroyed(p0: QObject): void;
+    endAssetAdd(): any;
+    endAssetRemove(): any;
+    endChildContainerAdd(): any;
+    endChildContainerRemove(): any;
+    getAsset(p0: number): any;
+    getAssets(): any;
+    getAssets(p0: DzAsset[]): any;
+    getChildContainer(p0: number): any;
+    getChildContainers(): any;
+    getChildContainers(p0: DzAbstractAssetContainerList): any;
+    getChildIconSize(): any;
+    getContainerName(): any;
+    getDefualtStoreIconSize(): any;
+    getIDPath(): any;
+    getIconForStandardCategory(p0: DzProductAssetContainer): any;
+    getIconSize(): any;
+    getMetadataXML(): any;
+    getMetadataXML(p0: ProductMetadataType): any;
+    getMetadataXMLPath(): any;
+    getMetadataXMLPath(p0: boolean): any;
+    getNumAssets(): any;
+    getNumChildContainers(): any;
+    getOwner(): any;
+    getProductTable(): any;
+    getSmallChildIconSize(): any;
+    getSupportFile(): any;
+    getSupportFiles(): any;
+    getSupportFiles(p0: boolean): any;
+    getURL(): any;
+    hasAsset(p0: DzAsset): any;
+    hasChildContainers(): any;
+    iconChanged(p0: DzAbstractAssetContainer): void;
+    ignoreAssetConflicts(): any;
+    inherits(): any;
+    initChildren(): any;
+    insertAsset(p0: DzAsset): any;
+    insertChildContainer(p0: DzAbstractAssetContainer): any;
+    installFromCloud(): any;
+    isFileSystemBased(): void;
+    isGroup(p0: number): any;
+    loadDefaultIcon(): any;
+    loadProductImage(): any;
+    moveFromParent(p0: DzAbstractAssetContainer): any;
+    pushMetadata(): any;
+    removeAsset(p0: DzAsset): any;
+    removeAssetCausesDelete(): any;
+    removeAssetOnCut(p0: DzAbstractAssetContainer): any;
+    removeChildContainer(p0: DzAbstractAssetContainer): any;
+    rename(p0: QString): any;
+    renameAsset(p0: DzAsset, p1: QString): any;
+    renameChildContainer(p0: DzAbstractAssetContainer, p1: QString): any;
+    setContainerName(p0: QString): any;
+    setIconImage(p0: QImage): any;
+    setIconSize(p0: QSize): any;
+    setURL(p0: QString): any;
+    uninstall(): any;
+    uninstallFromCloud(): any;
+    update(): any;
+    updateAssets(): any;
+    updateChildren(): any;
+    updateFromCloud(): any;
+}
+

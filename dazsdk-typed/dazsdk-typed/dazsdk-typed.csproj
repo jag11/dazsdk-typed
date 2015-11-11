@@ -22,9 +22,9 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="typings\dazsdk-core.ts" />
-    <TypeScriptCompile Include="typings\dazsdk-globals.ts" />
-    <TypeScriptCompile Include="typings\dazsdk-wip.ts" />
+    <TypeScriptCompile Include="typings\dazsdk-core.d.ts" />
+    <TypeScriptCompile Include="typings\dazsdk-globals.d.ts" />
+    <TypeScriptCompile Include="typings\dazsdk-wip.d.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>

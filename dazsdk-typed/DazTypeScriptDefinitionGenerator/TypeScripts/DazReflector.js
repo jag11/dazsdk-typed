@@ -432,5 +432,5 @@ var app = new DazReflectorApplication("Any app name");
 logger.info("An info message");
 logger.error("An error message");
 logger.warn("An %1 error message", "darn");
-logger.info(reflector.setObject(app).toString());
+logger.info(reflector.setObject(new DzProductAssetContainer()).toString());
 app.run();

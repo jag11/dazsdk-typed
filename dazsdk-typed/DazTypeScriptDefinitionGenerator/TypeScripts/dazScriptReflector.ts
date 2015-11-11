@@ -5,6 +5,7 @@
 
 var __types: any = {
     'object': 'QObject',
+    'undefined': 'any',
     'bool': 'boolean',
     'char': 'QString',
     'int': 'number',
