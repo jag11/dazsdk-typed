@@ -60,6 +60,7 @@
     <None Include="mtags.json" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DazScript\DazReflector.png" />
     <Content Include="TypeScripts\DazReflector.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
