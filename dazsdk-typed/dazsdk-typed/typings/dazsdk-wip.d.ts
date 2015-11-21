@@ -23,6 +23,20 @@ THE SOFTWARE.
 */
 
 // Pending classes to be reflected
+declare class DzFileDialog {
+    doAudioClipOpenDialog(startWith: QString, parent: DzWidget): QString
+    doAudioClipOpenDialog(): QString
+    doDirectoryDialog(title: QString, desc: QString, parent: DzWidget): QString
+    doDirectoryDialog(): QString
+    doFileDialog(open: Boolean, title: QString, startWith: QString, filter: QString, selectedFilter: Number, parent: DzWidget): QString
+    doFileDialog(open: Boolean): QString
+    doImageDialog(open: Boolean, startWith: String, parent: DzWidget): QString
+    doImageDialog(open: Boolean): QString
+    doVideoClipSaveDialog(startWith: QString, parent: DzWidget): QString
+    doVideoClipSaveDialog(): QString
+    getOpenFileNames(dir: QString, filter: QString, title: QString, parent: DzWidget): Array<QString>
+    getOpenFileNames() : Array<QString>
+}
 
 declare class DzAbstractAssetContainerPtr { }
 declare class DzAbstractBuildGeometryFilter { }
@@ -65,7 +79,33 @@ declare class DzGeometryRegion { }
 declare class DzHelpContentsItem { }
 declare class DzInFile { }
 declare class DzLayeredImage { }
-declare class DzLight { }
+declare class DzLight extends DzCamera {
+    static None: number;
+    static DeepShadowMap: number;
+    static Raytraced: number;
+    static className(): QString;
+
+    getDiffuseColor(): Color
+    getShadowType(): number
+    getShadowTypeControl() : DzEnumProperty
+    getWsDirection() : DzVec3
+    isAreaLight() : Boolean
+    isDirectional() : Boolean
+    isOn() : Boolean
+}
+
+declare class DzDistantLight extends DzLight {
+    static className(): QString;
+
+    getDiffuseColor(): Color
+    getDiffuseColorControl(): DzColorProperty    
+    getIlluminationControl(): DzEnumProperty
+    getIntensity(): Number
+    getIntensityControl(): DzFloatProperty    
+    getShadowBiasControl(): DzFloatProperty
+    getShadowSoftnessControl(): DzFloatProperty    
+}
+
 declare class DzMaterialPtr { }
 declare class DzMatrix4 { }
 declare class DzMenu { }
@@ -86,9 +126,197 @@ declare class DzPropertyListNode { }
 declare class DzPropertyListNodePtr { }
 declare class DzPropertySettings { }
 declare class DzPropertyWgt { }
-declare class DzRenderer { }
+declare class DzShaderDescription { }
+declare class DzRenderer {
+    compileShader(p0: QString): QString;
+    compileShader(p0: QString, p1: QString): QString;
+    customRender(p0: DzRenderHandler, p1: DzCamera, p2: QObject[], p3: QObject[], p4: DzRenderOptions): Boolean;
+    customRender(p0: DzRenderHandler, p1: DzCamera, p2: DzLightList, p3: DzNodeList, p4: DzRenderOptions): Boolean;
+    getCurrentNode(): DzNode;
+    getName(): QString;
+    getShaderExtension(): QString;
+    getShaderFileName(p0: QString): QString;
+    getShaderInfo(p0: QString): DzShaderDescription;
+    getShaderPath(p0: QString): QString;
+    getShaderPath(p0: QString, p1: boolean): QString;
+    getShaderSearchPaths(): Array<QString>;
+    getTextureUtilityPath(): QString;
+    isRendering(): Boolean;
+    killRender(): void;
+    prepareImage(p0: DzTexture, p1: QString): void;
+    processShaderName(p0: QString): QString;
+    render(p0: DzRenderHandler, p1: DzCamera, p2: DzRenderOptions): Boolean;
+    render(p0: DzRenderHandler, p1: DzCamera, p2: DzRenderOptions): Boolean;
+}
+
 declare class DzRenderHandler { }
 declare class DzRenderSettings { }
+declare class DzIPRRenderHandler { }
+declare class DzElementList { }
+declare class DzLightListIterator { }
+declare class DzNodeListIterator { }
+declare class DzBakerOptions { }
+declare class DzLightList { }
+declare class DzNodeList { }
+
+declare class DzScriptedRenderer extends DzRenderer {
+    name: string;	// 
+    objectName: string;	// 
+    IPRRenderHandlerChanged(p0: DzRenderer, p1: DzIPRRenderHandler): void;
+    aboutToRender(p0: DzRenderer): any;
+    addRenderElements(p0: DzElementList): any;
+    autoBake(p0: DzRenderHandler, p1: DzCamera, p2: DzLightListIterator, p3: DzNodeListIterator, p4: DzBakerOptions): any;
+    bake(p0: DzRenderHandler, p1: DzCamera, p2: DzLightListIterator, p3: DzNodeListIterator, p4: DzBakerOptions): any;
+    cameraProject(p0: DzCamera, p1: number, p2: number): any;
+    className(): any;
+    className(): any;
+    
+    continueAfterPreProcess(): any;
+    createLight(p0: DzLight, p1: QString): any;
+    
+    defintionFileChanged(): void;
+    deleteFiles(p0: QString[]): any;
+    deleteLater(): any;
+    destroyed(): void;
+    destroyed(p0: QObject): void;
+    doDefaultDisplay(): any;
+    doDefaultShadowPass(p0: DzRenderOptions, p1: DzCamera, p2: QString, p3: boolean): any;
+    doDefaultShadowPass(p0: DzRenderOptions, p1: DzCamera, p2: DzLight, p3: QString, p4: boolean): any;
+    doDefaultShadowPassEnd(p0: DzRenderOptions, p1: DzCamera, p2: DzLight): any;
+    doDefaultShadowPassPrep(p0: DzRenderOptions, p1: DzCamera, p2: DzLight, p3: QString, p4: boolean): any;
+    doShutter(p0: DzRenderOptions): any;
+    fullSceneCameraProject(p0: DzCamera, p1: number, p2: number): any;
+    
+    getDefaultShaderSearchPath(): any;
+    getDefinitionFile(): any;
+    getDisplacementPreProcessScript(): any;
+    getHandler(): any;
+    getIPRRenderHandler(): any;
+    getLight(p0: number): any;
+    getLightCount(): any;
+    getLightPreProcessScript(): any;
+    getLightsToRender(): any;
+   
+    getNode(p0: number): any;
+    getNodeCount(): any;
+    getNodesToRender(): any;
+    getNumIlluminateHandels(): any;
+    getOptionsFrame(): any;
+    getPropertyHolder(): any;
+    getRenderScript(): any;
+    getRendererMode(): any;
+    getShaderCompilerPath(): any;
+    
+    getSurfacePreProcessScript(): any;
+    
+    imagePrepared(p0: DzTexture, p1: QString): void;
+    inherits(): any;
+    inherits(p0: QString): any;
+    
+    iskindof(p0: QString): any;
+    
+    makePersistent(): any;
+    nameChanged(p0: QString): void;
+    
+    prepareMotionSamples(): any;
+    prepareMotionSamples(p0: QObject[]): any;
+    prepareNodeMotionSamples(p0: DzNode): any;
+    
+    removeLight(p0: number): any;
+    removeNode(p0: number): any;
+   
+    renderBackDrop(p0: DzBackdrop, p1: number, p2: number): any;
+    renderFinished(p0: DzRenderer): void;
+    renderNode(p0: DzNode): any;
+    renderNodes(p0: QObject[]): any;
+    rendererModeChanged(p0: DzRenderer): void;
+    riAreaLightSource(p0: QString, p1: QString[], p2: QVariant[]): any;
+    riAtmosphere(p0: QString, p1: QString[], p2: QVariant[]): any;
+    riAttribute(p0: QString, p1: QString[], p2: QVariant[]): any;
+    riAttributeBegin(): any;
+    riAttributeEnd(): any;
+    riBegin(p0: QString): any;
+    riCamera(p0: QString, p1: QString[], p2: QVariant[]): any;
+    riClipping(p0: number, p1: number): any;
+    riClippingPlane(p0: number, p1: number, p2: number, p3: number, p4: number, p5: number): any;
+    riColor(p0: QColor): any;
+    riConcatTransform(p0: DzMatrix4): any;
+    riCoordSysTransform(p0: QString): any;
+    riCoordinateSystem(p0: QString): any;
+    riCropWindow(p0: number, p1: number, p2: number, p3: number): any;
+    riDeclare(p0: QString, p1: QString): any;
+    riDepthOfField(p0: number, p1: number, p2: number): any;
+    riDetailRange(p0: number, p1: number, p2: number, p3: number): any;
+    riDisplacement(p0: QString, p1: QString[], p2: QVariant[]): any;
+    riDisplay(p0: QString, p1: QString, p2: QString, p3: QString[], p4: QVariant[]): any;
+    riDisplayChannel(p0: QString, p1: QString[], p2: QVariant[]): any;
+    riElse(): any;
+    riElseIf(p0: QString, p1: QString[], p2: QVariant[]): any;
+    riEndWorld(p0: QString): any;
+    riExposure(p0: number, p1: number): any;
+    riExterior(p0: QString, p1: QString[], p2: QVariant[]): any;
+    riFormat(p0: number, p1: number, p2: number): any;
+    riFrameAspectRatio(p0: number): any;
+    riGeometricApproximation(p0: QString, p1: number): any;
+    riHider(p0: QString, p1: QString[], p2: QVariant[]): any;
+    riIdentity(): any;
+    riIfBegin(p0: QString, p1: QString[], p2: QVariant[]): any;
+    riIfEnd(): any;
+    riIlluminate(p0: number, p1: boolean): any;
+    riImager(p0: QString, p1: QString[], p2: QVariant[]): any;
+    riInterior(p0: QString, p1: QString[], p2: QVariant[]): any;
+    riLightSource(p0: QString, p1: QString[], p2: QVariant[]): any;
+    riMakeBump(p0: QString, p1: QString, p2: QString, p3: QString, p4: number, p5: number, p6: number, p7: QString[], p8: QVariant[]): any;
+    riMakeCubeFaceEnvironment(p0: QString, p1: QString, p2: QString, p3: QString, p4: QString, p5: QString, p6: QString, p7: number, p8: number, p9: number, p10: number, p11: QString[], p12: QVariant[]): any;
+    riMakeLatLongEnvironment(p0: QString, p1: QString, p2: number, p3: number, p4: number, p5: QString[], p6: QVariant[]): any;
+    riMakeShadow(p0: QString, p1: QString, p2: QString[], p3: QVariant[]): any;
+    riMakeTexture(p0: QString, p1: QString, p2: QString, p3: QString, p4: number, p5: number, p6: number, p7: QString[], p8: QVariant[]): any;
+    riMatte(p0: boolean): any;
+    riMultiplyShadingRate(p0: number): any;
+    riOpacity(p0: QColor): any;
+    riOption(p0: QString, p1: QString[], p2: QVariant[]): any;
+    riOrientation(p0: QString): any;
+    riPerspective(p0: number): any;
+    riPixelFilter(p0: number, p1: number, p2: number): any;
+    riPixelSamples(p0: number, p1: number): any;
+    riPixelVariance(p0: number): any;
+    riProjection(p0: QString, p1: QString[], p2: QVariant[]): any;
+    riQuantize(p0: QString, p1: number, p2: number, p3: number, p4: number): any;
+    riRelativeDetail(p0: number): any;
+    riReverseOrientation(): any;
+    riRotate(p0: number, p1: number, p2: number, p3: number): any;
+    riScale(p0: number, p1: number, p2: number): any;
+    riScopedCoordinateSystem(p0: QString): any;
+    riScreenWindow(p0: number, p1: number, p2: number, p3: number): any;
+    riShader(p0: QString, p1: QString, p2: QString[], p3: QVariant[]): any;
+    riShadingInterpolation(p0: QString): any;
+    riShadingRate(p0: number): any;
+    riShutter(p0: number, p1: number): any;
+    riSides(p0: number): any;
+    riSkew(p0: number, p1: number, p2: number, p3: number, p4: number, p5: number, p6: number): any;
+    riSurface(p0: QString, p1: QString[], p2: QVariant[]): any;
+    riTransform(p0: DzMatrix4): any;
+    riTransformBegin(): any;
+    riTransformEnd(): any;
+    riTranslate(p0: number, p1: number, p2: number): any;
+    riWorldBegin(): any;
+    saveBakeImage(p0: DzBakerOptions, p1: boolean): any;
+    setBackgroundColor(p0: QColor): any;
+    setCleanUpScript(p0: QString): any;
+    setContinueAfterPreProcess(p0: boolean): any;
+    setCropWindow(p0: DzRenderHandler): any;
+    setDefinitionFile(p0: QString): any;
+    setDisplacementPreProcessScript(p0: QString): any;
+    setIPRRenderHandler(p0: DzIPRRenderHandler): any;
+    setIsShadowPass(p0: boolean): any;
+    setLightPreProcessScript(p0: QString): any;
+    setRenderScript(p0: QString): any;
+    setSurfacePreProcessScript(p0: QString): any;
+    shapeRenderBeginning(p0: DzShape): any;
+    shapeRenderFinished(p0: DzShape): void;
+    stopBaking(): any;
+    textureConvert(p0: DzRenderHandler, p1: DzCamera, p2: DzTextureConvertorOptions): any;
+}
 declare class DzRigidityGroup { }
 declare class DzRigidityGroupListIterator { }
 declare class DzSaveFilter { }
@@ -579,11 +807,18 @@ declare class QColor extends QObject {
     rgb: number;
     saturation: number;
     value: number;
-    dark();
-    light();
+    dark() : QColor;
+    light() : QColor;
     setRgb(r: number, g: number, b: number);
     setRgb(r: number, g: number, b: number, a: number);
     setRgb(value: number);
+}
+
+declare class Color extends QColor {
+    constructor();
+    constructor(r: number, g: number, b: number);
+    constructor(color: Color);
+    constructor(colorName : QString)
 }
 
 declare class QImage extends QPaintDevice {
@@ -839,6 +1074,25 @@ declare class QImage extends QPaintDevice {
     //supportedImageFormats(): QList<QByteArray>;
     //supportsOption(option: QImageIOHandler::ImageOption): boolean;
     write(image: QImage): boolean;
+}
+
+declare class DzTimer extends QObject {
+    active: boolean;	// false
+    interval: number;	// 0
+    name: string;	// 
+    objectName: string;	// 
+    singleShot: boolean;	// false
+    changeInterval(p0: number): any;
+    className(): any;
+    deleteLater(): any;
+    destroyed(): void;
+    destroyed(p0: QObject): void;
+    inherits(): any;
+    start(): any;
+    start(p0: number): any;
+    start(p0: number, p1: boolean): any;
+    stop(): any;
+    timeout(): any;
 }
 
 declare class DzGeometryShellNode extends DzNode {
@@ -1656,3 +1910,28 @@ declare class DzProductAssetContainer { // aka  DzTSharedPointerScriptWrapper
     updateFromCloud(): any;
 }
 
+declare class DzFileInfo extends QObject {
+    constructor(path: QString)
+    name: string;	// 
+    objectName: string;	// 
+    absFileName(): any;
+    baseName(): any;
+    className(): any;
+    created(): void;
+    deleteLater(): any;
+    destroyed(): void;
+    destroyed(p0: QObject): void;
+    exists(): any;
+    extension(): any;
+    fileName(): any;
+    inherits(): any;
+    isHidden(): any;
+    isReadable(): any;
+    isWritable(): any;
+    lastModified(): void;
+    lastRead(): any;
+    path(): any;
+    remove(): any;
+    size(): any;
+    sizeStr(): any;
+}

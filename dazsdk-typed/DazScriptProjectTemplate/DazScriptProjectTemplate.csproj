@@ -37,13 +37,19 @@
   </PropertyGroup>
   <ItemGroup>
     <TypeScriptCompile Include="DazSDK\dazsdk.d.ts" />
+    <TypeScriptCompile Include="TS\SimpleMultiPassRender.ts" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="DazSDK\dazsdk.js" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\dazsdk-typed\dazsdk-typed.csproj">
       <Project>{29f9aae1-26cb-4b64-a347-167c1a7a5eb1}</Project>
       <Name>dazsdk-typed</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DazSDK\dazsdk.js.map" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />

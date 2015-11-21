@@ -1021,7 +1021,12 @@ declare class QWidget extends QPaintDevice {
     /* Methods */
 }
 
-
+declare class DzSystem {
+    getenv(environmentVariable: QString): QString
+    print(expression: QString): void
+    println(expression: QString): void
+    setenv(environmentVariable : QString, value : QString) : void
+}
 
 interface ISignal {
     connect(o: DzAction, funcName: QString);
@@ -1226,9 +1231,9 @@ declare class DzDir extends QObject {
     cd(dir: QString): boolean;
     cdUp(): boolean;
     setPath(path: QString): void;
-    relativeFilePath(filePath: QString): ISignal;
-    filePath(fp: QString): ISignal;
-    absFilePath(filePath: QString): ISignal;
+    relativeFilePath(filePath: QString): QString;
+    filePath(fp: QString): QString;
+    absFilePath(filePath: QString): QString;
     entryList(filter: QString, filterSpec?: number, sortSpec?: number): QString[];
     entryList(filters: QString[], filterSpec?: number, sortSpec?: number): QString[];
     mkdir(dir?: QString): boolean;
@@ -3486,13 +3491,13 @@ declare class DzRenderMgr extends DzBase {
     buildRenderElementsList(): any; // TODO ;
     renderOptionDefaultsRestored(): any; // TODO ;
     doRender(opt: DzRenderOptions): boolean;
-    doRender(opt: DzRenderOptions): boolean;
+    doRender(): boolean;
     setActiveRenderer(r: DzRenderer): void;
     showRenderDialog(): void;
     shutdown(): void;
     getNumRenderers(): number;
     getRenderer(which: number): DzRenderer;
-    getRendererList(): QObject[];
+    getRendererList(): Array<DzRenderer>;
     findRenderer(className: QString): DzRenderer;
     getActiveRenderer(): DzRenderer;
     isRendering(): boolean;
@@ -5271,6 +5276,8 @@ declare class DzFloatProperty extends DzNumericProperty {
     getTransformType(): number;
     getScaledFollowValue(): any; // TODO ;
     emitDisplayAsPercentChanged(): void;
+    getMax(): Number
+    getMin(): Number
 }
 
 declare class DzFloatColorProperty extends DzFloatProperty {
@@ -6653,61 +6660,6 @@ declare class DzCategoryAssetContainer extends DzAbstractAssetContainer {
     getCategoryTable(): DzDBCategoriesTable;
 }
 
-declare class DzIrayRenderer {
-
-    /* Properties */
-    objectName: string;
-    name: string;
-
-    /* Methods */
-    destroyed(): any; // TODO ;
-    destroyed(): any; // TODO ;
-    deleteLater(): any; // TODO ;
-    nameChanged(): any; // TODO ;
-    className(): any; // TODO ;
-    makePersistent(): any; // TODO ;
-    inherits(): any; // TODO ;
-    iskindof(): any; // TODO ;
-    getName(): any; // TODO ;
-    aboutToRender(): any; // TODO ;
-    renderFinished(): any; // TODO ;
-    imagePrepared(): any; // TODO ;
-    IPRRenderHandlerChanged(): any; // TODO ;
-    shapeRenderBeginning(): any; // TODO ;
-    shapeRenderFinished(): any; // TODO ;
-    rendererModeChanged(): any; // TODO ;
-    render(): any; // TODO ;
-    customRender(): any; // TODO ;
-    prepareImage(): any; // TODO ;
-    compileShader(): any; // TODO ;
-    compileShader(): any; // TODO ;
-    getShaderInfo(): any; // TODO ;
-    killRender(): any; // TODO ;
-    bake(): any; // TODO ;
-    autoBake(): any; // TODO ;
-    stopBaking(): any; // TODO ;
-    saveBakeImage(): any; // TODO ;
-    textureConvert(): any; // TODO ;
-    getShaderCompilerPath(): any; // TODO ;
-    getTextureUtilityPath(): any; // TODO ;
-    getShaderSearchPaths(): any; // TODO ;
-    processShaderName(): any; // TODO ;
-    getShaderPath(): any; // TODO ;
-    getShaderPath(): any; // TODO ;
-    getShaderFileName(): any; // TODO ;
-    getShaderExtension(): any; // TODO ;
-    isRendering(): any; // TODO ;
-    getCurrentNode(): any; // TODO ;
-    getIPRRenderHandler(): any; // TODO ;
-    setIPRRenderHandler(): any; // TODO ;
-    addRenderElements(): any; // TODO ;
-    getRendererMode(): any; // TODO ;
-    isIPRRendering(): any; // TODO ;
-    getPropertyHolder(): any; // TODO ;
-    inherits(): any; // TODO ;
-    className(): any; // TODO ;
-}
-
 declare class DzRenderOptions extends QObject {
 
     /* Properties */
@@ -6925,60 +6877,6 @@ declare class DzRenderOptionsHelper {
     autoHeadlampModeChanged(): any; // TODO ;
     getHeadlampaAutoMode(): any; // TODO ;
     setHeadlampAutoMode(): any; // TODO ;
-    inherits(): any; // TODO ;
-    className(): any; // TODO ;
-}
-
-declare class DzDelightRenderer {
-
-    /* Properties */
-    objectName: string;
-    name: string;
-
-    /* Methods */
-    destroyed(): any; // TODO ;
-    destroyed(): any; // TODO ;
-    deleteLater(): any; // TODO ;
-    nameChanged(): any; // TODO ;
-    className(): any; // TODO ;
-    makePersistent(): any; // TODO ;
-    inherits(): any; // TODO ;
-    iskindof(): any; // TODO ;
-    getName(): any; // TODO ;
-    aboutToRender(): any; // TODO ;
-    renderFinished(): any; // TODO ;
-    imagePrepared(): any; // TODO ;
-    IPRRenderHandlerChanged(): any; // TODO ;
-    shapeRenderBeginning(): any; // TODO ;
-    shapeRenderFinished(): any; // TODO ;
-    rendererModeChanged(): any; // TODO ;
-    render(): any; // TODO ;
-    customRender(): any; // TODO ;
-    prepareImage(): any; // TODO ;
-    compileShader(): any; // TODO ;
-    compileShader(): any; // TODO ;
-    getShaderInfo(): any; // TODO ;
-    killRender(): any; // TODO ;
-    bake(): any; // TODO ;
-    autoBake(): any; // TODO ;
-    stopBaking(): any; // TODO ;
-    saveBakeImage(): any; // TODO ;
-    textureConvert(): any; // TODO ;
-    getShaderCompilerPath(): any; // TODO ;
-    getTextureUtilityPath(): any; // TODO ;
-    getShaderSearchPaths(): any; // TODO ;
-    processShaderName(): any; // TODO ;
-    getShaderPath(): any; // TODO ;
-    getShaderPath(): any; // TODO ;
-    getShaderFileName(): any; // TODO ;
-    getShaderExtension(): any; // TODO ;
-    isRendering(): any; // TODO ;
-    getCurrentNode(): any; // TODO ;
-    getIPRRenderHandler(): any; // TODO ;
-    setIPRRenderHandler(): any; // TODO ;
-    addRenderElements(): any; // TODO ;
-    getRendererMode(): any; // TODO ;
-    resetIPRHandler(): any; // TODO ;
     inherits(): any; // TODO ;
     className(): any; // TODO ;
 }
@@ -9872,6 +9770,8 @@ declare class DzIntProperty extends DzNumericProperty {
     setIsMouseOverSlider(onOff: boolean): void;
     setValue(value: number): void;
     startEdit(): void;
+    getMax(): Number;
+    getMin(): Number;
 }
 
 declare class DzRefCountedItem extends QObject {
@@ -10430,8 +10330,8 @@ declare class DzProperty extends DzBase {
     getErcController(controlledProp: DzProperty, controllingProp: DzProperty): DzERCLink;
     getInternalName(prop: DzProperty): QString;
     getLabel(prop: DzProperty): QString;
-    getMax(prop: DzProperty, max: number): boolean;
-    getMin(prop: DzProperty, min: number): boolean;
+    //getMax(prop: DzProperty, max: number): boolean;
+    //getMin(prop: DzProperty, min: number): boolean;
     getNode(prop: DzProperty): DzNode;
     getNodeName(prop: DzProperty): QString;
     getNodeType(prop: DzProperty): QString;

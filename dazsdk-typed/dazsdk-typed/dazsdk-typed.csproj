@@ -77,6 +77,6 @@
 echo @(TypeScriptCompile)
 echo $(TargetDir)
 
-</PostBuildEvent>
+xcopy /Y "$(ProjectDir)typings\*.d.ts" "$(SolutionDir)MultiPassRender\DazSDK\"</PostBuildEvent>
   </PropertyGroup>
 </Project>
