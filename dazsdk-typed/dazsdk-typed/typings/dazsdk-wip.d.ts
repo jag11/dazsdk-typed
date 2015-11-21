@@ -37,6 +37,45 @@ declare class DzFileDialog {
     getOpenFileNames(dir: QString, filter: QString, title: QString, parent: DzWidget): Array<QString>
     getOpenFileNames() : Array<QString>
 }
+declare class DzImageManip { }
+declare class DzImageBlend { }
+declare class DzImageMask { }
+
+declare class DzImageFileLayer extends QObject {
+    static className(): QString;
+    filename: string;	// 
+    label: string;	// 
+    name: string;	// 
+    objectName: string;	// 
+    visible: boolean;	// true
+    addManipulator(p0: DzImageManip): any;
+    blendModeChanged(p0: DzImageBlend): void;
+    className(): any;
+    deleteLater(): any;
+    destroyed(): void;
+    destroyed(p0: QObject): void;
+    filenameChanged(p0: QString): void;
+    freeImageData(): any;
+    getBlendMode(): any;
+    getDescription(): any;
+    getImageData(): any;
+    getManipulator(p0: number): any;
+    getMask(): any;
+    getNumManipulators(): any;
+    getSize(): any;
+    imageDataChanged(): void;
+    inherits(): any;
+    insertManipulator(p0: number, p1: DzImageManip): any;
+    labelChanged(p0: QString): void;
+    manipulatorListChanged(): void;
+    maskChanged(p0: DzImageMask): void;
+    removeManipulator(p0: number): any;
+    removeManipulator(p0: DzImageManip): any;
+    setBlendMode(p0: DzImageBlend): any;
+    setMask(p0: DzImageMask): any;
+    toTextureLayer(p0: DzTextureLayer, p1: QSize): any;
+    visibilityChanged(p0: boolean): void;
+}
 
 declare class DzAbstractAssetContainerPtr { }
 declare class DzAbstractBuildGeometryFilter { }
@@ -78,7 +117,38 @@ declare class DzGeometry { }
 declare class DzGeometryRegion { }
 declare class DzHelpContentsItem { }
 declare class DzInFile { }
-declare class DzLayeredImage { }
+declare class DzImageLayer { }
+declare class DzLayeredImage extends QObject {
+    static className() : QString
+    name: string;	// 
+    objectName: string;	// 
+    addLayer(p0: DzImageLayer): any;
+    className(): any;
+    className(): any;
+    deleteLater(): any;
+    destroyed(): void;
+    destroyed(p0: QObject): void;
+    getFlattenedImage(): any;
+    getFlattenedImage(p0: boolean): any;
+    getLayer(p0: number): any;
+    getLayerCount(): any;
+    getName(): any;
+    getSize(): any;
+    inherits(): any;
+    inherits(p0: QString): any;
+    insertLayer(p0: DzImageLayer, p1: number): any;
+    iskindof(p0: QString): any;
+    layerListChanged(): void;
+    makePersistent(): any;
+    moveLayer(p0: number, p1: number): any;
+    nameChanged(p0: QString): void;
+    removeLayer(p0: DzImageLayer): any;
+    replaceLayer(p0: DzImageLayer, p1: DzImageLayer): any;
+    setSize(p0: QSize): any;
+    sizeChanged(p0: QSize): void;
+    toLayeredTexture(p0: DzLayeredTexture): any;
+}
+
 declare class DzLight extends DzCamera {
     static None: number;
     static DeepShadowMap: number;
@@ -160,6 +230,7 @@ declare class DzLightList { }
 declare class DzNodeList { }
 
 declare class DzScriptedRenderer extends DzRenderer {
+    static className(): QString;
     name: string;	// 
     objectName: string;	// 
     IPRRenderHandlerChanged(p0: DzRenderer, p1: DzIPRRenderHandler): void;
