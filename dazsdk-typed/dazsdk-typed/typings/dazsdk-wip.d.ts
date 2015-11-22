@@ -122,7 +122,7 @@ declare class DzLayeredImage extends QObject {
     static className() : QString
     name: string;	// 
     objectName: string;	// 
-    addLayer(p0: DzImageLayer): any;
+    addLayer(layer: DzImageLayer): any;
     className(): any;
     className(): any;
     deleteLater(): any;
@@ -136,7 +136,7 @@ declare class DzLayeredImage extends QObject {
     getSize(): any;
     inherits(): any;
     inherits(p0: QString): any;
-    insertLayer(p0: DzImageLayer, p1: number): any;
+    insertLayer(layer: DzImageLayer, idx: number): any;
     iskindof(p0: QString): any;
     layerListChanged(): void;
     makePersistent(): any;
