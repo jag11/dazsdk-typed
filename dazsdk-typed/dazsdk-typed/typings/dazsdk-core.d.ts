@@ -1370,14 +1370,14 @@ declare class DzDialog extends QWidget {
     findChildOfWidget(): any; // TODO ;
     reparent(): any; // TODO ;
     reparent(): any; // TODO ;
-    exec(): number;
-    close(): any; // TODO ;
+    exec(): Boolean;
+    close(): Boolean; // TODO ;
     setAcceptButton(button: DzPushButton): any; // TODO ;
     setRejectButton(button: DzPushButton): any; // TODO ;
-    setExtension(extension: QWidget): void;
-    extension(): QWidget;
+    setExtension(extension: DzWidget): void;
+    extension(): DzWidget;
     showExtension(obj: boolean): void;
-    hideExtension(): any; // TODO ;
+    hideExtension(): void;
     showExtension(obj: boolean): void;
 }
 
@@ -2222,7 +2222,7 @@ declare class DzScene extends DzBase {
     getNumCameras(): number;
     getNumWSModifiers(): number;
     getNode(which: number): DzNode;
-    getNodeList(): QObject[];
+    getNodeList(): Array<DzNode>;
     getSkeleton(which: number): DzSkeleton;
     getSkeletonList(): QObject[];
     getLight(which: number): DzLight;
@@ -5147,6 +5147,7 @@ declare class DzQuat {
 }
 
 declare class DzFloatProperty extends DzNumericProperty {
+    static className(): QString;
 
     /* Properties */
     emitValueChangedOnSceneClear: boolean;
@@ -7886,7 +7887,7 @@ declare class QColorWrapper {
 }
 
 declare class DzStringProperty extends DzProperty {
-
+    static className(): QString;
     /* Properties */
     emitValueChangedOnSceneClear: boolean;
 
@@ -7929,7 +7930,7 @@ declare class DzStringProperty extends DzProperty {
 }
 
 declare class DzImageProperty extends DzProperty {
-
+    static className(): QString;
     /* Properties */
     emitValueChangedOnSceneClear: boolean;
 
@@ -9628,7 +9629,7 @@ declare class QTabWidget extends QWidget {
 }
 
 declare class DzNumericProperty extends DzProperty {
-
+    static className() : QString
     /* Properties */
 
     /* Methods */

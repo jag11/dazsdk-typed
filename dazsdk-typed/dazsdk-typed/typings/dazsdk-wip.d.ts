@@ -27,9 +27,9 @@ declare class DzFileDialog {
     doAudioClipOpenDialog(startWith: QString, parent: DzWidget): QString
     doAudioClipOpenDialog(): QString
     doDirectoryDialog(title: QString, desc: QString, parent: DzWidget): QString
+    doDirectoryDialog(title: QString, desc: QString, path: QString) : QString
     doDirectoryDialog(): QString
-    doFileDialog(open: Boolean, title: QString, startWith: QString, filter: QString, selectedFilter: Number, parent: DzWidget): QString
-    doFileDialog(open: Boolean): QString
+    doFileDialog(open: Boolean, title?: QString, startWith?: QString, filter?: QString, selectedFilter?: Number, parent?: DzWidget): QString    
     doImageDialog(open: Boolean, startWith: String, parent: DzWidget): QString
     doImageDialog(open: Boolean): QString
     doVideoClipSaveDialog(startWith: QString, parent: DzWidget): QString
@@ -1168,6 +1168,7 @@ declare class DzTimer extends QObject {
 
 declare class DzGeometryShellNode extends DzNode {
 
+    static className(): QString;
     /** Properties */
 
     /** Methods */
@@ -1187,7 +1188,7 @@ declare class DzGeometryShellNode extends DzNode {
 }
 
 declare class DzNodeProperty extends DzProperty {
-
+    static className(): QString;
     /** Properties */
 
     /** Methods */
