@@ -37,9 +37,184 @@ declare class DzFileDialog {
     getOpenFileNames(dir: QString, filter: QString, title: QString, parent: DzWidget): Array<QString>
     getOpenFileNames() : Array<QString>
 }
+declare class DzScrollView extends DzWidget { }
 declare class DzImageManip { }
 declare class DzImageBlend { }
 declare class DzImageMask { }
+
+declare class DzListView extends DzScrollView {
+    static className(): QString;
+    static Accept: number;	// 0
+    static All: number;	// 4
+    static AllColumns: number;	// 1
+    static Checked: number;	// 2
+    static Extended: number;	// 2
+    static LastColumn: number;	// 2
+    static Manual: number;	// 0
+    static Maximum: number;	// 1
+    static Multi: number;	// 1
+    static NoColumn: number;	// 0
+    static NoSelection: number;	// 3
+    static NotChecked: number;	// 3
+    static Reject: number;	// 1
+    static Selected: number;	// 0
+    static Single: number;	// 0
+    static Unselected: number;	// 1
+    allColumnsShowFocus: boolean;	// false
+    childCount: number;	// 0
+    columns: number;	// 0
+    defaultRenameAction: number;	// 1
+    enabled: boolean;	// true
+    font: QObject;	// [object Object]
+    globalX: number;	// 0
+    globalY: number;	// 0
+    height: number;	// 30
+    itemMargin: number;	// 1
+    maxHeight: number;	// 16777215
+    maxWidth: number;	// 16777215
+    minHeight: number;	// 0
+    minWidth: number;	// 0
+    name: string;	// ListView
+    objectName: string;	// ListView
+    palette: QObject;	// [object Object]
+    paletteBackgroundColor: QObject;	// [object Object]
+    paletteBackgroundPixmap: QObject;	// [object Object]
+    paletteForegroundColor: QObject;	// [object Object]
+    resizeMode: number;	// 0
+    rootIsDecorated: boolean;	// false
+    selectionMode: number;	// 0
+    showSortIndicator: boolean;	// false
+    showToolTips: boolean;	// true
+    sortColumn: number;	// 0
+    sortOrder: number;	// 0
+    statusTip: string;	// 
+    toolTip: string;	// 
+    treeStepSize: number;	// 20
+    whatsThis: string;	// 
+    width: number;	// 100
+    x: number;	// 0
+    y: number;	// 0
+    addColumn(p0: QString): any;
+    className(): any;
+    clear(): any;
+    clearSelection(): any;
+    clicked(p0: DzListViewItem): void;
+    clicked(p0: DzListViewItem, p1: QPoint, p2: number): void;
+    collapsed(p0: DzListViewItem): void;
+    columnAlignment(p0: number): any;
+    columnText(p0: number): any;
+    columnWidth(p0: number): any;
+    columnWidthMode(p0: number): any;
+    contextMenuRequested(p0: DzListViewItem, p1: QPoint, p2: number): void;
+    currentChanged(p0: DzListViewItem): void;
+    currentItem(): any;
+    deleteItem(p0: DzListViewItem): any;
+    deleteLater(): any;
+    destroyed(): void;
+    destroyed(p0: QObject): void;
+    doubleClicked(p0: DzListViewItem, p1: QPoint, p2: number): void;
+    ensureItemVisible(p0: DzListViewItem): any;
+    expanded(p0: DzListViewItem): void;
+    findChildOfWidget(p0: QString): any;
+    findItem(p0: QString, p1: number): any;
+    findItem(p0: QString, p1: number, p2: number): any; // p2 is of type Q3ListView::ComparisonFlags
+    firstChild(): any;
+    getChildrenOfWidget(): any;
+    getChildrenOfWidget(p0: QString): any;
+    getItems(p0: number): any; // ItemsMode { Selected, Unselected, Checked, NotChecked, All }
+    getLayout(): any;
+    getWidget(): any;
+    header(): any;
+    hide(): any;
+    hideColumn(p0: number): any;
+    inherits(): any;
+    isOpen(p0: DzListViewItem): any;
+    isRenaming(): any;
+    isSelected(p0: DzListViewItem): void;
+    itemRenamed(p0: DzListViewItem, p1: number): void;
+    itemRenamed(p0: DzListViewItem, p1: number, p2: QString): void;
+    lastItem(): any;
+    mouseButtonClicked(p0: number, p1: DzListViewItem, p2: QPoint, p3: number): void;
+    mouseButtonPressed(p0: number, p1: DzListViewItem, p2: QPoint, p3: number): void;
+    pressed(p0: DzListViewItem): void;
+    pressed(p0: DzListViewItem, p1: QPoint, p2: number): void;
+    removeColumn(p0: number): any;
+    reparent(p0: DzWidget, p1: QPoint): any;
+    reparent(p0: DzWidget, p1: QPoint, p2: boolean): any;
+    returnPressed(p0: DzListViewItem): void;
+    rightButtonClicked(p0: DzListViewItem, p1: QPoint, p2: number): void;
+    rightButtonPressed(p0: DzListViewItem, p1: QPoint, p2: number): void;
+    selectedItem(): any;
+    selectionChanged(): void;
+    selectionChanged(p0: DzListViewItem): void;
+    setColumnAlignment(p0: number, p1: number): any;
+    setColumnText(p0: number, p1: QString): any;
+    setColumnWidth(p0: number, p1: number): any;
+    setColumnWidthMode(p0: number, p1: number): any; // WidthMode { Manual, Maximum }
+    setCurrentItem(p0: DzListViewItem): any;
+    setFixedHeight(p0: number): any;
+    setFixedSize(p0: number, p1: number): any;
+    setFixedWidth(p0: number): any;
+    setGeometry(p0: number, p1: number, p2: number, p3: number): any;
+    setOpen(p0: DzListViewItem, p1: boolean): any;
+    setSelected(p0: DzListViewItem, p1: boolean): void;
+    setSelectionAnchor(p0: DzListViewItem): any;
+    setSorting(p0: number): any;
+    setSorting(p0: number, p1: boolean): any;
+    show(): any;
+    sort(): any;
+    spacePressed(p0: DzListViewItem): void;
+}
+
+declare class DzListViewItem extends QObject {
+    constructor(parent: DzListViewItem, id?: number);
+    constructor(parent: DzListView, id?: number);
+    dragEnabled: boolean;	// false
+    dropEnabled: boolean;	// false
+    enabled: boolean;	// true
+    expandable: boolean;	// false
+    height: number;	// 16
+    id: number;	// -1
+    multiLinesEnabled: boolean;	// false
+    name: string;	// ListViewItem
+    objectName: string;	// ListViewItem
+    open: boolean;	// false
+    selectable: boolean;	// true
+    selected: boolean;	// false
+    visible: boolean;	// true
+    addDataItem(p0: QString, p1: QVariant): any;
+    childCount(): any;
+    className(): any;
+    compare(p0: DzListViewItem, p1: number, p2: boolean): any;
+    deleteItem(p0: DzListViewItem): any;
+    deleteLater(): any;
+    depth(): any;
+    destroyed(): void;
+    destroyed(p0: QObject): void;
+    firstChild(): any;
+    getDataItem(p0: QString): any;
+    getNumDataItems(): any;
+    inherits(): any;
+    insertItem(p0: DzListViewItem): any;
+    itemAbove(): any;
+    itemBelow(): any;
+    key(p0: number, p1: boolean): any;
+    listView(): any;
+    moveItem(p0: DzListViewItem): any;
+    nextSibling(): any;
+    parent(): any;
+    pixmap(p0: number): any;
+    removeItem(p0: DzListViewItem): any;
+    renameEnabled(p0: number): void;
+    setPixmap(p0: number, p1: QPixmap): any;
+    setRenameEnabled(p0: number, p1: boolean): void;
+    setText(p0: number, p1: QString): any;
+    sort(): any;
+    sortChildItems(p0: number, p1: boolean): any;
+    startRename(p0: number): any;
+    text(p0: number): any;
+}
+
 
 declare class DzImageFileLayer extends QObject {
     static className(): QString;

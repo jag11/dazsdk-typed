@@ -2228,7 +2228,7 @@ declare class DzScene extends DzBase {
     getLight(which: number): DzLight;
     getLightList(): QObject[];
     getCamera(which: number): DzCamera;
-    getCameraList(): QObject[];
+    getCameraList(): Array<DzCamera>;
     getWSModifier(which: number): DzWSModifier;
     getWSModifierList(): QObject[];
     findNode(name: QString): DzNode;
