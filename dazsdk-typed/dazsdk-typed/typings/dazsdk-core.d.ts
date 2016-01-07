@@ -33,6 +33,8 @@ declare class QObject {
     deleteLater(): void;
     inherits(string: QString): boolean;
     className(): string;
+
+    static className(): string;
 }
 
 declare class QWidget extends QPaintDevice {
