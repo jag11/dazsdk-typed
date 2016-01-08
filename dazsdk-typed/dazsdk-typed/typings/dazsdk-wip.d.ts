@@ -343,8 +343,8 @@ declare class DzLayeredImage extends QObject {
     name: string;	// 
     objectName: string;	// 
     addLayer(layer: DzImageLayer): any;
-    className(): any;
-    className(): any;
+    className(): string;
+    
     deleteLater(): any;
     destroyed(): void;
     destroyed(p0: QObject): void;

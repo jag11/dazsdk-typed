@@ -32,9 +32,9 @@ declare class QObject {
     destroyed(obj?: QObject): void;
     deleteLater(): void;
     inherits(string: QString): boolean;
-    className(): string;
+    className(): QString;
 
-    static className(): string;
+    static className(): QString;
 }
 
 declare class QWidget extends QPaintDevice {
@@ -2031,7 +2031,7 @@ declare class DzScript extends QObject {
 
     /* Methods */
     nameChanged(name: String): any;
-    className(): any;
+    className(): string;
     makePersistent(): any;
     inherits(base: String): any;
     iskindof(kind: String): any;
@@ -3815,7 +3815,9 @@ declare class QDialog extends QWidget {
 }
 
 declare class DzVec3 {
-
+    constructor()
+    constructor(vec3: DzVec3)
+    constructor(x : Number, y:Number, z:Number)
     /* Properties */
     objectName: string;
     x: number;
@@ -3837,10 +3839,10 @@ declare class DzVec3 {
     dot(vec: DzVec3): number;
     getAngleTo(vec: DzVec3): number;
     getRotationTo(vec: DzVec3): DzQuat;
-    add(): any; // TODO ;
-    subtract(): any; // TODO ;
-    multiply(): any; // TODO ;
-    divide(): any; // TODO ;
+    add(vec: DzVec3): DzVec3; 
+    subtract(vec: DzVec3): DzVec3;
+    multiply(vec: DzVec3): DzVec3
+    divide(vec: DzVec3): DzVec3
     makeZero(): void;
     makeIdentity(): void;
     negate(): void;
@@ -5072,6 +5074,9 @@ declare class DzMatrix3 {
 }
 
 declare class DzQuat {
+    constructor()
+    constructor(quat: DzQuat)
+    constructor(q0: Number, q1: Number, q2: Number, q3: Number)
 
     /* Properties */
     objectName: string;
@@ -7889,7 +7894,7 @@ declare class QColorWrapper {
 }
 
 declare class DzStringProperty extends DzProperty {
-    static className(): QString;
+    static className(): string;
     /* Properties */
     emitValueChangedOnSceneClear: boolean;
 
