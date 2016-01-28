@@ -5077,6 +5077,7 @@ declare class DzQuat {
     constructor()
     constructor(quat: DzQuat)
     constructor(q0: Number, q1: Number, q2: Number, q3: Number)
+    constructor(quat: DzVec3, radians: Number)
 
     /* Properties */
     objectName: string;
@@ -5095,7 +5096,7 @@ declare class DzQuat {
     isIdentity(): boolean;
     inverse(): DzQuat;
     multVec(src: DzVec3): DzVec3;
-    multiply(): any; // TODO ;
+    multiply(rot: DzQuat): DzQuat;
     getValue(m: DzMatrix3): void;
     getValue(m: DzMatrix4): void;
     getValue(order: DzRotationOrder, angles: DzVec3): void;
