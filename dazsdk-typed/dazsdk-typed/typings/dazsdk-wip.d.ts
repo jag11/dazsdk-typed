@@ -1157,7 +1157,7 @@ declare class DzPropertyListNodePtr { }
 declare class DzPropertySettings { }
 declare class DzPropertyWgt { }
 declare class DzShaderDescription { }
-declare class DzRenderer {
+declare class DzRenderer extends QObject {
     compileShader(p0: QString): QString;
     compileShader(p0: QString, p1: QString): QString;
     customRender(p0: DzRenderHandler, p1: DzCamera, p2: QObject[], p3: QObject[], p4: DzRenderOptions): Boolean;
@@ -3460,4 +3460,9 @@ declare class DzBrickCamera extends DzCamera {
     uvsChanged(): void;
     visibilityChanged(): void;
     */
+}
+
+declare class DzDelightRenderer extends DzRenderer
+{
+    static className(): String;
 }
