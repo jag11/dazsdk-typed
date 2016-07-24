@@ -2205,8 +2205,8 @@ declare class DzScene extends DzBase {
     invalidate(): void;
     getNumStorablesInScene(): number;
     setAssetLoadPath(absolutePath: QString): void;
-    getAssetLoadPath(saveToCur: boolean): QString;
-    getAssetLoadPath(saveToCur: boolean): QString;
+    getAssetLoadPath(saveToCur?: boolean): QString;
+    
     setPreviewLights(onoff: boolean): void;
     getPreviewLights(): boolean;
     invalidateLightSorting(): any; // TODO ;
@@ -2216,8 +2216,7 @@ declare class DzScene extends DzBase {
     getBoundingBox(flags: number): DzBox3;
     getAudio(): DzAudioClip;
     getAudioStartFrame(): number;
-    getFilename(savedTo: boolean): QString;
-    getFilename(savedTo: boolean): QString;
+    getFilename(savedTo?: boolean): QString;    
     getNumNodes(): number;
     getNumSkeletons(): number;
     getNumLights(): number;
@@ -3084,10 +3083,11 @@ declare class DzContentMgr extends DzBase {
     getRelativePaths(absolutePath: QString, useImportFolders: boolean): String[];
     getMappedPath(folderPath: QString, path: QString, isRelative: boolean): QString;
     getMappedPath(path: QString, useImportFolders: boolean, isRelative: boolean): QString;
+    getAbsolutePath(relativePath: QString, useImportFolders: boolean) : QString;
     getAbsolutePath(folderPath: QString, relativePath: QString): QString;
-    getAbsolutePath(relativePath: QString, useImportFolders: boolean, perferredPath: QString): QString;
+    getAbsolutePath(relativePath: QString, useImportFolders: boolean, preferredPath: QString): QString;
     getAbsolutePath(folderPath: QString, relativePath: QString): QString;
-    getAbsolutePath(relativePath: QString, useImportFolders: boolean, perferredPath: QString): QString;
+    getAbsolutePath(relativePath: QString, useImportFolders: boolean, preferredPath: QString): QString;
     getAbsolutePaths(relativePath: QString, useImportFolders: boolean): String[];
     getPoserAbsolutePath(relativePath: QString): QString;
     getNativeAbsolutePath(relativePath: QString): QString;
@@ -6670,7 +6670,24 @@ declare class DzCategoryAssetContainer extends DzAbstractAssetContainer {
 }
 
 declare class DzRenderOptions extends QObject {
-
+    static ActiveView: number;	// 0
+    static Box: number;	// 0
+    static Cartoon: number;	// 1
+    static CatmullRom: number;	// 2
+    static DirectToFile: number;	// 2
+    static GCOff: number;	// 0
+    static GCOn: number;	// 1
+    static Gaussian: number;	// 3
+    static HardwareAssisted: number;	// 1
+    static ImageSeries: number;	// 1
+    static MovieFile: number;	// 0
+    static NewWindow: number;	// 1
+    static Normal: number;	// 0
+    static ScreenShot: number;	// 0
+    static Sinc: number;	// 4
+    static Software: number;	// 2
+    static Triangle: number;	// 1
+    
     /* Properties */
     renderImgToId: number;
     renderMovToId: number;

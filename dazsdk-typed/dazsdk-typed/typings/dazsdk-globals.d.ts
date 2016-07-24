@@ -140,5 +140,9 @@ declare class DzTime extends QObject {
 declare var Scene: DzScene;
 declare var App: DzApp;
 declare var MainWindow: DzMainWindow;
-declare var System : DzSystem
-declare var FileDialog : DzFileDialog
+declare var System: DzSystem;
+declare var FileDialog: DzFileDialog;
+declare var Renderer: DzRenderer;
+declare var Material: DzMaterial;
+declare var Camera: DzCamera;
+declare var RenderOptions: DzRenderOptions;

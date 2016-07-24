@@ -899,9 +899,8 @@ declare class DzListView extends DzScrollView {
     ensureItemVisible(p0: DzListViewItem): any;
     expanded(p0: DzListViewItem): void;
     findChildOfWidget(p0: QString): any;
-    findItem(p0: QString, p1: number): any;
-    findItem(p0: QString, p1: number, p2: number): any; // p2 is of type Q3ListView::ComparisonFlags
-    firstChild(): any;
+    findItem(p0: QString, p1: number, p2?: number): DzListViewItem; // p2 is of type Q3ListView::ComparisonFlags    
+    firstChild(): DzListViewItem;
     getChildrenOfWidget(): any;
     getChildrenOfWidget(p0: QString): any;
     getItems(p0: number): any; // ItemsMode { Selected, Unselected, Checked, NotChecked, All }
@@ -1047,9 +1046,27 @@ declare class DzAssetPtr { }
 declare class DzAudioClip { }
 declare class DzAudioImporter { }
 declare class DzBone extends DzNode {
-    static className(): string;
+    static className(): string;    
 }
-declare class DzCallBack { }
+
+declare class DzCallBack extends QObject {
+    static className(): string;    
+
+    addToGroup(group: string);
+    clearConnection(): void;
+    getArguments(which: number): Object;
+    getArgCount(): number;
+    getGroups(): Array<any>;
+    getScript(): string;
+    getSender(): Object;
+    isEvaluated(): boolean;
+    removeFromGroup(group: string): void;
+    setConnection(sender: Object, signal: string);
+    setScript(script: string, evaluate: boolean);
+    setProcessAsEvent(process: boolean);
+    setBlockedDuringSceneLoad(blocked: boolean);
+    setConnections(o: Object, methodDefinitionNames: Array<string>, b: boolean);
+}
 declare class DzContentFile { }
 declare class DzContentFilePtr { }
 declare class DzController { }
@@ -1372,7 +1389,12 @@ declare class DzVertexMesh { }
 declare class DzVertexMeshPtr { }
 declare class DzVideoClip { }
 declare class DzVideoExporter { }
-declare class DzView { }
+declare class DzView {
+    getDescription() : String;
+    getIcon(): Pixmap;
+    static className(): String;
+    className(): String;
+}
 declare class DzViewTool { }
 declare class DzWeightMap { }
 declare class DzWidgetGroup { }
@@ -1592,7 +1614,22 @@ declare class DzShaderMaterial extends DzMaterial {
     unsetRender(DzRenderSettings): void;
 }
 
-declare class DzRSLShader { }
+declare class DzRSLShader extends QObject {
+    static className(): string;
+    static VolumeAtmosphere: number;
+    static VolumeInterior: number;
+    static VolumeExterior: number;
+    static Imager: number;
+
+    VolumeAtmosphere: number;
+    VolumeInterior: number;
+    VolumeExterior: number;
+    Imager: number;
+
+    getShaderType();
+    getShaderFile();
+}
+
 declare class DzTexturePtr { }
 
 
@@ -2445,23 +2482,23 @@ declare class DzSettings extends QObject {
     setFloatValue(name: QString, value: number): ISignal;
     setSettingsValue(name: QString,settings: DzSettings): ISignal;
     setSettingsValue(name: QString): ISignal;
-    removeValue(name: QString): ISignal;
+    removeValue(name: QString): void;
     clear(): any;
-    getStringValue(name: QString, QString): ISignal;
-    getStringValue(QString): ISignal;
-    getIntValue(QString, int): ISignal;
-    getIntValue(QString): ISignal;
-    getBoolValue(QString, bool): ISignal;
-    getBoolValue(QString): ISignal;
-    getFloatValue(QString, float): ISignal;
-    getFloatValue(QString): ISignal;
-    getSettingsValue(QString): ISignal;
-    getSettingIndex(QString): ISignal;
+    getStringValue(name: QString, QString): string;
+    getStringValue(QString): string;
+    getIntValue(QString, int): number;
+    getIntValue(QString): number;
+    getBoolValue(QString, bool): boolean;
+    getBoolValue(QString): boolean;
+    getFloatValue(QString, float): number;
+    getFloatValue(QString): number;
+    getSettingsValue(QString): DzSettings;
+    getSettingIndex(QString): number;
     getNumValues(): any;
-    hasKey(QString): ISignal;
-    getKey(int): ISignal;
-    getValueType(int): ISignal;
-    getValue(int): ISignal;
+    hasKey(QString): number;
+    getKey(int): string;
+    getValueType(int): number;
+    getValue(int): string;
     fromString(QString): ISignal;
     toString(): any;
     copySetting(name: QString, settings: DzSettings): ISignal;
@@ -2734,7 +2771,7 @@ declare class DzTextureLayer extends QObject {
     enabled: boolean;	// true
     flippedHorizontal: boolean;	// false
     flippedVertical: boolean;	// false
-    imageFile: string;	// D:/Documents/My DAZ3D Library/Runtime/textures/SilverCountess/Alessa/AlessaHead.jpg
+    imageFile: string;	// 
     invert: boolean;	// false
     
     offset: QPoint;	// [object Object]
@@ -3223,7 +3260,9 @@ declare class DzBrickCamera extends DzCamera {
     getNodeChildren(): any;
     getNodeChildren(p0: boolean): any;
     getNodeParent(): any;
-    getNumBrickSets(): any;
+    */
+    getNumBrickSets(): number;
+    /*
     getNumDataItems(): any;
     getNumElementChildren(): any;
     getNumNodeChildren(): any;
@@ -3465,4 +3504,552 @@ declare class DzBrickCamera extends DzCamera {
 declare class DzDelightRenderer extends DzRenderer
 {
     static className(): String;
+}
+
+declare class DzFileProperty extends DzStringProperty
+{
+    constructor(name: String);
+    // FileType enum
+    static FileSave: number;
+    static FileOpen: number;
+    static Dir: number;
+
+    FileSave : number;
+    FileOpen : number;
+    Dir: number;
+
+    static className(): string;
+    className(): string;
+
+    getFilter(): string;
+    getType(): number;
+    setFilter(filter: String);
+    setType(type: number);
+}
+declare class DzSimpleSceneData extends DzSceneData {
+    static className(): string;
+    constructor(name: string, persistent?: boolean);
+
+    name: string;	// test
+    objectName: string;	// test
+    className(): string;
+    
+   
+    getSettings(): DzSettings;   
+}
+
+declare class DzShaderCamera extends DzCamera {
+    static className(): string;
+    getNumShaders(): number;
+    getShader(num: number): DzRSLShader;
+}
+declare class DzPropertyParam extends DzBrickParam {
+    static AOV: number;	// 3
+    static AppParamIn: number;	// 4
+    static BSDF: number;	// 48
+    static BSDFMeasurement: number;	// 46
+    static Boolean: number;	// 8
+    static Boolean2: number;	// 11
+    static Boolean3: number;	// 12
+    static Boolean4: number;	// 13
+    static Color: number;	// 2
+    static Double: number;	// 10
+    static Double2: number;	// 19
+    static Double2x2: number;	// 30
+    static Double2x3: number;	// 31
+    static Double2x4: number;	// 32
+    static Double3: number;	// 20
+    static Double3x2: number;	// 33
+    static Double3x3: number;	// 34
+    static Double3x4: number;	// 35
+    static Double4: number;	// 21
+    static Double4x2: number;	// 36
+    static Double4x3: number;	// 37
+    static Double4x4: number;	// 38
+    static EDF: number;	// 49
+    static Enum: number;	// 39
+    static Float: number;	// 1
+    static Float2: number;	// 17
+    static Float2x2: number;	// 22
+    static Float2x3: number;	// 23
+    static Float2x4: number;	// 24
+    static Float3: number;	// 3
+    static Float3x2: number;	// 25
+    static Float3x3: number;	// 26
+    static Float3x4: number;	// 27
+    static Float4: number;	// 18
+    static Float4x2: number;	// 28
+    static Float4x3: number;	// 29
+    static Float4x4: number;	// 6
+    static HOffset: number;	// 2
+    static HTiles: number;	// 1
+    static In: number;	// 1
+    static Integer: number;	// 9
+    static Integer2: number;	// 14
+    static Integer3: number;	// 15
+    static Integer4: number;	// 16
+    static LightProfile: number;	// 45
+    static Material: number;	// 47
+    static Matrix: number;	// 6
+    static NoOverride: number;	// 0
+    static NoTile: number;	// 0
+    static None: number;	// 0
+    static Normal: number;	// 5
+    static Out: number;	// 2
+    static Point: number;	// 3
+    static String: number;	// 7
+    static Struct: number;	// 40
+    static Texture2D: number;	// 41
+    static Texture3D: number;	// 42
+    static TextureCube: number;	// 43
+    static TexturePTex: number;	// 44
+    static Unknown: number;	// 0
+    static VDF: number;	// 50
+    static VOffset: number;	// 4
+    static VTiles: number;	// 3
+    static Variant: number;	// 51
+    static Vector: number;	// 4
+    annotations: QObject;	// [object Object]
+    declaredTypeName: string;	// 
+    defaultVariantValue: any;	// undefined
+    isUniform: boolean;	// false
+    name: string;	// 
+    objectName: string;	// 
+    aboutToAddConnectionFromUI(): any;
+    addConnection(p0: DzBrickParam): any;
+    canConnect(p0: DzBrickParam): any;
+    canProvideDirectParamValue(p0: number /*ParamType*/): any;
+    canTakeDirectParam(p0: DzBrickParam, p1: number /*ParamType*/): any;
+    
+    static className(): string;
+    clearInvalidConnections(): any;
+    connectionAddedFromUI(): any;
+    connectionsChanged(): void;
+    declaredTypeChanged(): void;
+    deleteLater(): any;
+    destroyed(): void;
+    destroyed(p0: QObject): void;
+    directionChanged(): void;
+    emitAboutToAddConnectionFromUI(): any;
+    emitConnectionAddedFromUI(): any;
+    findTextureArgIndex(p0: number): any;
+    findTextureArgIndex(p0: number, p1: any /*TilingArg*/): any;
+    findTextureArgName(p0: number): any;
+    findTextureArgName(p0: number, p1: any /*TilingArg*/): any;
+    getArg(p0: number): any;
+    getArgType(p0: number): any;
+    getColorString(p0: QColor): any;
+    getColorString(p0: QColor, p1: QString): any;
+    getConnection(p0: number): any;
+    getConnectionRootDirectDrivingProperty(): any;
+    getConnectsToAppParamInOnly(): any;
+    getDefaultGlobalValue(): any;
+    getDirectDrivingParam(): any;
+    getDirectDrivingProperty(): any;
+    getDirection(): any;
+    getEscapedString(p0: QString): any;
+    getFirstProperty(): any;
+    getFloatColorString(p0: DzFloatColor): any;
+    getFloatColorString(p0: DzFloatColor, p1: QString): any;
+    getFloatString(p0: number): any;
+    getIsAdvanced(): void;
+    getIsDynamicSizedArray(): any;
+    getLabel(): any;
+    getMatrixString(p0: DzMatrix4): any;
+    getName(): any;
+    getNewToken(): any;
+    getNumArgs(): any;
+    getNumConnections(): any;
+    getNumProperties(): any;
+    getNumTokensNeeded(): void;
+    getOutputArraySize(): any;
+    getProperty(p0: number): any;
+    getPropertyMapToken(p0: number): any;
+    getPropertyPath(p0: number): any;
+    getRootDirectDrivingProperty(): any;
+    getScopePosition(): any;
+    getStringValue(p0: number): any;
+    getToken(p0: number): any;
+    getTopBrickOwner(): any;
+    getType(): any;
+    getTypeForToken(p0: number): any;
+    getTypeString(p0: number): any;
+    getVecString(p0: number, p1: DzVec3): any;
+    giveArrayAsList(): any;
+    inherits(): any;
+    inherits(p0: QString): any;
+    invalidateFiles(): any;
+    isArray(): any;
+    isDirectPropDrivenOutput(): any;
+    isInput(): any;
+    isOutput(): any;
+    iskindof(p0: QString): any;
+    labelChanged(): void;
+    makePersistent(): any;
+    moveConnectionsToParam(p0: DzBrickParam): any;
+    nameChanged(p0: QString): void;
+    needsPrepForCall(p0: number): any;
+    propertyChanged(p0: DzProperty): void;
+    propertyListChanged(): void;
+    removeAllConnections(): any;
+    removeConnection(p0: number): any;
+    removeConnection(p0: DzBrickParam): any;
+    removed(): void;
+    setConnectsToAppParamInOnly(p0: boolean): any;
+    setDefaultGlobalValue(p0: QString): any;
+    setDirection(p0: number): any;
+    setGiveArrayAsList(p0: boolean): any;
+    setIsAdvanced(p0: boolean): void;
+    setIsArray(p0: boolean): any;
+    setIsDynamicSizedArray(p0: boolean): any;
+    setLabel(p0: QString): any;
+    setOutputArraySize(p0: number): any;
+    setOverrideType(p0: number /*DzBrickParam::ParamType*/): any;
+    setProperty(p0: DzProperty, p1: QString, p2: QString): any;
+    setPropertyPath(p0: number, p1: QString): any;
+    setScopePosition(p0: number): any;
+    setShouldWriteTokenInShader(p0: boolean): any;
+    shouldWriteTokenInShader(p0: number): any;
+    simpleText(): any;
+    typeChanged(): void;
+    uniformChanged(): void;
+    writeCallPrep(p0: QString, p1: number): any;
+    writeShaderPrep(): any;
+}
+declare class DzBrickParam extends QObject {
+    static className(): string;    
+}
+
+declare class DzDefaultInParam extends DzBrickParam {
+    static AOV: number;	// 3
+    static AppParamIn: number;	// 4
+    static BSDF: number;	// 48
+    static BSDFMeasurement: number;	// 46
+    static Boolean: number;	// 8
+    static Boolean2: number;	// 11
+    static Boolean3: number;	// 12
+    static Boolean4: number;	// 13
+    static Color: number;	// 2
+    static Double: number;	// 10
+    static Double2: number;	// 19
+    static Double2x2: number;	// 30
+    static Double2x3: number;	// 31
+    static Double2x4: number;	// 32
+    static Double3: number;	// 20
+    static Double3x2: number;	// 33
+    static Double3x3: number;	// 34
+    static Double3x4: number;	// 35
+    static Double4: number;	// 21
+    static Double4x2: number;	// 36
+    static Double4x3: number;	// 37
+    static Double4x4: number;	// 38
+    static EDF: number;	// 49
+    static Enum: number;	// 39
+    static Float: number;	// 1
+    static Float2: number;	// 17
+    static Float2x2: number;	// 22
+    static Float2x3: number;	// 23
+    static Float2x4: number;	// 24
+    static Float3: number;	// 3
+    static Float3x2: number;	// 25
+    static Float3x3: number;	// 26
+    static Float3x4: number;	// 27
+    static Float4: number;	// 18
+    static Float4x2: number;	// 28
+    static Float4x3: number;	// 29
+    static Float4x4: number;	// 6
+    static In: number;	// 1
+    static Integer: number;	// 9
+    static Integer2: number;	// 14
+    static Integer3: number;	// 15
+    static Integer4: number;	// 16
+    static LightProfile: number;	// 45
+    static Material: number;	// 47
+    static Matrix: number;	// 6
+    static NoOverride: number;	// 0
+    static None: number;	// 0
+    static Normal: number;	// 5
+    static Out: number;	// 2
+    static Point: number;	// 3
+    static String: number;	// 7
+    static Struct: number;	// 40
+    static Texture2D: number;	// 41
+    static Texture3D: number;	// 42
+    static TextureCube: number;	// 43
+    static TexturePTex: number;	// 44
+    static Unknown: number;	// 0
+    static VDF: number;	// 50
+    static Variant: number;	// 51
+    static Vector: number;	// 4
+    annotations: QObject;	// [object Object]
+    declaredTypeName: string;	// 
+    defaultVariantValue: any;	// undefined
+    isUniform: boolean;	// false
+    name: string;	// 
+    objectName: string;	// 
+    aboutToAddConnectionFromUI(): any;
+    addConnection(p0: DzBrickParam): any;
+    canConnect(p0: DzBrickParam): any;
+    canProvideDirectParamValue(p0: number /*ParamType*/): any;
+    canTakeDirectParam(p0: DzBrickParam, p1: number /*ParamType*/): any;
+    
+    static className(): string;
+    clearInvalidConnections(): any;
+    connectionAddedFromUI(): any;
+    connectionsChanged(): void;
+    declaredTypeChanged(): void;
+    deleteLater(): any;
+    destroyed(): void;
+    destroyed(p0: QObject): void;
+    directionChanged(): void;
+    emitAboutToAddConnectionFromUI(): any;
+    emitConnectionAddedFromUI(): any;
+    getArg(p0: number): any;
+    getArgType(p0: number): any;
+    getColorString(p0: QColor): any;
+    getColorString(p0: QColor, p1: QString): any;
+    getConnection(p0: number): any;
+    getConnectionRootDirectDrivingProperty(): any;
+    getConnectsToAppParamInOnly(): any;
+    getDefaultGlobalValue(): any;
+    getDirectDrivingParam(): any;
+    getDirectDrivingProperty(): any;
+    getDirection(): any;
+    getEscapedString(p0: QString): any;
+    getFirstProperty(): any;
+    getFloatColorString(p0: DzFloatColor): any;
+    getFloatColorString(p0: DzFloatColor, p1: QString): any;
+    getFloatString(p0: number): any;
+    getIsAdvanced(): void;
+    getIsDynamicSizedArray(): any;
+    getLabel(): any;
+    getMatrixString(p0: DzMatrix4): any;
+    getName(): any;
+    getNewToken(): any;
+    getNumArgs(): any;
+    getNumConnections(): any;
+    getNumProperties(): any;
+    getNumTokensNeeded(): void;
+    getOutputArraySize(): any;
+    getProperty(p0: number): any;
+    getPropertyMapToken(p0: number): any;
+    getPropertyPath(p0: number): any;
+    getRootDirectDrivingProperty(): any;
+    getScopePosition(): any;
+    getStringValue(p0: number): any;
+    getToken(p0: number): any;
+    getTopBrickOwner(): any;
+    getType(): any;
+    getTypeForToken(p0: number): any;
+    getTypeString(p0: number): any;
+    getVecString(p0: number, p1: DzVec3): any;
+    giveArrayAsList(): any;
+    inherits(): any;
+    inherits(p0: QString): any;
+    invalidateFiles(): any;
+    isArray(): any;
+    isDirectPropDrivenOutput(): any;
+    isInput(): any;
+    isOutput(): any;
+    iskindof(p0: QString): any;
+    labelChanged(): void;
+    makePersistent(): any;
+    moveConnectionsToParam(p0: DzBrickParam): any;
+    nameChanged(p0: QString): void;
+    needsPrepForCall(p0: number): any;
+    propertyChanged(p0: DzProperty): void;
+    propertyListChanged(): void;
+    removeAllConnections(): any;
+    removeConnection(p0: number): any;
+    removeConnection(p0: DzBrickParam): any;
+    removed(): void;
+    setArgName(p0: QString): any;
+    setConnectsToAppParamInOnly(p0: boolean): any;
+    setDefaultGlobalValue(p0: QString): any;
+    setGiveArrayAsList(p0: boolean): any;
+    setIsAdvanced(p0: boolean): void;
+    setIsAppParamIn(p0: boolean): any;
+    setIsArray(p0: boolean): any;
+    setIsDynamicSizedArray(p0: boolean): any;
+    setLabel(p0: QString): any;
+    setOutputArraySize(p0: number): any;
+    setPropertyPath(p0: number, p1: QString): any;
+    setScopePosition(p0: number): any;
+    setType(p0: number): any;
+    setType(p0: number /*ParamType*/): any;
+    shouldWriteTokenInShader(p0: number): any;
+    simpleText(): any;
+    typeChanged(): void;
+    uniformChanged(): void;
+    writeCallPrep(p0: QString, p1: number): any;
+    writeShaderPrep(): any;
+}
+
+declare class DzOutParam extends DzBrickParam {
+    static AOV: number;	// 3
+    static AppParamIn: number;	// 4
+    static BSDF: number;	// 48
+    static BSDFMeasurement: number;	// 46
+    static Boolean: number;	// 8
+    static Boolean2: number;	// 11
+    static Boolean3: number;	// 12
+    static Boolean4: number;	// 13
+    static Color: number;	// 2
+    static Double: number;	// 10
+    static Double2: number;	// 19
+    static Double2x2: number;	// 30
+    static Double2x3: number;	// 31
+    static Double2x4: number;	// 32
+    static Double3: number;	// 20
+    static Double3x2: number;	// 33
+    static Double3x3: number;	// 34
+    static Double3x4: number;	// 35
+    static Double4: number;	// 21
+    static Double4x2: number;	// 36
+    static Double4x3: number;	// 37
+    static Double4x4: number;	// 38
+    static EDF: number;	// 49
+    static Enum: number;	// 39
+    static Float: number;	// 1
+    static Float2: number;	// 17
+    static Float2x2: number;	// 22
+    static Float2x3: number;	// 23
+    static Float2x4: number;	// 24
+    static Float3: number;	// 3
+    static Float3x2: number;	// 25
+    static Float3x3: number;	// 26
+    static Float3x4: number;	// 27
+    static Float4: number;	// 18
+    static Float4x2: number;	// 28
+    static Float4x3: number;	// 29
+    static Float4x4: number;	// 6
+    static In: number;	// 1
+    static Integer: number;	// 9
+    static Integer2: number;	// 14
+    static Integer3: number;	// 15
+    static Integer4: number;	// 16
+    static LightProfile: number;	// 45
+    static Material: number;	// 47
+    static Matrix: number;	// 6
+    static NoOverride: number;	// 0
+    static None: number;	// 0
+    static Normal: number;	// 5
+    static Out: number;	// 2
+    static Point: number;	// 3
+    static String: number;	// 7
+    static Struct: number;	// 40
+    static Texture2D: number;	// 41
+    static Texture3D: number;	// 42
+    static TextureCube: number;	// 43
+    static TexturePTex: number;	// 44
+    static Unknown: number;	// 0
+    static VDF: number;	// 50
+    static Variant: number;	// 51
+    static Vector: number;	// 4
+    annotations: QObject;	// [object Object]
+    declaredTypeName: string;	// 
+    defaultVariantValue: any;	// undefined
+    isUniform: boolean;	// false
+    name: string;	// out
+    objectName: string;	// out
+    aboutToAddConnectionFromUI(): any;
+    addConnection(p0: DzBrickParam): any;
+    canConnect(p0: DzBrickParam): any;
+    canProvideDirectParamValue(p0: number /*ParamType*/): any;
+    canTakeDirectParam(p0: DzBrickParam, p1: number/*ParamType*/): any;
+    className(): any;
+    className(): any;
+    clearInvalidConnections(): any;
+    connectionAddedFromUI(): any;
+    connectionsChanged(): void;
+    declaredTypeChanged(): void;
+    deleteLater(): any;
+    destroyed(): void;
+    destroyed(p0: QObject): void;
+    directionChanged(): void;
+    emitAboutToAddConnectionFromUI(): any;
+    emitConnectionAddedFromUI(): any;
+    getArg(p0: number): any;
+    getArgType(p0: number): any;
+    getBrickParamDirectDrivingProperty(): any;
+    getColorString(p0: QColor): any;
+    getColorString(p0: QColor, p1: QString): any;
+    getConnection(p0: number): any;
+    getConnectionRootDirectDrivingProperty(): any;
+    getConnectsToAppParamInOnly(): any;
+    getDefaultGlobalValue(): any;
+    getDirectDrivingParam(): any;
+    getDirectDrivingProperty(): any;
+    getDirection(): any;
+    getEscapedString(p0: QString): any;
+    getFirstProperty(): any;
+    getFloatColorString(p0: DzFloatColor): any;
+    getFloatColorString(p0: DzFloatColor, p1: QString): any;
+    getFloatString(p0: number): any;
+    getIsAdvanced(): void;
+    getIsDynamicSizedArray(): any;
+    getLabel(): any;
+    getMatrixString(p0: DzMatrix4): any;
+    getName(): any;
+    getNewToken(): any;
+    getNumArgs(): any;
+    getNumConnections(): any;
+    getNumProperties(): any;
+    getNumTokensNeeded(): void;
+    getOutputArraySize(): any;
+    getProperty(p0: number): any;
+    getPropertyMapToken(p0: number): any;
+    getPropertyPath(p0: number): any;
+    getRootDirectDrivingProperty(): any;
+    getScopePosition(): any;
+    getStringValue(p0: number): any;
+    getToken(p0: number): any;
+    getTopBrickOwner(): any;
+    getType(): any;
+    getTypeForToken(p0: number): any;
+    getTypeString(p0: number): any;
+    getVecString(p0: number, p1: DzVec3): any;
+    giveArrayAsList(): any;
+    inherits(): any;
+    inherits(p0: QString): any;
+    invalidateFiles(): any;
+    isArray(): any;
+    isBrickParamDirectPropDrivenOutput(): any;
+    isDirectPropDrivenOutput(): any;
+    isInput(): any;
+    isOutput(): any;
+    iskindof(p0: QString): any;
+    labelChanged(): void;
+    makePersistent(): any;
+    moveConnectionsToParam(p0: DzBrickParam): any;
+    nameChanged(p0: QString): void;
+    needsPrepForCall(p0: number): any;
+    propertyChanged(p0: DzProperty): void;
+    propertyListChanged(): void;
+    removeAllConnections(): any;
+    removeConnection(p0: number): any;
+    removeConnection(p0: DzBrickParam): any;
+    removed(): void;
+    setArgName(p0: QString): any;
+    setBrickParamDirectDriveProperty(p0: DzBrickParam): any;
+    setConnectsToAppParamInOnly(p0: boolean): any;
+    setDefaultGlobalValue(p0: QString): any;
+    setDirectDriveProperty(p0: DzPropertyParam): any;
+    setGiveArrayAsList(p0: boolean): any;
+    setIsAOV(p0: boolean): any;
+    setIsAdvanced(p0: boolean): void;
+    setIsArray(p0: boolean): any;
+    setIsDynamicSizedArray(p0: boolean): any;
+    setLabel(p0: QString): any;
+    setOutputArraySize(p0: number): any;
+    setPropertyPath(p0: number, p1: QString): any;
+    setScopePosition(p0: number): any;
+    setType(p0: number /*ParamType*/): any;
+    setType(p0: number): any;
+    shouldWriteTokenInShader(p0: number): any;
+    simpleText(): any;
+    typeChanged(): void;
+    uniformChanged(): void;
+    writeCallPrep(p0: QString, p1: number): any;
+    writeShaderPrep(): any;
 }
